@@ -1,7 +1,7 @@
 #!name=排除一些域名
 #!desc=因为一些App不能通过MITM解密，开启这个插件来排除一些域名来正常打开App
-#!author=fengw
-#!homepage=https://github.com/fw-carl/For-Own-Use
+#!author=fishdown
+#!homepage=https://github.com/fishdown
 
 
 [MITM]
