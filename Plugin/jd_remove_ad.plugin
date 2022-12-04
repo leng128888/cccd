@@ -1,6 +1,7 @@
 #!name=京东
 #!desc=适用于Loon的京东去广告
-
+#!author=fishdown
+#!homepage=https://github.com/fishdown
 
 [script]
 # 去除搜索页面广告
