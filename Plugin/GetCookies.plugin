@@ -56,7 +56,7 @@ http-request https://mall.gacmotor.com/center-current-app/customer/mini/transmit
 http-request https://api.smartservice.bjev.com.cn/gateway-api/v5/user/8a8d81de81fd7e87018235fd37196593/vehicles/getShow script-path=https://raw.githubusercontent.com/fishdown/Ggsddu/master/Js/bjqc_ck.js, requires-body=true, timeout=10, tag=北京汽车cookie, img-url=https://raw.githubusercontent.com/fishdown/Icon/master/app/bjqc.png
 
 # bm2-api.bluemembers.com.cn
-http-request https://bm2-api.bluemembers.com.cn/v1/app/user/task/list script-path=https://raw.githubusercontent.com/fishdown/Ggsddu/master/Jsbjxd_ck.js, requires-body=true, timeout=10, tag=北京现代cookie, img-url=https://raw.githubusercontent.com/fishdown/Icon/master/app/bjxd.png
+http-request https://bm2-api.bluemembers.com.cn/v1/app/user/task/list script-path=https://raw.githubusercontent.com/fishdown/Ggsddu/master/Js/bjxd_ck.js, requires-body=true, timeout=10, tag=北京现代cookie, img-url=https://raw.githubusercontent.com/fishdown/Icon/master/app/bjxd.png
 
 
 
