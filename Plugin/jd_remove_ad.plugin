@@ -1,9 +1,0 @@
-#!name=京东
-#!desc=适用于Loon的京东去广告
-#!author=fishdown
-#!homepage=https://github.com/fishdown
-
-[script]
-# 去除搜索页面广告
-http-response ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotSearchTerms script-path=https://raw.githubusercontent.com/fishdown/Ggsddu/master/Js/jd_search_remove_ad.js, requires-body=true, timeout=10, tag=去除搜索页面广告,img-url=https://raw.githubusercontent.com/fishdown/Icon/master/app/jd.png
-http-response ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotWords script-path=https://raw.githubusercontent.com/fishdown/Ggsddu/master/Js/jd_search_remove_ad.js, requires-body=true, timeout=10, tag=去除搜索页面广告2,img-url=https://raw.githubusercontent.com/fishdown/Icon/master/app/jd.png
