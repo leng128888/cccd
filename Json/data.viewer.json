@@ -6,7 +6,7 @@
     "repo": "",
     "apps": [
         {
-            "id": "gqcq",
+            "id": "gqcq-fd",
             "name": "广汽传祺",
             "keys": [
                 "gqcqCookie",
@@ -48,7 +48,7 @@
             ]
         },
         {
-            "id": "ksjsb",
+            "id": "ksjsb-fd",
             "name": "快手极速版",
             "keys": [
                 "ksjsbWithdrawTime",
@@ -102,7 +102,7 @@
             ]
         },
         {
-            "id": "zssq",
+            "id": "zssq-fd",
             "name": "追书神器",
             "keys": [
                 "zssqCookie"
@@ -132,7 +132,7 @@
             ]
         },
         {
-            "id": "xtwly",
+            "id": "xtwly-fd",
             "name": "新天威旅游 wx",
             "keys": [
                 "xtwly_data"
@@ -162,7 +162,7 @@
             ]
         },
         {
-            "id": "ks",
+            "id": "ks-fd",
             "name": "快手",
             "keys": [
                 "ksWithdrawTime",
@@ -199,7 +199,7 @@
             ]
         },
         {
-            "id": "wyyx",
+            "id": "wyyx-fd",
             "name": "网易严选 wx",
             "keys": [
                 "wyyxhd",
@@ -234,7 +234,7 @@
             "script": ""
         },
         {
-            "id": "tpyqc",
+            "id": "tpyqc-fd",
             "name": "太平洋汽车",
             "keys": [
                 "tpyqc_data"
@@ -263,7 +263,7 @@
             ]
         },
         {
-            "id": "xjjlb",
+            "id": "xjjlb-fd",
             "name": "湘窖俱乐部 wx",
             "keys": [
                 "xjjlbtoken"
@@ -293,7 +293,7 @@
             ]
         },
         {
-            "id": "ddcxgy",
+            "id": "ddcxgy-fd",
             "name": "滴滴果园",
             "keys": [
                 "ddgyToken"
@@ -324,7 +324,7 @@
             ]
         },
         {
-            "id": "meituan",
+            "id": "meituan-fd",
             "name": "美团",
             "keys": [
                 "meituanCookie"
@@ -355,7 +355,7 @@
             ]
         },
         {
-            "id": "elm",
+            "id": "elm-fd",
             "name": "饿了么",
             "keys": [
                 "elmGrabCoupon",
@@ -401,7 +401,7 @@
             ]
         },
         {
-            "id": "hezj",
+            "id": "hezj-fd",
             "name": "海尔智家",
             "keys": [
                 "haierAccount"
@@ -431,7 +431,7 @@
             ]
         },
         {
-            "id": "tkzxbx",
+            "id": "tkzxbx-fd",
             "name": "泰康在线保险 wx",
             "keys": [
                 "tkzxbxCookie"
@@ -461,7 +461,7 @@
             ]
         },
         {
-            "id": "hqzl",
+            "id": "hqzl-fd",
             "name": "红旗智联",
             "keys": [
                 "hqAPP",
@@ -501,7 +501,7 @@
             ]
         },
         {
-            "id": "xhsyj",
+            "id": "xhsyj-fd",
             "name": "欣和食与家",
             "keys": [
                 "xinhe_data"
@@ -531,7 +531,7 @@
             ]
         },
         {
-            "id": "bjqc",
+            "id": "bjqc-fd",
             "name": "北京汽车",
             "keys": [
                 "bjqcCookie"
@@ -561,7 +561,7 @@
             ]
         },
         {
-            "id": "bjxd",
+            "id": "bjxd-fd",
             "name": "北京现代",
             "keys": [
                 "bjxdCookie"
@@ -591,7 +591,7 @@
             ]
         },
         {
-            "id": "ak",
+            "id": "ak-fd",
             "name": "奥康 wx",
             "keys": [
                 "aokang_data"
@@ -621,7 +621,7 @@
             ]
         },
         {
-            "id": "tyklxq",
+            "id": "tyklxq-fd",
             "name": "统一快乐星球 wx",
             "keys": [
                 "tqBody"
@@ -651,7 +651,7 @@
             ]
         },
         {
-            "id": "lsxds",
+            "id": "lsxds-fd",
             "name": "乐事心动社 wx",
             "keys": [
                 "ls_data"
@@ -680,7 +680,7 @@
             ]
         },
         {
-            "id": "qmyd",
+            "id": "qmyd-fd",
             "name": "全民阅读 wx",
             "keys": [
                 "qmCookie"
