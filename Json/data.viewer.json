@@ -708,6 +708,84 @@
                 "https://raw.githubusercontent.com/fishdown/Icon/master/app/loon.png",
                 "https://raw.githubusercontent.com/fishdown/Icon/master/app/loon.png"
             ]
+        },
+        {
+            "id": "fqxs",
+            "name": "番茄小说",
+            "keys": [
+                "fqxsurl",
+                "host",
+                "fqxscookie",
+                "fqxstoken",
+                "fqxsua",
+                "fqxsxsscookie"
+            ],
+            "descs_html": [
+                " 格式: ****** "
+            ],
+            "settings": [
+                {
+                    "id": "fqxsurl",
+                    "name": "fqxsurl",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 8,
+                    "desc": ""
+                },
+                {
+                    "id": "host",
+                    "name": "host",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 4,
+                    "desc": ""
+                },
+                {
+                    "id": "fqxscookie",
+                    "name": "fqxscookie",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 8,
+                    "desc": ""
+                },
+                {
+                    "id": "fqxstoken",
+                    "name": "fqxstoken",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 8,
+                    "desc": ""
+                },
+                {
+                    "id": "fqxsua",
+                    "name": "fqxsua",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 8,
+                    "desc": ""
+                },
+                {
+                    "id": "fqxsxsscookie",
+                    "name": "fqxsxsscookie",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 8,
+                    "desc": ""
+                }
+            ],
+            "author": "",
+            "repo": "",
+            "script": "",
+            "icons": [
+                "https://raw.githubusercontent.com/fishdown/Icon/master/app/loon.png",
+                "https://raw.githubusercontent.com/fishdown/Icon/master/app/loon.png"
+            ]
         }
     ]
 }
