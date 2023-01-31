@@ -717,8 +717,7 @@
                 "host",
                 "fqxscookie",
                 "fqxstoken",
-                "fqxsua",
-                "fqxsxsscookie"
+                "fqxsua"
             ],
             "descs_html": [
                 " 格式: ****** "
@@ -763,15 +762,6 @@
                 {
                     "id": "fqxsua",
                     "name": "fqxsua",
-                    "val": "",
-                    "type": "textarea",
-                    "autoGrow": true,
-                    "rows": 8,
-                    "desc": ""
-                },
-                {
-                    "id": "fqxsxsscookie",
-                    "name": "fqxsxsscookie",
                     "val": "",
                     "type": "textarea",
                     "autoGrow": true,
