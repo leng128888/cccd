@@ -10,10 +10,10 @@ DOMAIN-SUFFIX,cm.bilibili.com,REJECT
 URL-REGEX,^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad,REJECT
 
 # 屏蔽IP请求@ddgksf2013
-URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/resource\/ip,reject
+URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/resource\/ip,REJECT
 
 # 屏蔽DefaultWord@ddgksf2013
-URL-REGEX,^https?:\/\/app\.bilibili\.com\/bilibili\.app\.interface\.v1\.Search\/Default,reject
+URL-REGEX,^https?:\/\/app\.bilibili\.com\/bilibili\.app\.interface\.v1\.Search\/Default,REJECT
 
 # 可能的一些推广(beta)
 URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\?,REJECT
