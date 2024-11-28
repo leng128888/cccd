@@ -20,7 +20,7 @@
 # 游戏页面内去除顶部活动
 ^https:\/\/api\.cc\.163\.com\/v1\/mixbffgateway\/page\/mob_gametypetab* response-body-json-del data.gametype_module[0]
 # 导航只留首页，我的
-^https:\/\/appapi\.cc\.163\.com\/v1\/mixmobiletab\/tab_conf* response-body-json-jq '.data.tabs |= map(select(.tab_id == "game_v1" and .tab_id == "mine_v1"))'
+^https:\/\/appapi\.cc\.163\.com\/v1\/mixmobiletab\/tab_conf* response-body-json-jq '.data.tabs |= map(select(.tab_id == "game_v1" or .tab_id == "mine_v1"))'
 # 去除主播下播提醒小挂件
 ^https:\/\/cc\.res\.netease\.com\/act\/m\/daily\/anchor_end_countdown\/indexMobileMin\.[a-zA-Z0-9]+\.(js|css)$ reject
 # 去除我的页面右下角小挂件
