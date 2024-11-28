@@ -1,0 +1,41 @@
+#!name = CC直播去广告
+#!desc = 精简，去广告。有问题清除缓存重启app，支持app版本：4.0.8.99529
+#!openUrl = 
+#!author = 鱼安
+#!tag = 去广告
+#!system = 
+#!system_version = 
+#!loon_version = 3.2.4(787)
+#!homepage = 
+#!icon = https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/82/32/b1823280-c20d-16bd-dfba-4427aa31c206/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/144x144bb.png
+#!date = 2024-11-28
+
+[Rewrite] 
+# 首页只留关注，热门
+^https:\/\/api\.cc\.163\.com\/v1\/mgamenavigation\/navigation_list* response-body-json-jq '.data.info_list |= map(select(.tab_id == "follow" or .tab_id == "rec"))'
+# 首页热门只留游戏导航icon
+^https:\/\/api\.cc\.163\.com\/v1\/mgamerecpage\/recommend_page* response-body-json-del data.
+# 我的-我的关注折叠
+^https:\/\/api\.cc\.163\.com\/v1\/mdataframe\/data* reject-dict
+# 游戏页面内去除顶部活动
+^https:\/\/api\.cc\.163\.com\/v1\/mixbffgateway\/page\/mob_gametypetab* response-body-json-del data.gametype_module[0]
+# 导航只留首页，我的
+^https:\/\/appapi\.cc\.163\.com\/v1\/mixmobiletab\/tab_conf* response-body-json-jq '.data.tabs |= map(select(.tab_id == "game_v1" and .tab_id == "mine_v1"))'
+# 去除主播下播提醒小挂件
+^https:\/\/cc\.res\.netease\.com\/act\/m\/daily\/anchor_end_countdown\/indexMobileMin\.[a-zA-Z0-9]+\.(js|css)$ reject
+# 去除我的页面右下角小挂件
+^https:\/\/appapi\.cc\.163\.com\/v1\/mixfloatingwindow\/floating_windows(\?.*)?$ reject
+# 忘了是啥
+^https:\/\/cc\.res\.netease\.com\/act\/m\/daily\/mg-god-pet-party\/manifest\.json reject-dict
+plugins[0] data.recommend.module_data
+# 小挂件
+^https:\/\/api\.cc\.163\.com\/v1\/mixroomsmallplugin\/get_plugins* reject-dict
+# 小挂件？
+^https:\/\/api\.cc\.163\.com\/v1\/mixrewardplugin\/get_plugins* reject-dict
+# 小挂件
+^https:\/\/api\.cc\.163\.com\/v1\/mixbigplugin\/get_plugins* reject-dict
+# 小挂件？
+^http:\/\/api\.cc\.163\.com\/v1\/mmatchbanner\/get_banner* reject-dict
+
+[Mitm]
+hostname = cc.res.netease.com,appapi.cc.163.com,api.cc.163.com
