@@ -19,13 +19,9 @@ jobs:
           echo "Downloaded heiliao.sgmodule content:"
           cat heiliao.sgmodule  # 打印下载的文件内容
 
-      - name: Debug target file before updating
-        run: |
-          echo "Existing hlw.removeAD.plugin content (before append):"
-          cat Plugin/hlw.removeAD.plugin || echo "Target file does not exist."
-
       - name: Append heiliao.sgmodule content to hlw.removeAD.plugin
         run: |
+          mkdir -p Plugin
           cat heiliao.sgmodule >> Plugin/hlw.removeAD.plugin
           echo "Updated hlw.removeAD.plugin content (after append):"
           cat Plugin/hlw.removeAD.plugin
@@ -35,7 +31,7 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add Plugin/hlw.removeAD.plugin  # 确保路径正确
-          git status  # 检查文件是否被正确追踪
+          git status  # 检查被追踪文件的状态
           git commit -m "Update hlw.removeAD.plugin with new content from heiliao.sgmodule"
           git push origin master
         env:
