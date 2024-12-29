@@ -2,37 +2,49 @@ name: Update File with heiliao.sgmodule Content
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 每小时执行一次（UTC时间）
-  workflow_dispatch:  # 允许手动触发
+    - cron: '0 * * * *'  # 每小时执行一次
+  workflow_dispatch:  # 手动触发
 
 jobs:
   update-file:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: 检出仓库代码
       - name: Checkout repository
-        uses: actions/checkout@v2  # 检出仓库代码
+        uses: actions/checkout@v2
 
+      # Step 2: 下载 heiliao.sgmodule 文件
       - name: Download heiliao.sgmodule
         run: |
           curl -o heiliao.sgmodule https://github.com/Yuheng0101/Hostname_Monitor/releases/download/Auto_Update/heiliao.sgmodule
           echo "Downloaded heiliao.sgmodule content:"
           cat heiliao.sgmodule  # 打印下载的文件内容
 
-      - name: Append heiliao.sgmodule content to hlw.removeAD.plugin
+      # Step 3: 确保 Plugin 目录存在并更新目标文件
+      - name: Update hlw.removeAD.plugin with new content
         run: |
           mkdir -p Plugin
           cat heiliao.sgmodule >> Plugin/hlw.removeAD.plugin
-          echo "Updated hlw.removeAD.plugin content (after append):"
+          echo "Updated hlw.removeAD.plugin content:"
           cat Plugin/hlw.removeAD.plugin
 
+      # Step 4: 配置 Git 并提交更改
       - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add Plugin/hlw.removeAD.plugin  # 确保路径正确
-          git status  # 检查被追踪文件的状态
-          git commit -m "Update hlw.removeAD.plugin with new content from heiliao.sgmodule"
-          git push origin master
+          git add Plugin/hlw.removeAD.plugin  # 只追踪需要提交的文件
+          git status  # 检查 Git 状态，确保只有目标文件被添加
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update hlw.removeAD.plugin with new content from heiliao.sgmodule"
+            git push origin master
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step 5: 删除临时文件
+      - name: Cleanup temporary files
+        run: rm -f heiliao.sgmodule
