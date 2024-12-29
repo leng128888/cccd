@@ -16,26 +16,26 @@ jobs:
       - name: Download heiliao.sgmodule
         run: |
           curl -o heiliao.sgmodule https://github.com/Yuheng0101/Hostname_Monitor/releases/download/Auto_Update/heiliao.sgmodule
-          ls -l heiliao.sgmodule  # 打印文件信息
-          cat heiliao.sgmodule  # 调试下载内容
+          echo "Downloaded heiliao.sgmodule content:"
+          cat heiliao.sgmodule  # 打印下载的文件内容
 
-      - name: Download target file
+      - name: Debug target file before updating
         run: |
-          curl -o hlw.removeAD.plugin https://raw.githubusercontent.com/fishdown/Ggsddu/master/Plugin/hlw.removeAD.plugin
-          ls -l hlw.removeAD.plugin  # 打印文件信息
-          cat hlw.removeAD.plugin  # 调试文件内容
+          echo "Existing hlw.removeAD.plugin content (before append):"
+          cat Plugin/hlw.removeAD.plugin || echo "Target file does not exist."
 
       - name: Append heiliao.sgmodule content to hlw.removeAD.plugin
         run: |
-          cat heiliao.sgmodule >> hlw.removeAD.plugin
-          echo "File after appending:"
-          cat hlw.removeAD.plugin
+          cat heiliao.sgmodule >> Plugin/hlw.removeAD.plugin
+          echo "Updated hlw.removeAD.plugin content (after append):"
+          cat Plugin/hlw.removeAD.plugin
 
       - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add hlw.removeAD.plugin  # 添加文件到追踪中
+          git add Plugin/hlw.removeAD.plugin  # 确保路径正确
+          git status  # 检查文件是否被正确追踪
           git commit -m "Update hlw.removeAD.plugin with new content from heiliao.sgmodule"
           git push origin master
         env:
