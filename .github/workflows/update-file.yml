@@ -1,0 +1,37 @@
+name: Update File with heiliao.sgmodule Content
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小时执行一次（UTC时间）
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update-file:
+    runs-on: ubuntu-latest  # 在 Ubuntu 上运行任务
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2  # 检出仓库代码
+
+      - name: Download heiliao.sgmodule
+        run: |
+          curl -o heiliao.sgmodule https://github.com/Yuheng0101/Hostname_Monitor/releases/download/Auto_Update/heiliao.sgmodule
+
+      - name: Download target file
+        run: |
+          curl -o hlw.removeAD.plugin https://raw.githubusercontent.com/fishdown/Ggsddu/master/Plugin/hlw.removeAD.plugin
+
+      - name: Append heiliao.sgmodule content to hlw.removeAD.plugin
+        run: |
+          cat heiliao.sgmodule >> hlw.removeAD.plugin
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add Plugin/hlw.removeAD.plugin
+          git commit -m "Update hlw.removeAD.plugin with new content from heiliao.sgmodule"
+          git push origin master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 自动生成的 token 提交
+
