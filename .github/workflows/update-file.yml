@@ -1,57 +1,30 @@
-name: Update File with heiliao.sgmodule Content
+name: Daily Update Plugin
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 每小时执行一次
+    - cron: '0 0 * * *'  # 每天 00:00 UTC 时间运行
   workflow_dispatch:  # 手动触发
+    inputs: {}
 
 jobs:
-  update-file:
+  update-plugin:
     runs-on: ubuntu-latest
-
     steps:
-      # Step 1: 检出仓库代码
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      # Step 2: 下载 heiliao.sgmodule 文件
-      - name: Download heiliao.sgmodule
-        run: |
-          curl -o heiliao.sgmodule https://github.com/Yuheng0101/Hostname_Monitor/releases/download/Auto_Update/heiliao.sgmodule
-          echo "Downloaded heiliao.sgmodule content:"
-          cat heiliao.sgmodule  # 打印下载的文件内容
+      - name: Download remote file
+        run: curl -L -o heiliao.sgmodule https://github.com/Yuheng0101/Hostname_Monitor/releases/download/Auto_Update/heiliao.sgmodule
 
-      # Step 3: 确保 Plugin 文件夹存在并更新 .plugin 文件
-      - name: Ensure Plugin directory and update hlw.removeAD.plugin
+      - name: Append content to plugin file
         run: |
-          mkdir -p Plugin  # 确保 Plugin 目录存在
-          if [ ! -f "Plugin/hlw.removeAD.plugin" ]; then
-            echo "Creating Plugin/hlw.removeAD.plugin as it does not exist."
-            touch Plugin/hlw.removeAD.plugin
-          fi
-          echo "Appending heiliao.sgmodule content to Plugin/hlw.removeAD.plugin..."
+          echo -e "\n# Added on $(date)" >> Plugin/hlw.removeAD.plugin
           cat heiliao.sgmodule >> Plugin/hlw.removeAD.plugin
-          echo "Updated hlw.removeAD.plugin content:"
-          cat Plugin/hlw.removeAD.plugin  # 打印目标文件内容
 
-      # Step 4: 配置 Git 并提交更改
-      - name: Commit and push changes
+      - name: Commit changes
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add Plugin/hlw.removeAD.plugin  # 添加 Plugin 目录下的目标文件
-          git status  # 检查 Git 状态
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            echo "Changes detected, committing and pushing."
-            git commit -m "Update hlw.removeAD.plugin with new content from heiliao.sgmodule"
-            git push origin master
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # Step 5: 删除临时文件
-      - name: Cleanup temporary files
-        run: |
-          rm -f heiliao.sgmodule
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Plugin/hlw.removeAD.plugin
+          git commit -m "Daily update: Appended heiliao.sgmodule content"
+          git push
