@@ -19,15 +19,22 @@ jobs:
       - name: Filter out lines starting with '#'
         run: grep -v '^#' heiliao.sgmodule > filtered_heiliao.sgmodule
 
-      - name: Append filtered content to plugin file
+      - name: Remove previous added content
         run: |
-          echo -e "\n# Added on $(date)" >> Plugin/hlw.removeAD.plugin
+          if grep -q "# START_HEILIAO_SECTION" Plugin/hlw.removeAD.plugin; then
+            sed -i '/# START_HEILIAO_SECTION/,/# END_HEILIAO_SECTION/d' Plugin/hlw.removeAD.plugin
+          fi
+
+      - name: Append new content with markers
+        run: |
+          echo -e "\n# START_HEILIAO_SECTION\n# Added on $(date)" >> Plugin/hlw.removeAD.plugin
           cat filtered_heiliao.sgmodule >> Plugin/hlw.removeAD.plugin
+          echo -e "# END_HEILIAO_SECTION" >> Plugin/hlw.removeAD.plugin
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add Plugin/hlw.removeAD.plugin
-          git commit -m "Daily update: Appended filtered heiliao.sgmodule content"
+          git commit -m "Daily update: Replaced heiliao.sgmodule content"
           git push
