@@ -16,15 +16,18 @@ jobs:
       - name: Download remote file
         run: curl -L -o heiliao.sgmodule https://github.com/Yuheng0101/Hostname_Monitor/releases/download/Auto_Update/heiliao.sgmodule
 
-      - name: Append content to plugin file
+      - name: Filter out lines starting with '#'
+        run: grep -v '^#' heiliao.sgmodule > filtered_heiliao.sgmodule
+
+      - name: Append filtered content to plugin file
         run: |
           echo -e "\n# Added on $(date)" >> Plugin/hlw.removeAD.plugin
-          cat heiliao.sgmodule >> Plugin/hlw.removeAD.plugin
+          cat filtered_heiliao.sgmodule >> Plugin/hlw.removeAD.plugin
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add Plugin/hlw.removeAD.plugin
-          git commit -m "Daily update: Appended heiliao.sgmodule content"
+          git commit -m "Daily update: Appended filtered heiliao.sgmodule content"
           git push
