@@ -1,0 +1,19 @@
+#!name = 鱼安 fishdown 去广告
+#!desc = 每日精选app/n网站taurl.cn
+
+
+#!openUrl = https://github.com/fishdown/Ggsddu/tree/master/Plugin
+#!author = fishdown
+#!tag = 去广告
+#!homepage = https://github.com/fishdown/Ggsddu/tree/master/Plugin
+#!icon = https://s2.loli.net/2024/11/29/imeqNdQ4KAScH5L.jpg
+
+[Mitm]
+hostname = taurl.cn
+
+[Rewrite] 
+# 每日精选去广告 http不用hostname
+http://dili\.sqcosmos\.com/jiekou/mains/p\d+\.html response-body-json-jq '.album |= map(select(.id != "4154" and .id != "4165"))'
+http:\/\/dili\.sqcosmos\.com\/jiekou\/endpage\/ad reject-dict
+# 网站去广告
+https://taurl.cn/biu response-body-replace-regex </head> </head><style>.page_two{display:none!important}</style>
