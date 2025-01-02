@@ -1,11 +1,10 @@
 #!name = 鱼安 fishdown 去广告
-#!desc = 【 自用手搓 】\n【 配合说明 】\n每日精选app\n网站taurl.cn
+#!desc = 【 自用手搓 】\n【 配合说明 】\n↪ 每日精选app\n↪ 网站taurl.cn
 
 
-#!openUrl = https://github.com/fishdown/Ggsddu/tree/master/Plugin
-#!author = fishdown
+
 #!tag = 去广告
-#!homepage = https://github.com/fishdown/Ggsddu/tree/master/Plugin
+#!openUrl = https://github.com/fishdown/Ggsddu/tree/master/Plugin
 #!icon = https://s2.loli.net/2024/11/29/imeqNdQ4KAScH5L.jpg
 
 [Mitm]
