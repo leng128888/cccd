@@ -1,4 +1,4 @@
-function generateRandomString() {
+
   const digits = '0123456789';
   const upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   const lowerCase = 'abcdefghijklmnopqrstuvwxyz';
@@ -39,6 +39,4 @@ function generateRandomString() {
 
   // Output the final result with '-' separator
   console.log(`${a}-${b}-${c}`);
-}
-
-generateRandomString();
+$done()
