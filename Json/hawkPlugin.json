@@ -1,7 +1,7 @@
 [
     {
         "id": "vod",
-        "name": "VOD",
+        "name": "VOD源",
         "desc": "影视资源",
         "type": "vod",
         "rule": "",
@@ -9,6 +9,6 @@
         "author": "fishdown_org",
         "version": "0.0.1",
         "update_time": "2025-04-03T00:00:00Z",
-        "endpoint": "https://github.com/fishdown/Ggsddu/blob/master/Json/hawk.json"
+        "endpoint": "https://raw.githubusercontent.com/fishdown/Ggsddu/refs/heads/master/Json/hawk.json"
     }
 ]
