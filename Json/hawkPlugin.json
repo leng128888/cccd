@@ -1,0 +1,14 @@
+[
+    {
+        "id": "vod",
+        "name": "VOD",
+        "desc": "VOD",
+        "type": "vod",
+        "rule": "",
+        "cache": 21600,
+        "author": "fishdown",
+        "version": "0.0.1",
+        "update_time": "2025-04-03T00:00:00Z",
+        "endpoint": "https://raw.githubusercontent.com/fishdown/Ggsddu/refs/heads/master/Json/hawk.json"
+    }
+]
