@@ -86,6 +86,11 @@
             "api": "https://www.xxibaozyw.com/api.php/provide/vod/"
         },
         {
+            "name": "18+MD",
+            "type": 1,
+            "api": "https://91md.me/api.php/provide/vod/"
+        },
+        {
             "name": "18+CK资源",
             "type": 1,
             "api": "https://ckzy.me/api.php/provide/vod/"
