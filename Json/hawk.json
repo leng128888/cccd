@@ -1,6 +1,11 @@
 {
     "sites": [
         {
+            "name": "B",
+            "type": 1,
+            "api": "https://json02.heimuer.xyz/api.php/provide/vod/"
+        },
+        {
             "name": "极速资源",
             "type": 1,
             "api": "https://jszyapi.com/api.php/provide/vod/"
