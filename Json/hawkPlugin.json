@@ -1,7 +1,7 @@
 [
     {
         "id": "vod",
-        "name": "VOD源",
+        "name": "影视VOD源",
         "desc": "影视资源",
         "type": "vod",
         "rule": "",
@@ -13,7 +13,7 @@
     },
     {
         "id": "vod",
-        "name": "VOD源",
+        "name": "成人VOD源",
         "desc": "成人资源",
         "type": "vod",
         "rule": "",
