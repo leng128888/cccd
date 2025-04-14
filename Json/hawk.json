@@ -17,7 +17,9 @@
         {
             "name": "卧龙资源",
             "type": 1,
-            "api": "https://collect.wolongzy.cc/api.php/provide/vod/"
+            "api": "https://collect.wolongzy.cc/api.php/provide/vod/",
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/wlzy.png",
+            "color": "#2B3241"
         },
         {
             "name": "索尼资源",
