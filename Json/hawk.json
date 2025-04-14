@@ -3,7 +3,7 @@
         {
             "name": "黑木耳",
             "type": 1,
-            "api": "https://json02.heimuer.xyz/api.php/provide/vod/",
+            "api": "https://json.heimuer.xyz/api.php/provide/vod/?ac=list",
             "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/hme3.png",
             "color": "#282829"
         },
@@ -126,16 +126,6 @@
             "name": "暴风资源",
             "type": 1,
             "api": "https://bfzyapi.com/api.php/provide/vod/"
-        },
-        {
-            "name": "黑木耳无广告",
-            "type": 1,
-            "api": "https://json.heimuer.xyz/api.php/provide/vod/?ac=list"
-        },
-        {
-            "name": "非凡影视",
-            "type": 1,
-            "api": "http://cj.ffzyapi.com/api.php/provide/vod"
         },
         {
             "name": "光速影视",
