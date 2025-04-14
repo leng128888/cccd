@@ -30,6 +30,14 @@
             "color": "#FF0404"
         },
         {
+            "name": "PandaTV2",
+            "type": 3,
+            "api": "csp_pandatv",
+            "ext": "https://raw.githubusercontent.com/purkylin/XPTV/refs/heads/main/js/pandatv.js",
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/pandatv2.png",
+            "color": "#132146"
+        },
+        {
             "name": "索尼资源",
             "type": 1,
             "api": "https://suoniapi.com/api.php/provide/vod/"
