@@ -4,7 +4,8 @@
             "name": "黑木耳",
             "type": 1,
             "api": "https://json02.heimuer.xyz/api.php/provide/vod/",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/hme2.png"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/hme2.png",
+            "color": "#282829"
         },
         {
             "name": "极速资源",
