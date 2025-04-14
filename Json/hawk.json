@@ -10,7 +10,9 @@
         {
             "name": "极速资源",
             "type": 1,
-            "api": "https://jszyapi.com/api.php/provide/vod/"
+            "api": "https://jszyapi.com/api.php/provide/vod/",
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/jszy.png",
+            "color": "#2A3342"
         },
         {
             "name": "卧龙资源",
