@@ -3,7 +3,8 @@
         {
             "name": "黑木耳",
             "type": 1,
-            "api": "https://json02.heimuer.xyz/api.php/provide/vod/"
+            "api": "https://json02.heimuer.xyz/api.php/provide/vod/",
+            "url": "https://raw.githubusercontent.com/fishdown/Icon/master/app/loon-icon.png"
         },
         {
             "name": "极速资源",
