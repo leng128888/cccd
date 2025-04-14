@@ -63,11 +63,6 @@
             "api": "https://api.apibdzy.com/api.php/provide/vod/"
         },
         {
-            "name": "U酷资源",
-            "type": 1,
-            "api": "https://api.ukuapi.com/api.php/provide/vod/"
-        },
-        {
             "name": "闪电资源",
             "type": 1,
             "api": "https://sdzyapi.com/api.php/provide/vod/"
@@ -96,11 +91,6 @@
             "name": "四圈资源",
             "type": 1,
             "api": "https://pg.fenwe078.cf/api.php/provide/vod/"
-        },
-        {
-            "name": "金鹰资源",
-            "type": 1,
-            "api": "https://www.jinyingzy.com/provide/vod/"
         },
         {
             "name": "豆瓣资源",
@@ -133,16 +123,6 @@
             "api": "https://json.heimuer.xyz/api.php/provide/vod/?ac=list"
         },
         {
-            "name": "360资源",
-            "type": 1,
-            "api": "https://360zy.com/api.php/provide/vod/"
-        },
-        {
-            "name": "1080资源库",
-            "type": 1,
-            "api": "https://api.1080zyku.com/inc/api_mac10_all.php"
-        },
-        {
             "name": "非凡影视",
             "type": 1,
             "api": "http://cj.ffzyapi.com/api.php/provide/vod"
@@ -151,11 +131,6 @@
             "name": "光速影视",
             "type": 1,
             "api": "https://api.guangsuapi.com/api.php/provide/vod"
-        },
-        {
-            "name": "光速影视2",
-            "type": 1,
-            "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/"
         },
         {
             "name": "新浪影视",
