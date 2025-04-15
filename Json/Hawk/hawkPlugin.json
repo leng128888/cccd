@@ -1,39 +1,15 @@
 [
     {
-        "id": "vod",
-        "name": "影视VOD源",
-        "desc": "影视资源",
-        "type": "vod",
-        "rule": "",
-        "cache": 21600,
-        "author": "fishdown_org",
-        "version": "0.0.1",
-        "update_time": "2025-04-03T00:00:00Z",
-        "endpoint": "https://raw.githubusercontent.com/fishdown/Ggsddu/refs/heads/master/Json/Hawk/hawk.json"
-    },
-    {
-        "id": "vod18+",
-        "name": "成人VOD源",
-        "desc": "成人资源",
-        "type": "vod",
-        "rule": "",
-        "cache": 21600,
-        "author": "fishdown_org",
-        "version": "0.0.1",
-        "update_time": "2025-04-03T00:00:00Z",
-        "endpoint": "https://raw.githubusercontent.com/fishdown/Ggsddu/refs/heads/master/Json/Hawk/hawk18.json"
-    },
-    {
         "id": "vod1",
         "name": "CMS",
         "desc": "VOD",
         "type": "vod",
         "rule": "",
         "cache": 21600,
-        "author": "purkylin",
-        "version": "0.0.2",
-        "update_time": "2025-03-29T16:37:00Z",
-        "endpoint": "https://github.com/fangkuia/XPTV/raw/refs/heads/main/CMS/XPTV.json"
+        "author": "fishdown_org",
+        "version": "0.0.0",
+        "update_time": "2025-04-15T16:37:00Z",
+        "endpoint": "https://github.com/fishdown/Ggsddu/blob/master/Json/Hawk/CMS.json"
     },
     {
         "id": "vod2",
@@ -42,10 +18,10 @@
         "type": "vod",
         "rule": "",
         "cache": 21600,
-        "author": "purkylin",
-        "version": "0.0.2",
-        "update_time": "2025-03-29T16:37:00Z",
-        "endpoint": "https://github.com/fangkuia/XPTV/raw/refs/heads/main/VOD/XPTV.json"
+        "author": "fishdown_org",
+        "version": "0.0.0",
+        "update_time": "2025-04-15T16:37:00Z",
+        "endpoint": "https://github.com/fishdown/Ggsddu/blob/master/Json/Hawk/VOD.json"
     },
     {
         "id": "vod3",
@@ -53,11 +29,11 @@
         "desc": "AV",
         "type": "vod",
         "cache": 21600,
-        "author": "purkylin",
-        "version": "0.0.3",
-        "update_time": "2025-03-30T16:37:00Z",
+        "author": "fishdown_org",
+        "version": "0.0.0",
+        "update_time": "2025-04-15T16:37:00Z",
         "adult": true,
-        "endpoint": "https://github.com/fangkuia/XPTV/raw/refs/heads/main/CMS/XPAV.json"
+        "endpoint": "https://github.com/fishdown/Ggsddu/blob/master/Json/Hawk/CMSAV.json"
     },
     {
         "id": "vod4",
@@ -65,11 +41,11 @@
         "desc": "AV",
         "type": "vod",
         "cache": 21600,
-        "author": "purkylin",
-        "version": "0.0.3",
-        "update_time": "2025-03-30T16:37:00Z",
+        "author": "fishdown_org",
+        "version": "0.0.0",
+        "update_time": "2025-04-15T16:37:00Z",
         "adult": true,
-        "endpoint": "https://github.com/fangkuia/XPTV/raw/refs/heads/main/VOD/XPAV.json"
+        "endpoint": "https://github.com/fishdown/Ggsddu/blob/master/Json/Hawk/VODAV.json"
     },
     {
         "id": "vod5",
@@ -77,20 +53,9 @@
         "desc": "直播",
         "type": "vod",
         "cache": 21600,
-        "author": "fangkuia",
+        "author": "fishdown_org",
         "version": "0.0.0",
         "update_time": "2025-04-15T16:37:00Z",
-        "endpoint": "https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/VOD/nmLive.json"
-    },
-    {
-        "id": "vod6",
-        "name": "VOD2",
-        "desc": "VOD",
-        "type": "vod",
-        "cache": 21600,
-        "author": "Yswag",
-        "version": "0.0.0",
-        "update_time": "2025-04-15T16:37:00Z",
-        "endpoint": "https://raw.githubusercontent.com/Yswag/xptv-extensions/refs/heads/main/subs/vod.json"
+        "endpoint": "https://github.com/fishdown/Ggsddu/blob/master/Json/Hawk/nmLive.json"
     }
 ]
