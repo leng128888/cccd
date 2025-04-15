@@ -109,29 +109,29 @@
             "name": "ikun|点播",
             "type": 1,
             "api": "https://ikunzyapi.com/api.php/provide/vod/",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/222.png",
-            "color": "#333"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/ikunzyz.png",
+            "color": "#16B1C9"
         },
         {
             "name": "非凡|点播",
             "type": 1,
             "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/222.png",
-            "color": "#333"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/ffzy.png",
+            "color": "#E4E4E4"
         },
         {
             "name": "量子|点播",
             "type": 1,
             "api": "https://cj.lziapi.com/api.php/provide/vod/",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/222.png",
-            "color": "#333"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/lzzy.png",
+            "color": "#DFDFDF"
         },
         {
             "name": "暴风|点播",
             "type": 1,
             "api": "https://bfzyapi.com/api.php/provide/vod/",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/222.png",
-            "color": "#333"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/bfzy.png",
+            "color": "#D2EEFA"
         },
         {
             "name": "红牛|点播",
