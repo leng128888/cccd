@@ -3,7 +3,10 @@
     {
       "name": "360|点播",
       "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod/"
+      "api": "https://360zy.com/api.php/provide/vod/",
+      "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/hme3.png",
+      "color": "1F7E96"
+
     },
     {
       "name": "豆瓣|点播",
