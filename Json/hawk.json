@@ -37,12 +37,6 @@
             "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/pandatv2.png",
             "color": "#132146"
         },
-        { 
-            "name": "Youtube", 
-            "type": 3, 
-            "api": "csp_youtube",
-            "ext": "https://gist.githubusercontent.com/Yswag/98b86b68755f698e2f601962f76c036a/raw/you.js"
-        },
         {
             "name": "索尼资源",
             "type": 1,
