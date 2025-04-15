@@ -23,9 +23,11 @@
       "color": "#D6EFFF"
     },
     {
-      "name": "墨斗|点播",
+      "name": "魔都|点播",
       "type": 1,
-      "api": "https://www.mdzyapi.com/api.php/provide/vod/"
+      "api": "https://www.mdzyapi.com/api.php/provide/vod/",
+      "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/mdzyw.png",
+      "color": "#9AB0C7"
     },
     {
       "name": "黑木耳|点播",
