@@ -48,8 +48,8 @@
             "api": "csp_ai",
             "ext": "https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/js/ai.js",
             "ext2": "https://gist.githubusercontent.com/occupy-pluto/5185fa59944d5b8af625b2c83604d397/raw/girl.js",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/0.png",
-            "color": "#0"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/mqdm.png",
+            "color": "#B6B6B6"
         },
         {
             "name": "独播库",
@@ -57,8 +57,8 @@
             "api": "csp_duboku",
             "ext": "https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/js/duboku.js",
             "ext2": "https://gist.githubusercontent.com/occupy-pluto/f6cf4425bf7d1815a26323ade89ea593/raw/duboku.js",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/0.png",
-            "color": "#0"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/dbk.png",
+            "color": "#7D9BB0"
         },
         {
             "name": "AGE动漫",
@@ -66,48 +66,40 @@
             "api": "csp_age",
             "ext": "https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/js/age.js",
             "ext2": "https://gist.githubusercontent.com/occupy-pluto/e3a7bb98d5027d0f6dfa85fc2ac11a78/raw/agedm.js",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/0.png",
-            "color": "#0"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/agetv.png",
+            "color": "#E1CBFF"
         },
         {
             "name": "4k-av",
             "type": 3,
             "api": "csp_4kav",
             "ext": "https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/4kav.js",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/0.png",
-            "color": "#0"
-        },
-        {
-            "name": "韓劇看看",
-            "type": 3,
-            "api": "csp_hjkk",
-            "ext": "https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/hjkk.js",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/0.png",
-            "color": "#0"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/4kav.png",
+            "color": "#8D6F06"
         },
         {
             "name": "金牌影院",
             "type": 3,
             "api": "csp_jpyy",
             "ext": "https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/jpyy.js",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/0.png",
-            "color": "#0"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/apyy.png",
+            "color": "#E5E2E0"
         },
         {
             "name": "燒火電影",
             "type": 3,
             "api": "csp_saohuo",
             "ext": "https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/saohuo.js",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/0.png",
-            "color": "#0"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/shdy.png",
+            "color": "#333333"
         },
         {
             "name": "素白白影視",
             "type": 3,
             "api": "csp_subaibai",
             "ext": "https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/subaibai.js",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/0.png",
-            "color": "#0"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/sbbys.png",
+            "color": "#393A40"
         },
         {
             "name": "NO視頻",
