@@ -70,17 +70,5 @@
         "update_time": "2025-03-30T16:37:00Z",
         "adult": true,
         "endpoint": "https://github.com/fangkuia/XPTV/raw/refs/heads/main/VOD/XPAV.json"
-    },
-    {
-        "id": "vod5",
-        "name": "直播",
-        "desc": "直播",
-        "type": "vod",
-        "cache": 21600,
-        "author": "fangkuia",
-        "version": "0.0.0",
-        "update_time": "2025-03-30T16:37:00Z",
-        "adult": true,
-        "endpoint": "https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/VOD/nmLive.json"
     }
 ]
