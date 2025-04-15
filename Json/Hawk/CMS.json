@@ -5,7 +5,7 @@
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod/",
       "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/360zy.png",
-      "color": "1F7E96"
+      "color": "#EEFFF3"
 
     },
     {
@@ -13,12 +13,14 @@
       "type": 1,
       "api": "https://caiji.dbzy.tv/api.php/provide/vod/at/josn",
       "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/dbzy.png",
-      "color": "D5D5D5"
+      "color": "#D5D5D5"
     },
     {
       "name": "旺旺|点播",
       "type": 1,
-      "api": "https://api.wwzy.tv/api.php/provide/vod/"
+      "api": "https://api.wwzy.tv/api.php/provide/vod/",
+      "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/wwzy.png",
+      "color": "#D6EFFF"
     },
     {
       "name": "墨斗|点播",
