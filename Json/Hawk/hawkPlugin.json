@@ -9,7 +9,7 @@
         "author": "fishdown_org",
         "version": "0.0.0",
         "update_time": "2025-04-15T16:37:00Z",
-        "endpoint": "https://github.com/fishdown/Ggsddu/blob/master/Json/Hawk/CMS.json"
+        "endpoint": "https://raw.githubusercontent.com/fishdown/Ggsddu/refs/heads/master/Json/Hawk/CMS.json"
     },
     {
         "id": "vod2",
@@ -21,7 +21,7 @@
         "author": "fishdown_org",
         "version": "0.0.0",
         "update_time": "2025-04-15T16:37:00Z",
-        "endpoint": "https://github.com/fishdown/Ggsddu/blob/master/Json/Hawk/VOD.json"
+        "endpoint": "https://raw.githubusercontent.com/fishdown/Ggsddu/refs/heads/master/Json/Hawk/VOD.json"
     },
     {
         "id": "vod3",
@@ -33,7 +33,7 @@
         "version": "0.0.0",
         "update_time": "2025-04-15T16:37:00Z",
         "adult": true,
-        "endpoint": "https://github.com/fishdown/Ggsddu/blob/master/Json/Hawk/CMSAV.json"
+        "endpoint": "https://raw.githubusercontent.com/fishdown/Ggsddu/refs/heads/master/Json/Hawk/CMSAV.json"
     },
     {
         "id": "vod4",
@@ -45,7 +45,7 @@
         "version": "0.0.0",
         "update_time": "2025-04-15T16:37:00Z",
         "adult": true,
-        "endpoint": "https://github.com/fishdown/Ggsddu/blob/master/Json/Hawk/VODAV.json"
+        "endpoint": "https://raw.githubusercontent.com/fishdown/Ggsddu/refs/heads/master/Json/Hawk/VODAV.json"
     },
     {
         "id": "vod5",
@@ -56,6 +56,6 @@
         "author": "fishdown_org",
         "version": "0.0.0",
         "update_time": "2025-04-15T16:37:00Z",
-        "endpoint": "https://github.com/fishdown/Ggsddu/blob/master/Json/Hawk/nmLive.json"
+        "endpoint": "https://raw.githubusercontent.com/fishdown/Ggsddu/refs/heads/master/Json/Hawk/nmLive.json"
     }
 ]
