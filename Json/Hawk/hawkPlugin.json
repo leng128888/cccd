@@ -1,0 +1,74 @@
+[
+    {
+        "id": "vod",
+        "name": "影视VOD源",
+        "desc": "影视资源",
+        "type": "vod",
+        "rule": "",
+        "cache": 21600,
+        "author": "fishdown_org",
+        "version": "0.0.1",
+        "update_time": "2025-04-03T00:00:00Z",
+        "endpoint": "https://raw.githubusercontent.com/fishdown/Ggsddu/refs/heads/master/Json/hawk.json"
+    },
+    {
+        "id": "vod18+",
+        "name": "成人VOD源",
+        "desc": "成人资源",
+        "type": "vod",
+        "rule": "",
+        "cache": 21600,
+        "author": "fishdown_org",
+        "version": "0.0.1",
+        "update_time": "2025-04-03T00:00:00Z",
+        "endpoint": "https://raw.githubusercontent.com/fishdown/Ggsddu/refs/heads/master/Json/hawk18+.json"
+    },
+    {
+        "id": "vod1",
+        "name": "CMS",
+        "desc": "VOD",
+        "type": "vod",
+        "rule": "",
+        "cache": 21600,
+        "author": "purkylin",
+        "version": "0.0.2",
+        "update_time": "2025-03-29T16:37:00Z",
+        "endpoint": "https://github.com/fangkuia/XPTV/raw/refs/heads/main/CMS/XPTV.json"
+    },
+    {
+        "id": "vod2",
+        "name": "VOD",
+        "desc": "VOD",
+        "type": "vod",
+        "rule": "",
+        "cache": 21600,
+        "author": "purkylin",
+        "version": "0.0.2",
+        "update_time": "2025-03-29T16:37:00Z",
+        "endpoint": "https://github.com/fangkuia/XPTV/raw/refs/heads/main/VOD/XPTV.json"
+    },
+    {
+        "id": "vod3",
+        "name": "CMS AV",
+        "desc": "AV",
+        "type": "vod",
+        "cache": 21600,
+        "author": "purkylin",
+        "version": "0.0.3",
+        "update_time": "2025-03-30T16:37:00Z",
+        "adult": true,
+        "endpoint": "https://github.com/fangkuia/XPTV/raw/refs/heads/main/CMS/XPAV.json"
+    },
+    {
+        "id": "vod4",
+        "name": "VOD AV",
+        "desc": "AV",
+        "type": "vod",
+        "cache": 21600,
+        "author": "purkylin",
+        "version": "0.0.3",
+        "update_time": "2025-03-30T16:37:00Z",
+        "adult": true,
+        "endpoint": "https://github.com/fangkuia/XPTV/raw/refs/heads/main/VOD/XPAV.json"
+    }
+]
