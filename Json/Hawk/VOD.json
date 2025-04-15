@@ -31,25 +31,16 @@
             "api": "csp_Zxzj",
             "ext": "https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/js/zxzj.js",
             "ext2": "https://gist.githubusercontent.com/occupy-pluto/13a199a1a85c619f948d40e6c5a12c21/raw/zxzj.js",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/0.png",
-            "color": "#0"
-        },
-        {
-            "name": "LIBVIO",
-            "type": 3,
-            "api": "csp_libvio",
-            "ext": "https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/js/libvio.js",
-            "ext2": "https://gist.githubusercontent.com/occupy-pluto/67cc3a53a26c631e32ed2f37e19e479d/raw/libvio.js",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/0.png",
-            "color": "#0"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/zxzj.png",
+            "color": "#FF8CA6"
         },
         {
             "name": "低端影视",
             "type": 3,
             "api": "csp_ddys",
             "ext": "https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/js/ddys.js",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/0.png",
-            "color": "#0"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/ddys.png",
+            "color": "#202224"
         },
         {
             "name": "ギリギリ动漫",
