@@ -57,32 +57,18 @@
             "color": "#A1BEFF"
         },
         {
-            "name": "宝片|点播",
-            "type": 1,
-            "api": "https://zpsps.com/api.php/provide/vod/",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/222.png",
-            "color": "#333"
-        },
-        {
-            "name": "小黄人|点播",
-            "type": 1,
-            "api": "https://iqyi.xiaohuangrentv.com/api.php/provide/vod/",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/222.png",
-            "color": "#333"
-        },
-        {
             "name": "牛牛|点播",
             "type": 1,
             "api": "https://api.niuniuzy.me/api.php/provide/vod/",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/222.png",
-            "color": "#333"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/nnzy.png",
+            "color": "#1E1D33"
         },
         {
             "name": "丫丫|点播",
             "type": 1,
             "api": "https://cj.yayazy.net/api.php/provide/vod/",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/222.png",
-            "color": "#333"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/yyzyw.png",
+            "color": "#5E6362"
         },
         {
             "name": "影图|点播",
@@ -102,15 +88,15 @@
             "name": "豪华|点播",
             "type": 1,
             "api": "https://hhzyapi.com/api.php/provide/vod",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/222.png",
-            "color": "#333"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/hhzy.png",
+            "color": "#8537C9"
         },
         {
             "name": "极速|点播",
             "type": 1,
             "api": "https://jszyapi.com/api.php/provide/vod",
-            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/222.png",
-            "color": "#333"
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/jszy.png",
+            "color": "#E7F9FF"
         },
         {
             "name": "索尼|点播",
