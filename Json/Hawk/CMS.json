@@ -73,12 +73,16 @@
         {
             "name": "影图|点播",
             "type": 1,
-            "api": "https://cj.vodimg.top/api.php/provide/vod/"
+            "api": "https://cj.vodimg.top/api.php/provide/vod/",
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/ytzy.png",
+            "color": "#DEE6D8"
         },
         {
             "name": "U酷|点播",
             "type": 1,
-            "api": "https://api.ukuapi.com/api.php/provide/vod/"
+            "api": "https://api.ukuapi.com/api.php/provide/vod/",
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/ykzy.png",
+            "color": "#D9DDD7"
         },
         {
             "name": "豪华|点播",
@@ -97,7 +101,9 @@
         {
             "name": "索尼|点播",
             "type": 1,
-            "api": "https://suoniapi.com/api.php/provide/vod/"
+            "api": "https://suoniapi.com/api.php/provide/vod/",
+            "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/snzy.png",
+            "color": "#A8C7EE"
         },
         {
             "name": "ikun|点播",
