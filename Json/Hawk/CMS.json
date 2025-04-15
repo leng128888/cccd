@@ -4,14 +4,16 @@
       "name": "360|点播",
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod/",
-      "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/hme3.png",
+      "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/360zy.png",
       "color": "1F7E96"
 
     },
     {
       "name": "豆瓣|点播",
       "type": 1,
-      "api": "https://caiji.dbzy.tv/api.php/provide/vod/at/josn"
+      "api": "https://caiji.dbzy.tv/api.php/provide/vod/at/josn",
+      "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/dbzy.png",
+      "color": "D5D5D5"
     },
     {
       "name": "旺旺|点播",
