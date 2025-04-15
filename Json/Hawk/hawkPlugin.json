@@ -77,9 +77,9 @@
         "desc": "直播",
         "type": "vod",
         "cache": 21600,
-        "author": "",
-        "version": "0.0.3",
-        "update_time": "",
+        "author": "fangkuia",
+        "version": "0.0.0",
+        "update_time": "2025-03-30T16:37:00Z",
         "adult": true,
         "endpoint": "https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/VOD/nmLive.json"
     }
