@@ -81,5 +81,16 @@
         "version": "0.0.0",
         "update_time": "2025-04-15T16:37:00Z",
         "endpoint": "https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/VOD/nmLive.json"
+    },
+    {
+        "id": "vod6",
+        "name": "VOD2",
+        "desc": "VOD",
+        "type": "vod",
+        "cache": 21600,
+        "author": "Yswag",
+        "version": "0.0.0",
+        "update_time": "2025-04-15T16:37:00Z",
+        "endpoint": "https://raw.githubusercontent.com/Yswag/xptv-extensions/refs/heads/main/subs/vod.json"
     }
 ]
