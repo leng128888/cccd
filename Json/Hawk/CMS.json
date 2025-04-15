@@ -39,7 +39,9 @@
     {
       "name": "华为吧|点播",
       "type": 1,
-      "api": "https://hw8.live/api.php/provide/vod/"
+      "api": "https://hw8.live/api.php/provide/vod/",
+      "icon": "https://raw.githubusercontent.com/fishdown/Icon/master/hp/hwbzy.png",
+      "color": "#EFFAFF"
     },
     {
       "name": "腐剧|点播",
