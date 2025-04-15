@@ -73,16 +73,12 @@
         {
             "name": "影图|点播",
             "type": 1,
-            "api": "https://cj.vodimg.top/api.php/provide/vod/",
-            "icon": "",
-            "color": ""
+            "api": "https://cj.vodimg.top/api.php/provide/vod/"
         },
         {
             "name": "U酷|点播",
             "type": 1,
-            "api": "https://api.ukuapi.com/api.php/provide/vod/",
-            "icon": "",
-            "color": ""
+            "api": "https://api.ukuapi.com/api.php/provide/vod/"
         },
         {
             "name": "豪华|点播",
@@ -101,9 +97,7 @@
         {
             "name": "索尼|点播",
             "type": 1,
-            "api": "https://suoniapi.com/api.php/provide/vod/",
-            "icon": "",
-            "color": ""
+            "api": "https://suoniapi.com/api.php/provide/vod/"
         },
         {
             "name": "ikun|点播",
