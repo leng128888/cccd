@@ -1,9 +1,30 @@
+name: Daily Download and Modify SGModule
+
+on:
+  schedule:
+    - cron: '0 17 * * *'  # UTC 17:00 = 北京时间 1:00 AM
+  workflow_dispatch:
+
+jobs:
+  download-and-modify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Ensure Plugin folder exists
+        run: mkdir -p Plugin
+
+      - name: Download heiliao.sgmodule
+        run: |
+          curl -L -o Plugin/heiliao.sgmodule https://github.com/Yuheng0101/Hostname_Monitor/releases/download/Auto_Update/heiliao.sgmodule
+
       - name: Modify heiliao.sgmodule content
         run: |
           # 替换第一行
           sed -i '1s/.*/#!name= 黑料不打烊🔞/' Plugin/heiliao.sgmodule
 
-          # 插入三行到第4行（第3行后）
+          # 在第3行后插入三行（即第四行开始）
           tmpfile=$(mktemp)
           awk 'NR==3 {
               print
@@ -21,3 +42,18 @@
           echo 'https:\/\/[^\/]+\/hlcg\/.* response-body-replace-regex </head> </head><style>.video-list>.video-item:nth-of-type(1),.video-list>.video-item:nth-of-type(2),.gotoclick,.modal,.addbox{display:none!important}</style>' >> Plugin/heiliao.sgmodule
           echo '#详情页去广告' >> Plugin/heiliao.sgmodule
           echo '^https?://[^/]+/archives.* response-body-replace-regex </head> </head><style>.t_activity,.share-box,.video-list>.gotoclick,.modal,.addbox,.list-sec-top,#copy-img,.line,.list-sec,.infomation,.client-only-placeholder>blockquote,.article-tags,.relation,.footer,.plates,.dplayer>p:first-of-type,.dplayer~p,.common{display:none!important}</style>' >> Plugin/heiliao.sgmodule
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add Plugin/heiliao.sgmodule
+
+          # 如果没有变动，git commit 会失败，避免空提交
+          if git diff --cached --quiet; then
+            echo "No changes detected, skipping commit."
+          else
+            git commit -m "Auto-update and modify heiliao.sgmodule [$(date +'%Y-%m-%d %H:%M:%S')]"
+            git push
+          fi
