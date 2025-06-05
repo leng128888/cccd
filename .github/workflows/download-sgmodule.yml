@@ -1,0 +1,28 @@
+name: Daily Download SGModule
+
+on:
+  schedule:
+    - cron: '0 17 * * *'  # 每天 UTC 17:00 = 北京时间 01:00
+  workflow_dispatch:  # 可手动触发
+
+jobs:
+  download-file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout your repo
+        uses: actions/checkout@v3
+
+      - name: Create Plugin folder if not exists
+        run: mkdir -p Plugin
+
+      - name: Download heiliao.sgmodule into Plugin/
+        run: |
+          curl -L -o Plugin/heiliao.sgmodule https://github.com/Yuheng0101/Hostname_Monitor/releases/download/Auto_Update/heiliao.sgmodule
+
+      - name: Commit and push file
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add Plugin/heiliao.sgmodule
+          git commit -m "Auto-update heiliao.sgmodule [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git push
