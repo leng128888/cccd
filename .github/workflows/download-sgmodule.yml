@@ -1,12 +1,12 @@
-name: Daily Download SGModule
+name: Daily Download and Modify SGModule
 
 on:
   schedule:
-    - cron: '0 17 * * *'  # 每天 UTC 17:00 = 北京时间 01:00
-  workflow_dispatch:  # 可手动触发
+    - cron: '0 17 * * *'  # 每天北京时间凌晨 1 点
+  workflow_dispatch:
 
 jobs:
-  download-file:
+  download-and-modify:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repo
@@ -19,10 +19,28 @@ jobs:
         run: |
           curl -L -o Plugin/heiliao.sgmodule https://github.com/Yuheng0101/Hostname_Monitor/releases/download/Auto_Update/heiliao.sgmodule
 
+      - name: Modify heiliao.sgmodule content
+        run: |
+          # 替换第一行内容
+          sed -i '1s/.*/#!name= 黑料不打烊🔞/' Plugin/heiliao.sgmodule
+
+          # 插入内容到第 4 行之前（行号从 1 开始）
+          sed -i '3a #!openUrl = https://155.fun\n#!icon = https://raw.githubusercontent.com/fishdown/Icon/master/app/hlw.png\n#!tag = 18' Plugin/heiliao.sgmodule
+
+          # 追加 Rewrite 内容到文件末尾
+          cat << 'EOF' >> Plugin/heiliao.sgmodule
+
+[Rewrite]
+#最新黑料
+https:\/\/[^\/]+\/hlcg\/.* response-body-replace-regex </head> </head><style>.video-list>.video-item:nth-of-type(1),.video-list>.video-item:nth-of-type(2),.gotoclick,.modal,.addbox{display:none!important}</style>
+#详情页去广告
+^https?://[^/]+/archives.* response-body-replace-regex </head> </head><style>.t_activity,.share-box,.video-list>.gotoclick,.modal,.addbox,.list-sec-top,#copy-img,.line,.list-sec,.infomation,.client-only-placeholder>blockquote,.article-tags,.relation,.footer,.plates,.dplayer>p:first-of-type,.dplayer~p,.common{display:none!important}</style>
+EOF
+
       - name: Commit and push file
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add Plugin/heiliao.sgmodule
-          git commit -m "Auto-update heiliao.sgmodule [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git commit -m "Auto-update and patch heiliao.sgmodule [$(date +'%Y-%m-%d %H:%M:%S')]"
           git push
