@@ -1,9 +1,18 @@
-#!name= 黑料不打烊
+#!name= 黑料不打烊🔞
 #!desc= 去除烦人的广告
 #!date= 2025-06-05 16:13:27
+#!openUrl = https://155.fun
+#!icon = https://raw.githubusercontent.com/fishdown/Icon/master/app/hlw.png
+#!tag = 18
 
 [MITM]
 hostname = %APPEND% 18hlw.com,7sz2q.cgbssuj.xyz,kzuqv.bwxgxik.xyz,apy80.xyz,url44.co/7,api*.hlwapi*.com
 [Script]
 黑料去广告=type=http-response,pattern=^https?:\/\/(18hlw\.com|7sz2q\.cgbssuj\.xyz|kzuqv\.bwxgxik\.xyz|apy80\.xyz|url44\.co/7).*,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/HeiLiao/web.js,requires-body=1,max-size=0,timeout=60
 黑料App去广告=type=http-response,pattern=^https:\/\/api(\d+)?.hlwapi(\d+)?\.com\/api\.php\/api\/index\/(config|userInfo|index|detail),script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/HeiLiao/app.js,requires-body=1,max-size=-1,timeout=30
+
+[Rewrite]
+#最新黑料
+https:\/\/[^\/]+\/hlcg\/.* response-body-replace-regex </head> </head><style>.video-list>.video-item:nth-of-type(1),.video-list>.video-item:nth-of-type(2),.gotoclick,.modal,.addbox{display:none!important}</style>
+#详情页去广告
+^https?://[^/]+/archives.* response-body-replace-regex </head> </head><style>.t_activity,.share-box,.video-list>.gotoclick,.modal,.addbox,.list-sec-top,#copy-img,.line,.list-sec,.infomation,.client-only-placeholder>blockquote,.article-tags,.relation,.footer,.plates,.dplayer>p:first-of-type,.dplayer~p,.common{display:none!important}</style>
