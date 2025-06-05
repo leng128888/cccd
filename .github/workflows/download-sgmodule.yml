@@ -1,30 +1,9 @@
-name: Daily Download and Modify SGModule
-
-on:
-  schedule:
-    - cron: '0 17 * * *'  # 每天北京时间凌晨 1 点
-  workflow_dispatch:
-
-jobs:
-  download-and-modify:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout your repo
-        uses: actions/checkout@v3
-
-      - name: Create Plugin folder if not exists
-        run: mkdir -p Plugin
-
-      - name: Download heiliao.sgmodule into Plugin/
-        run: |
-          curl -L -o Plugin/heiliao.sgmodule https://github.com/Yuheng0101/Hostname_Monitor/releases/download/Auto_Update/heiliao.sgmodule
-
       - name: Modify heiliao.sgmodule content
         run: |
           # 替换第一行
           sed -i '1s/.*/#!name= 黑料不打烊🔞/' Plugin/heiliao.sgmodule
 
-          # 插入内容到第4行（准确地说是在第3行之后）
+          # 插入三行到第4行（第3行后）
           tmpfile=$(mktemp)
           awk 'NR==3 {
               print
@@ -35,20 +14,10 @@ jobs:
             } 1' Plugin/heiliao.sgmodule > "$tmpfile"
           mv "$tmpfile" Plugin/heiliao.sgmodule
 
-          # 追加 [Rewrite] 内容到末尾
-          cat << 'EOF' >> Plugin/heiliao.sgmodule
-
-[Rewrite]
-#最新黑料
-https:\/\/[^\/]+\/hlcg\/.* response-body-replace-regex </head> </head><style>.video-list>.video-item:nth-of-type(1),.video-list>.video-item:nth-of-type(2),.gotoclick,.modal,.addbox{display:none!important}</style>
-#详情页去广告
-^https?://[^/]+/archives.* response-body-replace-regex </head> </head><style>.t_activity,.share-box,.video-list>.gotoclick,.modal,.addbox,.list-sec-top,#copy-img,.line,.list-sec,.infomation,.client-only-placeholder>blockquote,.article-tags,.relation,.footer,.plates,.dplayer>p:first-of-type,.dplayer~p,.common{display:none!important}</style>
-EOF
-
-      - name: Commit and push file
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add Plugin/heiliao.sgmodule
-          git commit -m "Auto-update and patch heiliao.sgmodule [$(date +'%Y-%m-%d %H:%M:%S')]"
-          git push
+          # 追加 Rewrite 内容到文件末尾
+          echo '' >> Plugin/heiliao.sgmodule
+          echo '[Rewrite]' >> Plugin/heiliao.sgmodule
+          echo '#最新黑料' >> Plugin/heiliao.sgmodule
+          echo 'https:\/\/[^\/]+\/hlcg\/.* response-body-replace-regex </head> </head><style>.video-list>.video-item:nth-of-type(1),.video-list>.video-item:nth-of-type(2),.gotoclick,.modal,.addbox{display:none!important}</style>' >> Plugin/heiliao.sgmodule
+          echo '#详情页去广告' >> Plugin/heiliao.sgmodule
+          echo '^https?://[^/]+/archives.* response-body-replace-regex </head> </head><style>.t_activity,.share-box,.video-list>.gotoclick,.modal,.addbox,.list-sec-top,#copy-img,.line,.list-sec,.infomation,.client-only-placeholder>blockquote,.article-tags,.relation,.footer,.plates,.dplayer>p:first-of-type,.dplayer~p,.common{display:none!important}</style>' >> Plugin/heiliao.sgmodule
