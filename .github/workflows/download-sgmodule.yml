@@ -21,13 +21,21 @@ jobs:
 
       - name: Modify heiliao.sgmodule content
         run: |
-          # 替换第一行内容
+          # 替换第一行
           sed -i '1s/.*/#!name= 黑料不打烊🔞/' Plugin/heiliao.sgmodule
 
-          # 插入内容到第 4 行之前（行号从 1 开始）
-          sed -i '3a #!openUrl = https://155.fun\n#!icon = https://raw.githubusercontent.com/fishdown/Icon/master/app/hlw.png\n#!tag = 18' Plugin/heiliao.sgmodule
+          # 插入内容到第4行（准确地说是在第3行之后）
+          tmpfile=$(mktemp)
+          awk 'NR==3 {
+              print
+              print "#!openUrl = https://155.fun"
+              print "#!icon = https://raw.githubusercontent.com/fishdown/Icon/master/app/hlw.png"
+              print "#!tag = 18"
+              next
+            } 1' Plugin/heiliao.sgmodule > "$tmpfile"
+          mv "$tmpfile" Plugin/heiliao.sgmodule
 
-          # 追加 Rewrite 内容到文件末尾
+          # 追加 [Rewrite] 内容到末尾
           cat << 'EOF' >> Plugin/heiliao.sgmodule
 
 [Rewrite]
