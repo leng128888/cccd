@@ -1,11 +1,12 @@
 #!name = 黑料网去广告
-#!desc = 精简去广告，Cron脚本为作者更新插件使用，默认关闭，不必理会
+#!desc = 精简去广告，监控hostname
+Cron脚本为作者更新插件使用，不必理会
 #!openUrl = https://155.fun
 #!homepage= 
 #!author= fishdown
 #!icon = https://raw.githubusercontent.com/fishdown/Icon/master/app/hlw.png
 #!tag = 18
-#!date = 2025-06-29 03:53
+#!date = 2025-06-29 03:56
 
 [Argument]
 open= switch,false,tag=脚本开关,desc=默认开启
