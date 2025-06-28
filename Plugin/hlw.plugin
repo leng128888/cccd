@@ -1,11 +1,11 @@
-#!name = 黑料网去广告
+#!name = 黑料网🔞
 #!desc = 精简去广告，监控hostname，定时脚本为作者本地更新插件使用，不必理会
 #!openUrl = https://155.fun
 #!homepage= 
 #!author= fishdown
 #!icon = https://raw.githubusercontent.com/fishdown/Icon/master/app/hlw.png
 #!tag = 18
-#!date = 2025-06-29 04:01
+#!date = 2025-06-29 04:39
 
 [Argument]
 open= switch,false,tag=脚本开关,desc=默认开启
