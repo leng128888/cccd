@@ -1,10 +1,11 @@
 #!name = 黑料网去广告
 #!desc = 精简
-#!openUrl = https://115.fun
+#!openUrl = https://155.fun
 #!homepage= 
+#!author= fishdown
 #!icon = https://raw.githubusercontent.com/fishdown/Icon/master/app/hlw.png
 #!tag = 18
-#!date = 
+#!date = 2025-06-29 03:49
 
 [Argument]
 open= switch,true,tag=脚本开关,desc=默认开启
