@@ -5,7 +5,7 @@
 #!author= fishdown
 #!icon = https://raw.githubusercontent.com/fishdown/Icon/master/app/hlw.png
 #!tag = 18
-#!date = 2025-06-29 15:23
+#!date = 2025-06-29 15:39
 
 [Argument]
 open= switch,false,tag=脚本开关,desc=默认开启
@@ -16,7 +16,7 @@ hostname = x41rc.oucyuvyh.top,pnemz.innifhv.top,apu30.xyz,d2ayq6021rv1qe.cloudfr
 
 [Rewrite]
 # 首页去广告
-https?:\/\/(?:x41rc\.oucyuvyh\.top|pnemz\.innifhv\.top|apu30\.xyz|d2ayq6021rv1qe\.cloudfront\.net|18hlw\.com)$ response-body-replace-regex </head> </head><style>.addbox,.gotoclick,.infomation,.footer{display:none!important}</style>
+https?:\/\/(?:x41rc\.oucyuvyh\.top|pnemz\.innifhv\.top|apu30\.xyz|d2ayq6021rv1qe\.cloudfront\.net|18hlw\.com)/?$ response-body-replace-regex </head> </head><style>.addbox,.gotoclick,.infomation,.footer{display:none!important}</style>
 # 最新黑料去广告
 https?:\/\/(?:x41rc\.oucyuvyh\.top|pnemz\.innifhv\.top|apu30\.xyz|d2ayq6021rv1qe\.cloudfront\.net|18hlw\.com)/hlcg response-body-replace-regex </head> </head><style>.video-list>.video-item:nth-of-type(1),.video-list>.video-item:nth-of-type(2),.gotoclick,.modal,.addbox{display:none!important}</style>
 # 其他分类去广告
