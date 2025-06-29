@@ -1,24 +1,19 @@
 #!name = 黑料网🔞
 #!desc = 精简去广告，监控hostname，定时脚本为作者本地更新插件使用，不必理会
 #!openUrl = https://155.fun
-#!homepage= 
+#!homepage=
 #!author= fishdown
 #!icon = https://raw.githubusercontent.com/fishdown/Icon/master/app/hlw.png
 #!tag = 18
-#!date = 2025-06-29 17:30
+#!date = 2025-06-29 17:48
 
 [Argument]
 open= switch,false,tag=脚本开关,desc=默认开启
 cronno = input,"0 */4 * * *",tag=Cron,desc=cron表达式
 
 [MitM]
-hostname = x41rc.oucyuvyh.top,pnemz.innifhv.top,apu30.xyz,d2ayq6021rv1qe.cloudfront.net,18hlw.com
-
-[Rewrite]
-# 详情页去广告
-https?:\/\/(?:x41rc\.oucyuvyh\.top|pnemz\.innifhv\.top|apu30\.xyz|d2ayq6021rv1qe\.cloudfront\.net|18hlw\.com)/archives response-body-replace-regex </head> </head><style>.t_activity,.share-box,.video-list>.gotoclick,.modal,.addbox,.list-sec-top,#copy-img,.line,.list-sec,.infomation,.client-only-placeholder>blockquote,.article-tags,.relation,.footer,.plates,.dplayer>p:first-of-type,.dplayer~p,.common{display:none!important}</style>
-# 首页去广告
-https?:\/\/(?:x41rc\.oucyuvyh\.top|pnemz\.innifhv\.top|apu30\.xyz|d2ayq6021rv1qe\.cloudfront\.net|18hlw\.com).* response-body-replace-regex </head> </head><style>.addbox,.gotoclick,.infomation,.footer{display:none!important}</style>
+hostname = ag6ou.ovjlemt.top,x41rc.oucyuvyh.top,apu30.xyz,d2ayq6021rv1qe.cloudfront.net,18hlw.com
 
 [Script]
-cron {cronno} script-path=hlw.js, timeout=60, img-url=https://raw.githubusercontent.com/fishdown/Icon/master/app/hlw.png,enable={open},  tag=刷新插件
+cron {cronno} script-path=18-hlw.js, timeout=60, img-url=https://raw.githubusercontent.com/fishdown/Icon/master/app/hlw.png,enable={open}, tag=刷新插件
+http-response https?:\/\/(?:ag6ou\.ovjlemt\.top|x41rc\.oucyuvyh\.top|apu30\.xyz|d2ayq6021rv1qe\.cloudfront\.net|18hlw\.com).* script-path=18-hlw.js, requires-body=true, timeout=60, img-url=https://raw.githubusercontent.com/fishdown/Icon/master/app/hlw.png, tag=黑料去广告
