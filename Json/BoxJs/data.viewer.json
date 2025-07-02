@@ -6,6 +6,32 @@
     "repo": "",
     "apps": [
         {
+            "id": "dy-id",
+            "name": "抖音直播间ID",
+            "keys": [
+                "douyin_live_id"
+            ],
+            "descs_html": [],
+            "settings": [
+                {
+                    "id": "douyin_live_id",
+                    "name": "ID 列表",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 8,
+                    "desc": ""
+                }
+            ],
+            "author": "",
+            "repo": "",
+            "script": "",
+            "icons": [
+                "https://raw.githubusercontent.com/fishdown/Icon/master/app/dy.png",
+                "https://raw.githubusercontent.com/fishdown/Icon/master/app/dy.png"
+            ]
+        },
+        {
             "id": "gqcq-fd",
             "name": "广汽传祺",
             "keys": [
