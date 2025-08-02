@@ -96,7 +96,7 @@
 <!-- 顶部搜索栏 -->
 <div class="search-bar">
   <input id="searchInput" type="text" placeholder="搜索主播" oninput="filterCards(this.value)" />
-  <button onclick="focusSearch()"></button>
+  <button onclick="location.reload()" title="刷新页面"></button>
 </div>
 
 <!-- 内容列表 -->
@@ -119,7 +119,7 @@ function renderCards(data) {
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `
-      <a href="${item.mediaUrl}" target="_blank">
+      <a href="${item.mediaUrl}" target="_blank" rel="noopener noreferrer">
         <img src="${item.imgUrl}" alt="${item.name}">
       </a>
       <div class="name">${item.name}</div>
