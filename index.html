@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/fishdown/Icon/master/app/dy180.png">
-  <link rel="icon" href="https://raw.githubusercontent.com/fishdown/Icon/master/app/dy180.png">
   <title>抖音直播列表</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/fishdown/Icon/master/app/dy180.png" />
+  <link rel="icon" href="https://raw.githubusercontent.com/fishdown/Icon/master/app/dy180.png" type="image/png" />
+
   <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-      background-color: white;
-      color: black;
-      padding: 1rem;
-      transition: background 0.3s, color 0.3s;
+    :root {
+      --bg-color: #f5f5f5;
+      --card-color: white;
+      --text-color: #333;
     }
 
     @media (prefers-color-scheme: dark) {
-      body {
-        background-color: #111;
-        color: white;
-      }
-
-      .card {
-        background-color: #1e1e1e;
+      :root {
+        --bg-color: #121212;
+        --card-color: #1e1e1e;
+        --text-color: #f0f0f0;
       }
     }
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-      gap: 1rem;
+    body {
+      font-family: "Arial", sans-serif;
+      background-color: var(--bg-color);
+      margin: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      transition: background-color 0.3s ease;
     }
 
     .card {
+      width: 200px;
+      background-color: var(--card-color);
       border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
       overflow: hidden;
-      background-color: #f0f0f0;
       text-align: center;
-      transition: transform 0.2s;
+      transition: transform 0.2s ease;
+      color: var(--text-color);
     }
 
     .card:hover {
@@ -50,115 +52,113 @@
 
     .card img {
       width: 100%;
-      aspect-ratio: 1/1;
+      height: 120px;
       object-fit: cover;
     }
 
-    .card div {
-      padding: 0.5rem;
-      font-size: 14px;
-      font-weight: 500;
-    }
-
-    .search-btn {
-      position: fixed;
-      left: 1rem;
-      bottom: 1rem;
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      background: #007aff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 24px;
-      cursor: pointer;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-      z-index: 999;
-    }
-
-    .search-input {
-      position: fixed;
-      left: 1rem;
-      bottom: 64px;
-      width: 80%;
-      max-width: 300px;
-      padding: 0.5rem;
+    .name {
+      padding: 10px;
       font-size: 16px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-      display: none;
-      background: white;
+      font-weight: bold;
+      word-break: break-word;
+    }
+
+    #searchBtn {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background-color: #007aff;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+      cursor: pointer;
       z-index: 999;
     }
 
-    @media (prefers-color-scheme: dark) {
-      .search-input {
-        background: #222;
-        color: white;
-        border: 1px solid #555;
-      }
+    #searchInput {
+      position: fixed;
+      bottom: 80px;
+      left: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      display: none;
+      font-size: 16px;
+      background: var(--card-color);
+      color: var(--text-color);
+      width: 180px;
     }
   </style>
 </head>
-
 <body>
-  <input type="text" class="search-input" placeholder="搜索主播名称" />
-  <div class="grid" id="list">加载中...</div>
-  <div class="search-btn" id="searchToggle">🔍</div>
 
-  <script>
-    const JSON_URL = "https://raw.githubusercontent.com/fishdown/Icon/master/app/douyin.json";
+<input type="text" id="searchInput" placeholder="搜索主播名..." />
+<button id="searchBtn">🔍</button>
 
-    let allData = [];
+<script>
+  const jsonUrl = "https://raw.githubusercontent.com/fishdown/Ggsddu/master/Json/M3U8/douyin.json";
+  let originalList = [];
 
-    function renderList(data) {
-      const container = document.getElementById('list');
-      container.innerHTML = '';
+  function renderCards(list) {
+    document.body.querySelectorAll(".card").forEach(c => c.remove());
+    list.forEach(item => {
+      const card = document.createElement("div");
+      card.className = "card";
 
-      data.forEach(item => {
-        const card = document.createElement('div');
-        card.className = 'card';
-        card.innerHTML = `
-          <a href="${item.mediaUrl}" target="_blank">
-            <img src="${item.imgUrl}" alt="${item.name}" />
-            <div>${item.name}</div>
-          </a>
-        `;
-        container.appendChild(card);
-      });
-    }
+      const link = document.createElement("a");
+      link.href = item.mediaUrl;
+      link.target = "_blank";
 
-    fetch(JSON_URL)
-      .then(res => res.json())
-      .then(json => {
-        allData = json.data || [];
-        renderList(allData);
-      })
-      .catch(err => {
-        document.getElementById('list').innerHTML = '❌ 加载失败';
-        console.error(err);
-      });
+      const img = document.createElement("img");
+      img.src = item.imgUrl || "";
+      link.appendChild(img);
 
-    const searchBtn = document.getElementById('searchToggle');
-    const searchInput = document.querySelector('.search-input');
+      const name = document.createElement("div");
+      name.className = "name";
+      name.textContent = item.name || "未知主播";
 
-    searchBtn.addEventListener('click', () => {
-      const isVisible = searchInput.style.display === 'block';
-      searchInput.style.display = isVisible ? 'none' : 'block';
-      if (!isVisible) searchInput.focus();
+      card.appendChild(link);
+      card.appendChild(name);
+      document.body.appendChild(card);
+    });
+  }
+
+  fetch(jsonUrl)
+    .then(response => response.json())
+    .then(data => {
+      originalList = Array.isArray(data) ? data : (data.data || []);
+      renderCards(originalList);
+    })
+    .catch(err => {
+      console.error("❌ 加载 JSON 数据失败:", err);
+      const errorText = document.createElement("div");
+      errorText.textContent = "加载直播列表失败，请稍后再试。";
+      errorText.style.color = "red";
+      errorText.style.fontSize = "18px";
+      document.body.appendChild(errorText);
     });
 
-    searchInput.addEventListener('input', e => {
-      const keyword = e.target.value.trim().toLowerCase();
-      const filtered = allData.filter(item =>
-        item.name.toLowerCase().includes(keyword)
-      );
-      renderList(filtered);
-    });
-  </script>
+  const searchBtn = document.getElementById("searchBtn");
+  const searchInput = document.getElementById("searchInput");
+
+  searchBtn.addEventListener("click", () => {
+    searchInput.style.display = searchInput.style.display === "none" ? "block" : "none";
+    searchInput.focus();
+  });
+
+  searchInput.addEventListener("input", () => {
+    const keyword = searchInput.value.trim().toLowerCase();
+    const filtered = originalList.filter(item => item.name?.toLowerCase().includes(keyword));
+    renderCards(filtered);
+  });
+</script>
+
 </body>
-
-
 </html>
