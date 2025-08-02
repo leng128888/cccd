@@ -18,7 +18,7 @@
     }
 
     body {
-      padding-top: calc(60px + env(safe-area-inset-top)); /* 给固定搜索框腾出空间 */
+      padding-top: calc(60px + env(safe-area-inset-top));
     }
 
     /* 顶部固定搜索栏 */
@@ -28,12 +28,12 @@
       left: 0;
       right: 0;
       padding: 10px 12px;
-      background-color: #1e1e1e;
+      background-color: #121212; /* 与状态栏一致 */
       z-index: 1000;
       display: flex;
       align-items: center;
       gap: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+      border-bottom: 1px solid #333; /* 底部分隔线 */
     }
 
     .search-bar input {
@@ -42,7 +42,7 @@
       font-size: 16px;
       border-radius: 8px;
       border: 1px solid #444;
-      background-color: #333;
+      background-color: #1e1e1e;
       color: #fff;
       outline: none;
     }
@@ -56,7 +56,7 @@
       cursor: pointer;
     }
 
-    /* 网格布局 */
+    /* 内容区网格 */
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -93,7 +93,7 @@
 </head>
 <body>
 
-<!-- 搜索栏 -->
+<!-- 顶部搜索栏 -->
 <div class="search-bar">
   <input id="searchInput" type="text" placeholder="搜索主播" oninput="filterCards(this.value)" />
   <button onclick="focusSearch()"></button>
@@ -108,8 +108,8 @@ let allCards = [];
 
 function focusSearch() {
   const input = document.getElementById("searchInput");
-  input.focus(); // 手动聚焦
-  setTimeout(() => input.setSelectionRange(input.value.length, input.value.length), 50); // 兼容 iOS 弹出键盘
+  input.focus();
+  setTimeout(() => input.setSelectionRange(input.value.length, input.value.length), 50);
 }
 
 function renderCards(data) {
