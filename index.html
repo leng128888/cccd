@@ -2,82 +2,86 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>抖音直播列表</title>
+  <title>直播列表</title>
+
+  <!-- 全屏 WebApp 设置 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="直播列表">
+  <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/fishdown/Icon/master/app/dy180.png">
+
   <style>
     body {
-      font-family: "Arial", sans-serif;
-      background-color: #f5f5f5;
-      margin: 20px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-    }
-    .card {
-      width: 200px;
+      font-family: Arial, sans-serif;
       background-color: white;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      overflow: hidden;
+      color: black;
+      margin: 0;
+      padding: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #2196f3;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+      background-color: #f9f9f9;
       text-align: center;
-      transition: transform 0.2s ease;
     }
-    .card:hover {
-      transform: scale(1.05);
-    }
+
     .card img {
       width: 100%;
-      height: 120px;
-      object-fit: cover;
+      border-radius: 6px;
     }
-    .name {
-      padding: 10px;
-      font-size: 16px;
-      font-weight: bold;
-      color: #333;
-      word-break: break-all;
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+        color: #eee;
+      }
+
+      .card {
+        background-color: #1e1e1e;
+        border-color: #333;
+      }
+
+      a {
+        color: #90caf9;
+      }
     }
   </style>
 </head>
 <body>
+  <h1>抖音直播列表</h1>
+  <div id="list" class="grid"></div>
 
-<script>
-  const jsonUrl = "https://raw.githubusercontent.com/fishdown/Ggsddu/master/Json/M3U8/douyin.json";
-
-  fetch(jsonUrl)
-    .then(response => response.json())
-    .then(data => {
-      const list = data.data || [];
-      list.forEach(item => {
-        const card = document.createElement("div");
-        card.className = "card";
-
-        const link = document.createElement("a");
-        link.href = item.mediaUrl;
-        link.target = "_blank";
-
-        const img = document.createElement("img");
-        img.src = item.imgUrl || "";
-        link.appendChild(img);
-
-        const name = document.createElement("div");
-        name.className = "name";
-        name.textContent = item.name || "未知主播";
-
-        card.appendChild(link);
-        card.appendChild(name);
-        document.body.appendChild(card);
+  <script>
+    fetch('Json/M3U8/douyin.json')
+      .then(response => response.json())
+      .then(data => {
+        const list = document.getElementById('list');
+        data.forEach(item => {
+          const card = document.createElement('div');
+          card.className = 'card';
+          card.innerHTML = `
+            <a href="${item.mediaUrl}" target="_blank">
+              <img src="${item.imgUrl}" alt="${item.name}">
+              <div>${item.name}</div>
+            </a>
+          `;
+          list.appendChild(card);
+        });
       });
-    })
-    .catch(err => {
-      console.error("❌ 加载 JSON 数据失败:", err);
-      const errorText = document.createElement("div");
-      errorText.textContent = "加载直播列表失败，请稍后再试。";
-      errorText.style.color = "red";
-      errorText.style.fontSize = "18px";
-      document.body.appendChild(errorText);
-    });
-</script>
-
+  </script>
 </body>
 </html>
