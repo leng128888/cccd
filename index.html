@@ -2,102 +2,158 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <title>直播列表</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/fishdown/Icon/master/app/dy180.png">
+  <link rel="icon" href="https://raw.githubusercontent.com/fishdown/Icon/master/app/dy180.png">
+  <title>抖音直播列表</title>
   <style>
-    :root {
-      color-scheme: light dark;
-    }
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
       background-color: white;
       color: black;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       padding: 1rem;
+      transition: background 0.3s, color 0.3s;
     }
+
     @media (prefers-color-scheme: dark) {
       body {
         background-color: #111;
-        color: #eee;
+        color: white;
+      }
+      .card {
+        background-color: #1e1e1e;
       }
     }
-    h1 {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-    }
+
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
       gap: 1rem;
-      width: 100%;
-      max-width: 800px;
     }
+
     .card {
-      background: #f0f0f0;
-      border-radius: 10px;
+      border-radius: 12px;
       overflow: hidden;
+      background-color: #f0f0f0;
       text-align: center;
       transition: transform 0.2s;
     }
+
     .card:hover {
-      transform: scale(1.03);
+      transform: scale(1.05);
     }
+
     .card img {
       width: 100%;
-      height: auto;
-      display: block;
+      aspect-ratio: 1/1;
+      object-fit: cover;
     }
+
     .card div {
       padding: 0.5rem;
-      font-size: 0.9rem;
+      font-size: 14px;
+      font-weight: 500;
     }
-    a {
-      text-decoration: none;
-      color: inherit;
+
+    .search-btn {
+      position: fixed;
+      left: 1rem;
+      bottom: 1rem;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: #007aff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      z-index: 999;
     }
+
+    .search-input {
+      position: fixed;
+      left: 1rem;
+      bottom: 64px;
+      width: 80%;
+      max-width: 300px;
+      padding: 0.5rem;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      display: none;
+      background: white;
+      z-index: 999;
+    }
+
     @media (prefers-color-scheme: dark) {
-      .card {
+      .search-input {
         background: #222;
+        color: white;
+        border: 1px solid #555;
       }
     }
   </style>
 </head>
 <body>
-  <h1>抖音直播列表</h1>
+  <input type="text" class="search-input" placeholder="搜索主播名称" />
   <div class="grid" id="list">加载中...</div>
+  <div class="search-btn" id="searchToggle">🔍</div>
 
   <script>
-    fetch('./Json/M3U8/douyin.json')
-      .then(response => {
-        if (!response.ok) throw new Error(`HTTP error ${response.status}`);
-        return response.json();
-      })
-      .then(data => {
-        const container = document.getElementById('list');
-        container.innerHTML = '';
-        if (!Array.isArray(data)) throw new Error("数据格式应为数组");
+    const JSON_URL = "https://raw.githubusercontent.com/fishdown/Icon/main/app/douyin.json";
 
-        data.forEach(item => {
-          const card = document.createElement('div');
-          card.className = 'card';
-          card.innerHTML = `
-            <a href="${item.mediaUrl}" target="_blank">
-              <img src="${item.imgUrl}" alt="${item.name}" />
-              <div>${item.name}</div>
-            </a>
-          `;
-          container.appendChild(card);
-        });
+    let allData = [];
+
+    function renderList(data) {
+      const container = document.getElementById('list');
+      container.innerHTML = '';
+
+      data.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+          <a href="${item.mediaUrl}" target="_blank">
+            <img src="${item.imgUrl}" alt="${item.name}" />
+            <div>${item.name}</div>
+          </a>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    fetch(JSON_URL)
+      .then(res => res.json())
+      .then(json => {
+        allData = json.data || [];
+        renderList(allData);
       })
       .catch(err => {
-        console.error('❌ 加载失败', err);
-        document.getElementById('list').innerHTML = `<p style="color:red;">❌ 加载失败：${err.message}</p>`;
+        document.getElementById('list').innerHTML = '❌ 加载失败';
+        console.error(err);
       });
+
+    const searchBtn = document.getElementById('searchToggle');
+    const searchInput = document.querySelector('.search-input');
+
+    searchBtn.addEventListener('click', () => {
+      const isVisible = searchInput.style.display === 'block';
+      searchInput.style.display = isVisible ? 'none' : 'block';
+      if (!isVisible) searchInput.focus();
+    });
+
+    searchInput.addEventListener('input', e => {
+      const keyword = e.target.value.trim().toLowerCase();
+      const filtered = allData.filter(item =>
+        item.name.toLowerCase().includes(keyword)
+      );
+      renderList(filtered);
+    });
   </script>
 </body>
 </html>
