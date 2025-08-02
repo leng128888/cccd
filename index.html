@@ -1,164 +1,133 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>抖音直播列表</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/fishdown/Icon/master/app/dy180.png" />
-  <link rel="icon" href="https://raw.githubusercontent.com/fishdown/Icon/master/app/dy180.png" type="image/png" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <style>
-    :root {
-      --bg-color: #f5f5f5;
-      --card-color: white;
-      --text-color: #333;
-    }
-
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg-color: #121212;
-        --card-color: #1e1e1e;
-        --text-color: #f0f0f0;
-      }
-    }
-
     body {
+      margin: 0;
       font-family: "Arial", sans-serif;
-      background-color: var(--bg-color);
+      background-color: #f5f5f5;
+      padding: 0;
+    }
+    .header {
+      position: fixed;
+      top: env(safe-area-inset-top);
+      left: 0;
+      right: 0;
+      background-color: white;
+      z-index: 999;
+      padding: 10px 10px calc(env(safe-area-inset-top) + 10px);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .search-input {
+      flex: 1;
+      padding: 8px 12px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      outline: none;
+    }
+    .search-icon {
+      width: 24px;
+      height: 24px;
+      background: url('https://raw.githubusercontent.com/fishdown/Icon/master/app/dy180.png') no-repeat center/cover;
+      border-radius: 50%;
+    }
+    .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 20px;
-      padding: 20px;
-      transition: background-color 0.3s ease;
+      gap: 16px;
+      padding: 90px 16px 20px; /* 顶部预留搜索栏高度 */
     }
-
     .card {
-      background-color: var(--card-color);
+      background: white;
       border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
       overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
       text-align: center;
-      transition: transform 0.2s ease;
-      color: var(--text-color);
-      display: flex;
-      flex-direction: column;
+      transition: transform 0.2s;
     }
-
     .card:hover {
       transform: scale(1.05);
     }
-
     .card img {
       width: 100%;
       height: 120px;
       object-fit: cover;
     }
-
     .name {
       padding: 10px;
       font-size: 16px;
-      font-weight: bold;
+      color: #333;
       word-break: break-word;
-      flex-grow: 1;
     }
 
-    #searchBtn {
-      position: fixed;
-      bottom: 20px;
-      left: 20px;
-      background-color: #007aff;
-      color: white;
-      border: none;
-      border-radius: 50%;
-      width: 50px;
-      height: 50px;
-      font-size: 24px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-      cursor: pointer;
-      z-index: 999;
-    }
-
-    #searchInput {
-      position: fixed;
-      bottom: 80px;
-      left: 20px;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      display: none;
-      font-size: 16px;
-      background: var(--card-color);
-      color: var(--text-color);
-      width: 180px;
+    @media (max-width: 600px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
   </style>
 </head>
 <body>
 
-<input type="text" id="searchInput" placeholder="搜索主播名..." />
-<button id="searchBtn">🔍</button>
+<div class="header">
+  <div class="search-icon"></div>
+  <input class="search-input" type="text" placeholder="搜索主播" oninput="filterCards(this.value)">
+</div>
+
+<div class="grid" id="grid"></div>
 
 <script>
-  const jsonUrl = "https://raw.githubusercontent.com/fishdown/Ggsddu/master/Json/M3U8/douyin.json";
-  let originalList = [];
+const jsonUrl = "https://raw.githubusercontent.com/fishdown/Ggsddu/master/Json/M3U8/douyin.json";
 
-  function renderCards(list) {
-    document.querySelectorAll(".card").forEach(c => c.remove());
-    list.forEach(item => {
-      const card = document.createElement("div");
-      card.className = "card";
-
-      const link = document.createElement("a");
-      link.href = item.mediaUrl;
-      link.target = "_blank";
-
-      const img = document.createElement("img");
-      img.src = item.imgUrl || "";
-      link.appendChild(img);
-
-      const name = document.createElement("div");
-      name.className = "name";
-      name.textContent = item.name || "未知主播";
-
-      card.appendChild(link);
-      card.appendChild(name);
-      document.body.appendChild(card);
-    });
-  }
-
-  fetch(jsonUrl)
-    .then(response => response.json())
-    .then(data => {
-      originalList = Array.isArray(data) ? data : (data.data || []);
-      renderCards(originalList);
-    })
-    .catch(err => {
-      console.error("❌ 加载 JSON 数据失败:", err);
-      const errorText = document.createElement("div");
-      errorText.textContent = "加载直播列表失败，请稍后再试。";
-      errorText.style.color = "red";
-      errorText.style.fontSize = "18px";
-      document.body.appendChild(errorText);
-    });
-
-  const searchBtn = document.getElementById("searchBtn");
-  const searchInput = document.getElementById("searchInput");
-
-  searchBtn.addEventListener("click", () => {
-    searchInput.style.display = searchInput.style.display === "none" ? "block" : "none";
-    searchInput.focus();
+fetch(jsonUrl)
+  .then(res => res.json())
+  .then(data => {
+    const list = data.data || [];
+    window.allCards = list;
+    renderCards(list);
+  })
+  .catch(err => {
+    const grid = document.getElementById("grid");
+    grid.innerHTML = `<div style="color:red;font-size:18px;">加载直播列表失败，请稍后再试。</div>`;
+    console.error("加载失败", err);
   });
 
-  searchInput.addEventListener("input", () => {
-    const keyword = searchInput.value.trim().toLowerCase();
-    const filtered = originalList.filter(item => item.name?.toLowerCase().includes(keyword));
-    renderCards(filtered);
+function renderCards(data) {
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
+  data.forEach(item => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <a href="${item.mediaUrl}" target="_blank">
+        <img src="${item.imgUrl}" alt="${item.name}">
+      </a>
+      <div class="name">${item.name}</div>
+    `;
+    grid.appendChild(card);
   });
+}
+
+function filterCards(keyword) {
+  const filtered = window.allCards.filter(item =>
+    item.name.toLowerCase().includes(keyword.trim().toLowerCase())
+  );
+  renderCards(filtered);
+}
+
+// 防止键盘遮住搜索框（部分安卓机有效）
+document.querySelector('.search-input').addEventListener('focus', () => {
+  setTimeout(() => {
+    document.querySelector('.search-input').scrollIntoView({behavior: 'smooth'});
+  }, 300);
+});
 </script>
 
 </body>
