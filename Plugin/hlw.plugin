@@ -1,0 +1,19 @@
+#!name = 黑料网🔞
+#!desc = 精简去广告，监控hostname，定时脚本为作者本地更新插件使用，不必理会
+#!openUrl = https://155.fun
+#!homepage=
+#!author= fishdown
+#!icon = https://raw.githubusercontent.com/fishdown/Icon/master/app/hlw.png
+#!tag = 18
+#!date = 2025-08-02 21:08
+
+[Argument]
+open= switch,false,tag=脚本开关,desc=默认开启
+cronno = input,"0 */4 * * *",tag=Cron,desc=cron表达式
+
+[MitM]
+hostname = zmbpv.bzudywln.top,94lzp.bxqfgvhi.cc,upu62.cc,d3r0i8zew7iz7c.cloudfront.net,18hlw.com
+
+[Script]
+cron {cronno} script-path=18-hlw.js, timeout=60, img-url=https://raw.githubusercontent.com/fishdown/Icon/master/app/hlw.png,enable={open}, tag=刷新插件
+http-response ^https?:\/\/(?:zmbpv\.bzudywln\.top|94lzp\.bxqfgvhi\.cc|upu62\.cc|d3r0i8zew7iz7c\.cloudfront\.net|18hlw\.com).* script-path=18-hlw.js, requires-body=true, timeout=60, img-url=https://raw.githubusercontent.com/fishdown/Icon/master/app/hlw.png, tag=黑料去广告
