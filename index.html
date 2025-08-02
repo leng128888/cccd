@@ -8,11 +8,13 @@
     :root {
       color-scheme: dark;
     }
-    body {
+    html, body {
       margin: 0;
+      padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
       background-color: #121212;
       color: #ffffff;
+      height: 100%;
     }
     .grid {
       display: grid;
@@ -38,7 +40,6 @@
       color: #eee;
     }
 
-    /* 搜索按钮 */
     .search-btn {
       position: fixed;
       bottom: 20px;
@@ -53,12 +54,11 @@
       cursor: pointer;
     }
 
-    /* 搜索框弹出层 */
     .search-popup {
       position: fixed;
       left: 10px;
       right: 10px;
-      bottom: env(safe-area-inset-bottom);
+      bottom: calc(env(safe-area-inset-bottom) + 10px);
       background: #1e1e1e;
       padding: 10px;
       border-radius: 16px;
@@ -88,12 +88,10 @@
 
 <div class="grid" id="grid"></div>
 
-<!-- 搜索按钮 -->
 <div class="search-btn" onclick="toggleSearch()"></div>
 
-<!-- 搜索弹窗 -->
 <div class="search-popup" id="searchPopup">
-  <input type="text" placeholder="搜索主播" oninput="filterCards(this.value)" autofocus />
+  <input id="searchInput" type="text" placeholder="搜索主播" oninput="filterCards(this.value)" />
 </div>
 
 <script>
@@ -102,10 +100,14 @@ let allCards = [];
 
 function toggleSearch() {
   const popup = document.getElementById("searchPopup");
-  popup.style.display = popup.style.display === "block" ? "none" : "block";
-  if (popup.style.display === "block") {
+  const input = document.getElementById("searchInput");
+
+  const isVisible = popup.style.display === "block";
+  popup.style.display = isVisible ? "none" : "block";
+
+  if (!isVisible) {
     setTimeout(() => {
-      popup.querySelector("input").focus();
+      input.focus(); // 强制聚焦
     }, 100);
   }
 }
