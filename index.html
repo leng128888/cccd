@@ -27,16 +27,14 @@
     body {
       font-family: "Arial", sans-serif;
       background-color: var(--bg-color);
-      margin: 20px;
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
       gap: 20px;
-      justify-content: center;
+      padding: 20px;
       transition: background-color 0.3s ease;
     }
 
     .card {
-      width: 200px;
       background-color: var(--card-color);
       border-radius: 12px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -44,6 +42,8 @@
       text-align: center;
       transition: transform 0.2s ease;
       color: var(--text-color);
+      display: flex;
+      flex-direction: column;
     }
 
     .card:hover {
@@ -61,6 +61,7 @@
       font-size: 16px;
       font-weight: bold;
       word-break: break-word;
+      flex-grow: 1;
     }
 
     #searchBtn {
@@ -107,7 +108,7 @@
   let originalList = [];
 
   function renderCards(list) {
-    document.body.querySelectorAll(".card").forEach(c => c.remove());
+    document.querySelectorAll(".card").forEach(c => c.remove());
     list.forEach(item => {
       const card = document.createElement("div");
       card.className = "card";
