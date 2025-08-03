@@ -10,31 +10,31 @@
   <link rel="icon" href="https://raw.githubusercontent.com/fishdown/Icon/master/app/dy180.png" type="image/png" />
   <style>
     :root {
-      color-scheme: dark;
+      color-scheme: light dark;
     }
+
     html, body {
       margin: 0;
       padding: 0;
-      background-color: #121212;
-      color: #ffffff;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
       min-height: 100vh;
       height: 100%;
+      background-color: #ffffff;
+      color: #000000;
     }
 
-    /* 顶部固定搜索栏 */
     .search-bar {
       position: fixed;
       top: 0;
       left: 0;
       right: 0;
       padding: calc(env(safe-area-inset-top) + 10px) 12px 10px;
-      background-color: #121212; /* 不透明背景色，避免镂空 */
+      background-color: #f2f2f2;
       z-index: 1000;
       display: flex;
       align-items: center;
       gap: 10px;
-      border-bottom: 1px solid #333; /* 底部分隔线 */
+      border-bottom: 1px solid #ccc;
       box-sizing: border-box;
     }
 
@@ -43,9 +43,9 @@
       padding: 10px 14px;
       font-size: 16px;
       border-radius: 8px;
-      border: 1px solid #444;
-      background-color: #1e1e1e;
-      color: #fff;
+      border: 1px solid #aaa;
+      background-color: #ffffff;
+      color: #000;
       outline: none;
     }
 
@@ -58,20 +58,18 @@
       cursor: pointer;
     }
 
-    /* 内容区网格 */
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
       gap: 12px;
       padding: calc(60px + env(safe-area-inset-top)) 12px 12px;
-      /* padding-top 保留顶部搜索栏空间 */
     }
 
     .card {
-      background: #1e1e1e;
+      background: #fafafa;
       border-radius: 12px;
       overflow: hidden;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       text-align: center;
     }
 
@@ -84,8 +82,35 @@
     .name {
       padding: 10px;
       font-size: 15px;
-      color: #eee;
+      color: #333;
       word-break: break-word;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      html, body {
+        background-color: #121212;
+        color: #ffffff;
+      }
+
+      .search-bar {
+        background-color: #121212;
+        border-bottom: 1px solid #333;
+      }
+
+      .search-bar input {
+        background-color: #1e1e1e;
+        color: #fff;
+        border: 1px solid #444;
+      }
+
+      .card {
+        background: #1e1e1e;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+      }
+
+      .name {
+        color: #eee;
+      }
     }
 
     @media (max-width: 600px) {
@@ -148,4 +173,3 @@ fetch(jsonUrl)
 
 </body>
 </html>
-
