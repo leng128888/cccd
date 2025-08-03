@@ -12,17 +12,14 @@
     :root {
       color-scheme: light dark;
     }
-
     html, body {
       margin: 0;
       padding: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-      min-height: 100vh;
-      height: 100%;
       background-color: #ffffff;
       color: #000000;
+      min-height: 100vh;
     }
-
     .search-bar {
       position: fixed;
       top: 0;
@@ -37,18 +34,16 @@
       border-bottom: 1px solid #ccc;
       box-sizing: border-box;
     }
-
     .search-bar input {
       flex: 1;
       padding: 10px 14px;
       font-size: 16px;
       border-radius: 8px;
       border: 1px solid #aaa;
-      background-color: #ffffff;
+      background-color: #fff;
       color: #000;
       outline: none;
     }
-
     .search-bar button {
       width: 36px;
       height: 36px;
@@ -57,28 +52,25 @@
       background: url('https://raw.githubusercontent.com/fishdown/Icon/master/app/dy180.png') no-repeat center/cover;
       cursor: pointer;
     }
-
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
       gap: 12px;
       padding: calc(60px + env(safe-area-inset-top)) 12px 12px;
     }
-
     .card {
       background: #fafafa;
       border-radius: 12px;
       overflow: hidden;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       text-align: center;
+      cursor: pointer;
     }
-
     .card img {
       width: 100%;
       height: 120px;
       object-fit: cover;
     }
-
     .name {
       padding: 10px;
       font-size: 15px;
@@ -86,28 +78,98 @@
       word-break: break-word;
     }
 
+    /* 视频播放器容器 */
+    .video-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #000;
+      z-index: 2000;
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: env(safe-area-inset-top);
+    }
+
+    .video-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+      height: 56.25vw; /* 16:9 高度 */
+      max-height: 60vh;
+    }
+
+    .video-wrapper video {
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+    }
+
+    /* 控制按钮样式 */
+    .video-controls {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      z-index: 1;
+      display: flex;
+      gap: 8px;
+    }
+
+    .video-controls button {
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 4px 8px;
+      cursor: pointer;
+    }
+
+    .video-full {
+      position: absolute;
+      bottom: 8px;
+      left: 8px;
+    }
+
+    .video-small {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+    }
+
+    .floating {
+      width: 240px;
+      height: 135px;
+      bottom: 12px;
+      right: 12px;
+      top: auto;
+      left: auto;
+      max-height: none;
+      max-width: none;
+      position: fixed;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+      z-index: 3000;
+    }
+
     @media (prefers-color-scheme: dark) {
       html, body {
         background-color: #121212;
         color: #ffffff;
       }
-
       .search-bar {
         background-color: #121212;
         border-bottom: 1px solid #333;
       }
-
       .search-bar input {
         background-color: #1e1e1e;
         color: #fff;
         border: 1px solid #444;
       }
-
       .card {
         background: #1e1e1e;
         box-shadow: 0 2px 6px rgba(0,0,0,0.4);
       }
-
       .name {
         color: #eee;
       }
@@ -128,6 +190,22 @@
   <button onclick="location.reload()" title="刷新页面"></button>
 </div>
 
+<!-- 视频播放器 -->
+<div class="video-overlay" id="videoOverlay">
+  <div class="video-wrapper" id="videoWrapper">
+    <div class="video-controls">
+      <button onclick="closeVideo()">❌</button>
+    </div>
+    <div class="video-small">
+      <button onclick="floatVideo()">🗗</button>
+    </div>
+    <div class="video-full">
+      <button onclick="fullscreenVideo()">⛶</button>
+    </div>
+    <video id="videoPlayer" controls autoplay></video>
+  </div>
+</div>
+
 <!-- 内容列表 -->
 <div class="grid" id="grid"></div>
 
@@ -142,11 +220,10 @@ function renderCards(data) {
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `
-      <a href="${item.mediaUrl}" target="_blank" rel="noopener noreferrer">
-        <img src="${item.imgUrl}" alt="${item.name}">
-      </a>
+      <img src="${item.imgUrl}" alt="${item.name}">
       <div class="name">${item.name}</div>
     `;
+    card.addEventListener("click", () => playVideo(item.mediaUrl));
     grid.appendChild(card);
   });
 }
@@ -156,6 +233,38 @@ function filterCards(keyword) {
     item.name.toLowerCase().includes(keyword.trim().toLowerCase())
   );
   renderCards(filtered);
+}
+
+function playVideo(url) {
+  const overlay = document.getElementById("videoOverlay");
+  const player = document.getElementById("videoPlayer");
+  const wrapper = document.getElementById("videoWrapper");
+
+  wrapper.classList.remove("floating");
+  player.src = url;
+  overlay.style.display = "flex";
+}
+
+function closeVideo() {
+  const overlay = document.getElementById("videoOverlay");
+  const player = document.getElementById("videoPlayer");
+  overlay.style.display = "none";
+  player.pause();
+  player.src = "";
+}
+
+function fullscreenVideo() {
+  const player = document.getElementById("videoPlayer");
+  if (player.requestFullscreen) {
+    player.requestFullscreen();
+  } else if (player.webkitRequestFullscreen) {
+    player.webkitRequestFullscreen();
+  }
+}
+
+function floatVideo() {
+  const wrapper = document.getElementById("videoWrapper");
+  wrapper.classList.add("floating");
 }
 
 fetch(jsonUrl)
