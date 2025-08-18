@@ -32,7 +32,7 @@
             ]
         },
         {
-            "id": "fuyouhui135",
+            "id": "fuyouhui",
             "name": "复游会135",
             "keys": [
                 "ThomasCook_Cookie"
@@ -58,7 +58,7 @@
             ]
         },
         {
-            "id": "fuyouhui175",
+            "id": "fuyouhui",
             "name": "复游会175",
             "keys": [
                 "ThomasCook_Cookie1"
@@ -82,7 +82,32 @@
                 "https://raw.githubusercontent.com/fishdown/Icon/master/app/fuyouhui.png",
                 "https://raw.githubusercontent.com/fishdown/Icon/master/app/fuyouhui.png"
             ]
+        },
+        {
+            "id": "wps",
+            "name": "WPS",
+            "keys": [
+                "wps_pc_val"
+            ],
+            "descs_html": [],
+            "settings": [
+                {
+                    "id": "wps_pc_val",
+                    "name": "wps_pc_val",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 6,
+                    "desc": ""
+                }
+            ],
+            "author": "",
+            "repo": "",
+            "script": "",
+            "icons": [
+                "https://raw.githubusercontent.com/fishdown/Icon/master/app/wps.png",
+                "https://raw.githubusercontent.com/fishdown/Icon/master/app/wps.png"
+            ]
         }
     ]
 }
-
