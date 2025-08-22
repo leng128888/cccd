@@ -108,6 +108,32 @@
                 "https://raw.githubusercontent.com/fishdown/Icon/master/app/wps.png",
                 "https://raw.githubusercontent.com/fishdown/Icon/master/app/wps.png"
             ]
+        },
+        {
+            "id": "jdbj",
+            "name": "京东比价",
+            "keys": [
+                "manmanbuy_val"
+            ],
+            "descs_html": [],
+            "settings": [
+                {
+                    "id": "manmanbuy_val",
+                    "name": "manmanbuy_val",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 6,
+                    "desc": ""
+                }
+            ],
+            "author": "",
+            "repo": "",
+            "script": "",
+            "icons": [
+                "https://raw.githubusercontent.com/fishdown/Icon/master/app/jd.png",
+                "https://raw.githubusercontent.com/fishdown/Icon/master/app/jd.png"
+            ]
         }
     ]
 }
