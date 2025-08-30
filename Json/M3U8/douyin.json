@@ -1,778 +1,664 @@
 {
   "data": [
     {
+      "name": "叫我毛子",
+      "id": "802244732454",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/7df9f420ad06152daa0a95e5ea5b5ac7~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715025CF3FF39F4D003EE840C&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137302&x-signature=UeIe13UJh6jjkQpnh7Yt7X5pyZQ%3D",
+      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-117879646577491998_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-202508301715025CF3FF39F4D003EE840C-1xaHwI&wsSecret=ad7c9004fdff9425aaccd5cfc95d8882&wsTime=68b2c116"
+    },
+    {
       "name": "小乖日记",
       "id": "291606799742",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/c7c00ae36cfacaad0f3bc17fa0f0e4aa~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161504D3C2439AFF70CE552A8A&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133704&x-signature=Ohtk9R%2BYiz9WUNHNPqT3Y3kOhPY%3D",
-      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-117879075276324894_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830161504D3C2439AFF70CE552A8A-wsc0b1&wsSecret=315bcf29e85eac319103247bbb537676&wsTime=68b2b308"
-    },
-    {
-      "name": "甜奈",
-      "id": "456066026839",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/d2985e565f55c5a7e6fc0955edb6499b~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161506CCC010B041F2C3A9BA3F&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133707&x-signature=Qd4zVbvGxcSxzczVZ%2BgP13VfDtg%3D",
-      "mediaUrl": "http://pull-hls-f1.douyincdn.com/thirdgame/stream-406109289962799882_expuhd/playlist.m3u8?arch_hrchy=h1&exp_hrchy=h1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830161506CCC010B041F2C3A9BA3F-lL9dX6&wsSecret=cdf49c8e09b29eabde8cb030a0c16cb1&wsTime=68b2b30b"
-    },
-    {
-      "name": "LM-温柔乡",
-      "id": "429539111781",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/546c4263b5f846489a77b8a24ecfb896~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016150607144AA3A499CF35AC6B&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133707&x-signature=3TNSVhfGjeY1Gm9q2c%2FdFU1Rnf8%3D",
-      "mediaUrl": "http://pull-hls-l11.douyincdn.com/third/stream-694339956696416732_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146507&major_anchor_level=common&sign=d92295cc7c1667282a3eb3f8d7da2699&t_id=037-2025083016150607144AA3A499CF35AC6B-5j2Hy2"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/c7c00ae36cfacaad0f3bc17fa0f0e4aa~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171503660D4F057C18BB7585A6&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137303&x-signature=PkQ1EprgG3XbUJd61vuTioXZlbU%3D",
+      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-117879075276324894_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830171503660D4F057C18BB7585A6-fjJqgs&wsSecret=ad12c89d34ba25d843b3eb3505204bd4&wsTime=68b2c117"
     },
     {
       "name": "小羊快跑",
       "id": "615870532143",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/f5b37049ba8521aca9b6b13616418a5b~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161507BCF6A8E98E785F3375DC&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133707&x-signature=CU93%2BjDP9S7bjmoP2Hhec4GsJeo%3D",
-      "mediaUrl": "http://pull-hls-l11.douyincdn.com/third/stream-406108623911518684_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146507&major_anchor_level=common&sign=2590bdf10b8665a0c94845b3d379c63d&t_id=037-20250830161507BCF6A8E98E785F3375DC-N4t0hO"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/f5b37049ba8521aca9b6b13616418a5b~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715060FF51E8AD8C535B6A3AB&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137306&x-signature=6acW8vxmrsL1ae6OCS8FXtsQrJI%3D",
+      "mediaUrl": "http://pull-hls-l11.douyincdn.com/third/stream-406108623911518684_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150106&major_anchor_level=common&sign=2c0b6a19561011e5d5e4885599c14b7a&t_id=037-202508301715060FF51E8AD8C535B6A3AB-CmbJim"
     },
     {
       "name": "阿拉飛",
       "id": "990644519478",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7241896173018090297~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161507D9BDB955BCBF8B9D3D3D&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133707&x-signature=UY5NpeF5hF0E0Fm1s7PysqKLjoE%3D",
-      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/thirdgame/stream-117879364578444042_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146507&major_anchor_level=common&sign=4d0e91fed15f269922ae149bc0a8208d&t_id=037-20250830161507D9BDB955BCBF8B9D3D3D-ahGoHC&volcSecret=4d0e91fed15f269922ae149bc0a8208d&volcTime=1757146507"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7241896173018090297~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715062E7F776C6FDC94E02B5B&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137306&x-signature=NmAgRUAES4wjAJAOf7R0K8AVroo%3D",
+      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/thirdgame/stream-117879364578444042_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150106&major_anchor_level=common&sign=f1314a600ea5cdd3842ce08eff347cfe&t_id=037-202508301715062E7F776C6FDC94E02B5B-K5rXu3&volcSecret=f1314a600ea5cdd3842ce08eff347cfe&volcTime=1757150106"
+    },
+    {
+      "name": "叮当",
+      "id": "59884250252",
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/51af33969eb283dd92d60813e29414a3.jpg~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017150650CC9BFE3B1C4A8CFF3C&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137306&x-signature=okU%2FPCYwfgqZHY98YQSRmNcHCMw%3D",
+      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/thirdgame/stream-406109963941839626_expuhd/index.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757150106&major_anchor_level=common&sign=dbc67e3dea875c379c6cf6bc419334fd&t_id=037-2025083017150650CC9BFE3B1C4A8CFF3C-iDztpW&volcSecret=dbc67e3dea875c379c6cf6bc419334fd&volcTime=1757150106"
     },
     {
       "name": "林月汐🌙",
       "id": "504060599080",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/93662419b0f7f3f9fa769fc4afa3e7df~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301615096B32754D916D1854EDFB&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133709&x-signature=SKsEZr7PtGbcYIPWI%2B2HMvY8Yls%3D",
-      "mediaUrl": "http://pull-hls-t13.douyincdn.com/stage/stream-694339897305858871_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146509&major_anchor_level=common&sign=fa1a0f7f97bcf57743cd36041a2ff5e9&t_id=037-202508301615096B32754D916D1854EDFB-cGYvup"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/93662419b0f7f3f9fa769fc4afa3e7df~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715086F30A89C6E38CF655B7A&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137308&x-signature=%2Fv1QCobzyf%2BVyHFo8DIvfhmeX8s%3D",
+      "mediaUrl": "http://pull-hls-t13.douyincdn.com/stage/stream-694339897305858871_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150108&major_anchor_level=common&sign=1f52f68341ca141ce7c586205d114a32&t_id=037-202508301715086F30A89C6E38CF655B7A-qs9xXT"
     },
     {
       "name": "米粥77💃（合播版）",
       "id": "995674269333",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/4d829758b4d284f40855393b17a3be77~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161510531091D2A5124FD7125C&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133710&x-signature=SqjXqD34EV%2BAObJVmdwjLIhHORM%3D",
-      "mediaUrl": "http://pull-hls-l11.douyincdn.com/third/stream-117879432627880412_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146510&major_anchor_level=common&sign=deaa9c93501684f5592555fe9a159eb0&t_id=037-20250830161510531091D2A5124FD7125C-PMiZCe"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/4d829758b4d284f40855393b17a3be77~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171508EB424363A1E964554E9D&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137308&x-signature=C2A2kV%2FvlLv6dWVZTRsaPVdBKSU%3D",
+      "mediaUrl": "http://pull-hls-l11.douyincdn.com/third/stream-117879432627880412_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150108&major_anchor_level=common&sign=ff7b1166cc6704f5a3ee057d10cd838e&t_id=037-20250830171508EB424363A1E964554E9D-3Qzqkw"
     },
     {
       "name": "小葵🌻（8.29舞台赛版）",
       "id": "157119182068",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/17ed017c5e7cc6e2c2e229091b5e6e7e~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161512C1C41BB4D822433F2719&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133712&x-signature=yGjLlAwCCWqnSWpP38C2v4X%2B7FA%3D",
-      "mediaUrl": "http://pull-hls-t1.douyincdn.com/third/stream-117879511950295866_uhd/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830161512C1C41BB4D822433F2719-QBefX3&wsSecret=10454b02cb930872e09934184f3dc1f0&wsTime=68b2b310"
-    },
-    {
-      "name": "李李167🍑",
-      "id": "962984292446",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7532730254180535091~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161514EB86B817AE9F7E5EF46B&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133714&x-signature=YXdMtRjBzvxwHY%2BSEobsLEukXDM%3D",
-      "mediaUrl": "http://pull-l3.douyincdn.com/stage/stream-406109838641463378_or4.m3u8?arch_hrchy=w1&auth_key=1757144714-0-0-50f236bb20ba9467ec6d9440f6f6ae50&exp_hrchy=w1&major_anchor_level=common&t_id=037-20250830161514EB86B817AE9F7E5EF46B-IXwlMK"
-    },
-    {
-      "name": "柚子ᐇ(养分版)",
-      "id": "940194641899",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/aa79f6740548d2f0d54a029801a1748c.jpg~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161514481FF84EE7F9BB7ADF6D&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133714&x-signature=fgSQoWzb89x5mRxDh4o3wjfGYTc%3D",
-      "mediaUrl": "http://pull-hls-l13.douyincdn.com/third/stream-406109273319015187_uhd.m3u8?arch_hrchy=c1&exp_hrchy=w1&expire=1757146514&major_anchor_level=common&sign=11636b0e71bb0a7617e81c0757525563&t_id=037-20250830161514481FF84EE7F9BB7ADF6D-AFAVtU"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/17ed017c5e7cc6e2c2e229091b5e6e7e~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017151001ABDA88745EDE29BA08&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137310&x-signature=h0SN8xrzp0VD2BVQNGQY02CUZTU%3D",
+      "mediaUrl": "http://pull-t5.douyincdn.com/third/stream-117879511950295866_uhd/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150110&major_anchor_level=common&sign=ce69030706b53a9ee636a384b4d12faf&t_id=037-2025083017151001ABDA88745EDE29BA08-YacsFe&volcSecret=ce69030706b53a9ee636a384b4d12faf&volcTime=1757150110"
     },
     {
       "name": "啊喵",
       "id": "189865092569",
-      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/douyin-user-image-file_35dd6de3cdf4b4429b1d9aadf1c6deb0~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161514862A088444445BC9C4F1&s=enter_room&sc=webcast_cover",
-      "mediaUrl": "http://pull-hls-l1.douyincdn.com/radio/stream-117879032737169442_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830161514862A088444445BC9C4F1-LdEqxJ&wsSecret=9605c7058dbed7cb8a78bbf1461527ba&wsTime=68b2b312"
+      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/douyin-user-image-file_35dd6de3cdf4b4429b1d9aadf1c6deb0~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171511AD722C748C5BED4274E1&s=enter_room&sc=webcast_cover",
+      "mediaUrl": "http://pull-hls-l1.douyincdn.com/radio/stream-117879032737169442_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830171511AD722C748C5BED4274E1-UcywT0&wsSecret=38f39fb4982edd8a010a8d986baedc8a&wsTime=68b2c11f"
+    },
+    {
+      "name": "李李167🍑",
+      "id": "962984292446",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7532730254180535091~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171512703DB0B41A907C69D7E4&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137312&x-signature=C3ec1FIt24tl%2FB201fTqXOaPGWI%3D",
+      "mediaUrl": "http://pull-l3.douyincdn.com/stage/stream-406109838641463378_or4.m3u8?arch_hrchy=w1&auth_key=1757148312-0-0-bd43e564d8d0d62400920f15bf2759e6&exp_hrchy=w1&major_anchor_level=common&t_id=037-20250830171512703DB0B41A907C69D7E4-Jptx7r"
     },
     {
       "name": "sweet丸子",
       "id": "477058382053",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/f840d45c48965174ac0be5d5d6c58a86~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301615167772F146F1D4BC77C3CC&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133716&x-signature=F%2Fh9SNwL%2FbIZGMSvorxkRJIUmQQ%3D",
-      "mediaUrl": "http://pull-hls-t95.douyincdn.com/stage/stream-117879274320167735_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146516&major_anchor_level=common&sign=65309fb5dccf93607c96f2ca6f02257c&t_id=037-202508301615167772F146F1D4BC77C3CC-dvTK1z"
-    },
-    {
-      "name": "是小Y",
-      "id": "718942355205",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7542649369340283667~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161517F7C3E72FA07BDB99D075&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133717&x-signature=xBM0S3kMXNK%2Flqg5Y9%2B6%2FJR1HI0%3D",
-      "mediaUrl": "http://pull-hls-t11.douyincdn.com/stage/stream-694340125269951287_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146517&major_anchor_level=common&sign=85c09e0a778324aa0f966e04cda7567a&t_id=037-20250830161517F7C3E72FA07BDB99D075-6ZgqNE"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/f840d45c48965174ac0be5d5d6c58a86~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017151452D9831BD48B3F9D1C7E&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137314&x-signature=ZDGBsErqIVH2ajr%2BMEi5xshHaqQ%3D",
+      "mediaUrl": "http://pull-hls-t95.douyincdn.com/stage/stream-117879274320167735_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150114&major_anchor_level=common&sign=93944979f10a707bec15f0db56865880&t_id=037-2025083017151452D9831BD48B3F9D1C7E-z6P9CA"
     },
     {
       "name": "就这🐰（求打服）",
       "id": "491019504454",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7455974191817329446~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016151792BC6C5F51B03C89433B&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133717&x-signature=aXqJ3DQM5CGeX%2FtUpqA7qzsbRWE%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-406109618390433931_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=68bbed95&major_anchor_level=common&sign=a2d3a072333f69a3f743fc8abb81cb4a&t_id=037-2025083016151792BC6C5F51B03C89433B-4F9czj"
-    },
-    {
-      "name": "大话西游2静文艺",
-      "id": "374395389223",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7403940591815887667~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161517A3FF1C3694B30EC8AB38&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133717&x-signature=BeUb6wy8InvU%2Bff7Rfd8TrnVAe4%3D",
-      "mediaUrl": "http://pull-hls-f11.douyincdn.com/thirdgame/stream-406109104406004490_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146517&major_anchor_level=common&sign=5e1d99119eb440f927cc4fdad9b5c7e4&t_id=037-20250830161517A3FF1C3694B30EC8AB38-MroEaV"
-    },
-    {
-      "name": "PP姐",
-      "id": "960908193810",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7392490414194068261~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016151788415947FC01C78A40C1&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133717&x-signature=OjvOGRuUKULLM0DLfhYn82mxpP8%3D",
-      "mediaUrl": "http://pull-hls-t13.douyincdn.com/stage/stream-406109392574087991_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757146517&major_anchor_level=common&sign=4a59b7f5bad7d558023dc55d32d9a7b4&t_id=037-2025083016151788415947FC01C78A40C1-V59YJ8"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7455974191817329446~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715156A8D2AB4E79F50C1DFA4&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137315&x-signature=lkdukEBuU36DhXCGPzErTrEWCpw%3D",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-406109618390433931_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=68bbfba3&major_anchor_level=common&sign=961ef3e454f2da88053f4b0778a0a0b9&t_id=037-202508301715156A8D2AB4E79F50C1DFA4-q1C0Is"
     },
     {
       "name": "阮软🐰ིྀ",
       "id": "238766263091",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7501917728043780890~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161518CEC6937B6D9576DB034E&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133718&x-signature=Jqr3Mkdzcck1Zl%2BB%2Fz%2B1xgTvywU%3D",
-      "mediaUrl": "http://pull-hls-l1.douyincdn.com/third/stream-117879023870672934_uhd/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830161518CEC6937B6D9576DB034E-C8OpZZ&wsSecret=f51cda13b447ad6559ee68861880cfec&wsTime=68b2b316"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7501917728043780890~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017151552D9831BD48B3F9D1CDA&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137315&x-signature=oJrcuZABi8Exd5b4WpZmGUaJpxM%3D",
+      "mediaUrl": "http://pull-hls-l1.douyincdn.com/third/stream-117879023870672934_uhd/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-2025083017151552D9831BD48B3F9D1CDA-4SkJ7V&wsSecret=6b0841a881a9c30bc23ea2b324f9666c&wsTime=68b2c123"
     },
     {
-      "name": "頑酷游戏",
-      "id": "202950167463",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/e3eda66b5f43c320e0eb423095ab7d4e~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016151831CDBDEDDAD54E7B93A9&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133718&x-signature=AOloAYZmIYt0CgqV%2BiFPCUxSMhY%3D",
-      "mediaUrl": "http://pull-hls-f11.douyincdn.com/thirdgame/stream-406109712010445578_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146518&major_anchor_level=common&sign=d3becffca0e2a9f665de421a0aeff1ab&t_id=037-2025083016151831CDBDEDDAD54E7B93A9-VXEI45"
+      "name": "大话西游2静文艺",
+      "id": "374395389223",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7403940591815887667~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171515E25EFA6FF515B123623E&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137315&x-signature=4mK3ztmBuGi5qOH9ctdZKjAHwXs%3D",
+      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/thirdgame/stream-406109104406004490_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150115&major_anchor_level=common&sign=78e2d62d513e3929bd8949912bbe0646&t_id=037-20250830171515E25EFA6FF515B123623E-P95EUS&volcSecret=78e2d62d513e3929bd8949912bbe0646&volcTime=1757150115"
     },
     {
       "name": "炸毛小火豚",
       "id": "163910155463",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/86039611d2646f3acc7c0b4823c7ed9c~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161518703CFC12933AC35FF225&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133718&x-signature=rBKO352qU%2Bab5CLs%2FKGULn0csVE%3D",
-      "mediaUrl": "http://pull-hls-l11.douyincdn.com/stage/stream-406109711875440785_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146518&major_anchor_level=common&sign=04230b9918d2a63c0e131a1411453379&t_id=037-20250830161518703CFC12933AC35FF225-e1LZ5s"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/86039611d2646f3acc7c0b4823c7ed9c~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171515F79C92755510848E0531&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137315&x-signature=mkWHHQtaMJjjPdhqKpvXoTNBtfM%3D",
+      "mediaUrl": "http://pull-hls-l11.douyincdn.com/stage/stream-406109711875440785_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150116&major_anchor_level=common&sign=456fa559bba79b95619c65a31a408946&t_id=037-20250830171515F79C92755510848E0531-rBc2Bu"
     },
     {
       "name": "暖君🫐⁰⁸²⁹",
       "id": "255837266624",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/b55a8bfa90a761433ebc5c640886fecb~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161519A2FCFD7BE656EBA3D3E9&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133719&x-signature=bw9BnH5zAsizG5XKbYbk0i5qjjw%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-117879060711080075_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbed97&major_anchor_level=common&sign=729317a2a49d2ac92fa150efb09cb65d&t_id=037-20250830161519A2FCFD7BE656EBA3D3E9-EYy7bm"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/b55a8bfa90a761433ebc5c640886fecb~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017151638DF7229CFFBB9812D46&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137316&x-signature=Ri620hedXWlVl5Qdqz5GU3P7P7E%3D",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-117879060711080075_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbfba4&major_anchor_level=common&sign=0cbd35e1c4634efe0cd27d9d3226ee27&t_id=037-2025083017151638DF7229CFFBB9812D46-mpbc7f"
     },
     {
       "name": "楠妹儿",
       "id": "60485295146",
-      "imgUrl": "https://p11-webcast.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_139028a2b039d6005721716082d8b35f~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161521D377F365C7A3390B9693&s=enter_room&sc=webcast_cover",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/third/stream-694340214798680550_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbed99&major_anchor_level=common&sign=57c63b47b8b9c57595e0a2b097e80a38&t_id=037-20250830161521D377F365C7A3390B9693-T9EC0e"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/6c28f24aad2dc4d498570d3d19be2088.jpg~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171517B13F757244089A07BEE2&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137317&x-signature=76xTqKMUI1K7a8I8TBQCPs8%2B0UI%3D",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/third/stream-694340214798680550_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbfba5&major_anchor_level=common&sign=4c1fd01a7f7bb147668ae2aeb33b5e80&t_id=037-20250830171517B13F757244089A07BEE2-vwRbaB"
     },
     {
-      "name": "小月月🌙",
-      "id": "795340727930",
-      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_af64b9942c3fda7df64cc69007a17a82~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301615224548446BF896E527AA65&s=enter_room&sc=webcast_cover",
-      "mediaUrl": "http://pull-l3.douyincdn.com/stage/stream-694339693966786642_or4.m3u8?arch_hrchy=w1&auth_key=1757144723-0-0-b3e2dfcc2ff1e1057001cce34b2a8b8e&exp_hrchy=w1&major_anchor_level=common&t_id=037-202508301615224548446BF896E527AA65-uImjrp"
+      "name": "如烟",
+      "id": "65640656346",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/9e6099bff83edc330eb4a3a20a1c192d~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715202686D07FDDCEC65580EE&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137320&x-signature=U7m1SRLkyUDqXpLvgO%2FlNScKZCI%3D",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-117879655159824523_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbfba8&major_anchor_level=common&sign=eddbafb18b7716ff5bc7773f47e957ea&t_id=037-202508301715202686D07FDDCEC65580EE-2dqZ9t"
     },
     {
-      "name": "小奶思✈️",
-      "id": "91445269263",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/9cce0ab9359ab30b6e423e7be891404b~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161523F4E6C1FF10E9A5E6EEB6&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133724&x-signature=mF13jxXg%2Ba%2B3G81cfrU4681gZeY%3D",
-      "mediaUrl": "http://pull-hls-t95.douyincdn.com/stage/stream-694339975620068151_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146524&major_anchor_level=common&sign=d14015aebf09e25d32db0ae8e0e34a94&t_id=037-20250830161523F4E6C1FF10E9A5E6EEB6-K5kSEK"
-    },
-    {
-      "name": "依甜na",
-      "id": "45765115862",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7377279104451726120~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161525EE8B887B7106037C0DD4&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133726&x-signature=Y6p5W5DAYQzFoggqZu%2FWefTCu8s%3D",
-      "mediaUrl": "http://pull-hls-l6.douyincdn.com/stage/stream-694339507734446111_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&k=663c1397fbf156ab&major_anchor_level=common&t=1757146526&t_id=037-20250830161525EE8B887B7106037C0DD4-mTqvZT"
+      "name": "An安安",
+      "id": "747830438045",
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/f599c8cdababc8cf71eb50c4858b688b~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715219D2BEBD091A976698500&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137321&x-signature=iHcM1GW8yL5DfQ91fNgH3GYAJ2I%3D",
+      "mediaUrl": "http://pull-hls-l96.douyincdn.com/stage/stream-694340317403153001_or4.m3u8?arch_hrchy=c1&exp_hrchy=c1&expire=1757150121&major_anchor_level=common&sign=377cc8580067b87646ff13c171f5c05d&t_id=037-202508301715219D2BEBD091A976698500-E3N0gH"
     },
     {
       "name": "Hi熙熙💃",
       "id": "276220699904",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/88cfbd641cd889e554bf99058ed089bb~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161528D35D2F9E34C585B025E9&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133728&x-signature=zq8JXgETQJBVWV%2Bq%2FoQWslzvc%2FQ%3D",
-      "mediaUrl": "http://pull-l3.douyincdn.com/third/stream-694339496737767903_uhd.m3u8?arch_hrchy=w1&auth_key=1757144728-0-0-d8e936f9a71b211686d276a7333a685f&exp_hrchy=w1&major_anchor_level=common&t_id=037-20250830161528D35D2F9E34C585B025E9-5Zbdbt"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/88cfbd641cd889e554bf99058ed089bb~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715244C37593BD1777275F96F&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137324&x-signature=vkCaoAyKmZZp9B4ftjJ4H5ZvQ1A%3D",
+      "mediaUrl": "http://pull-l3.douyincdn.com/third/stream-694339496737767903_uhd.m3u8?arch_hrchy=w1&auth_key=1757148324-0-0-62a4adee75595c6ba300cdb37dad4c2d&exp_hrchy=w1&major_anchor_level=common&t_id=037-202508301715244C37593BD1777275F96F-4DuHIA"
     },
     {
       "name": "祁越洲",
       "id": "654267914859",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/fe0dabc1309bb858e14eda6905685787~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016152970E8B45BF304B472B60A&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133729&x-signature=kjPKrhMVOTr7tf0%2FLmEPMcMTslc%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-117879277875626123_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbeda1&major_anchor_level=common&sign=a3de80fcddf0dc9a7cb7ff07a426c87d&t_id=037-2025083016152970E8B45BF304B472B60A-hQFLIo"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/fe0dabc1309bb858e14eda6905685787~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017152530E3BB71A4DFBE9230C5&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137325&x-signature=89j1Fv%2FaUfXqZDhd6pSt6%2FuXRnQ%3D",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-117879277875626123_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbfbad&major_anchor_level=common&sign=5854c5d7612bdfe0b680174a679060cd&t_id=037-2025083017152530E3BB71A4DFBE9230C5-1mWGJT"
     },
     {
-      "name": "初恋-🧸",
-      "id": "32232723417",
-      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_8da344c7977cb324b2693e704e1fc1cc~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301615290669CE9513CD88A64814&s=enter_room&sc=webcast_cover",
-      "mediaUrl": "http://pull-hls-l13.douyincdn.com/stage/stream-117879326869553592_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757146529&major_anchor_level=common&sign=d3ca4d06e7c41a05506126adae9fe4ae&t_id=037-202508301615290669CE9513CD88A64814-cQSOTO"
+      "name": "椰汁儿🥥（养分版）",
+      "id": "867699806954",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/2a696c89a9b82dba6c8bb1f8d8e93065.jpg~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171525E7DA645FE9A72CB3C2A5&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137325&x-signature=LV2sL%2BZl3SWe4YwXi4pTB2UiXbo%3D",
+      "mediaUrl": "http://pull-l3.douyincdn.com/third/stream-406110027626840543_uhd.m3u8?arch_hrchy=c1&auth_key=1757148325-0-0-2bc674282ec25012c84436c2a4b2e316&exp_hrchy=w1&major_anchor_level=common&t_id=037-20250830171525E7DA645FE9A72CB3C2A5-YCtVFV"
     },
     {
       "name": "溪 佑⛰️",
       "id": "788678094162",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/a2b24b1c3d7e487b34156c5613f6e7d2~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161529D7FE28D4336691B8B3F1&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133730&x-signature=rmaSKVlogTWeRyhB5AY3OYuK7ug%3D",
-      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-117879147547852830_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830161529D7FE28D4336691B8B3F1-xFXnxp&wsSecret=5eccf0726044de89ab4557ea66f17219&wsTime=68b2b322"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/a2b24b1c3d7e487b34156c5613f6e7d2~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171525173D0C305FC1A11CBB2F&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137325&x-signature=6PWXIWrv8yJee0he1ViOp8tmbmE%3D",
+      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-117879147547852830_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830171525173D0C305FC1A11CBB2F-OgFEpc&wsSecret=d6bb23c9263df97ec3c84079a7d43f02&wsTime=68b2c12d"
     },
     {
-      "name": "小熊有奶糖",
-      "id": "381023707727",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7496713701354031887~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161530218680BD465A87837C6D&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133731&x-signature=nqXKiVXDpt7nI3Ryz2fRV2a20XI%3D",
-      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/stage/stream-694340040786182826_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146531&major_anchor_level=common&sign=a3cd6c277d9ab707bbb43b03e12b6229&t_id=037-20250830161530218680BD465A87837C6D-RTmsEO&volcSecret=a3cd6c277d9ab707bbb43b03e12b6229&volcTime=1757146531"
+      "name": "Aroua-",
+      "id": "751555372825",
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/965dde2c6aa9d15b69c6e796f00e298c~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171526FDA85336F1DC425F4F43&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137326&x-signature=wjOodSnvwZqdM4a2qIMjLE4ZiIk%3D",
+      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/stage/stream-117879655970374314_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150126&major_anchor_level=common&sign=915007cce7cef7bf803b396a4a9c8438&t_id=037-20250830171526FDA85336F1DC425F4F43-0qHuWY&volcSecret=915007cce7cef7bf803b396a4a9c8438&volcTime=1757150126"
     },
     {
       "name": "大话西游2甜妹",
       "id": "448200005178",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7495648347160906532~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301615316C68D494FB47A4FD8359&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133731&x-signature=zBRWFL3hvLiyuhqmI88z5WaGJNs%3D",
-      "mediaUrl": "http://pull-hls-l11.douyincdn.com/thirdgame/stream-406109529539871564_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146531&major_anchor_level=common&sign=17ee6e9aabdada1fc0bbe962b11140d4&t_id=037-202508301615316C68D494FB47A4FD8359-JJn3wN"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7495648347160906532~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171526AAF932AF1257B71CEE9E&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137327&x-signature=xJ%2BEPYSlxO5WZuMvdjEwSr%2FSAhk%3D",
+      "mediaUrl": "http://pull-hls-l11.douyincdn.com/thirdgame/stream-406109529539871564_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150127&major_anchor_level=common&sign=5edd59b6caeab5d5905d433e14c247a5&t_id=037-20250830171526AAF932AF1257B71CEE9E-yclu06"
+    },
+    {
+      "name": "陈圈圈（暑假工版）",
+      "id": "824066051243",
+      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_57a9971b8d36023ebce6abf02e53c39e~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171527CE25F5D4AB6C221C9BA2&s=enter_room&sc=webcast_cover",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-117879559336493195_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=68bbfbaf&major_anchor_level=common&sign=46d9fc7210f0162135db991f1c92db8e&t_id=037-20250830171527CE25F5D4AB6C221C9BA2-dtH96T"
     },
     {
       "name": "黄黄.",
       "id": "369634738287",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/301239ab24daed78fee8eabcc8e6ff88~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016153126B1C4BF8A6CFF1594B5&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133731&x-signature=rUPRKtOvqlAA%2F56WCgrZVVuMt9k%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/third/stream-406109816970805734_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbeda3&major_anchor_level=common&sign=d7db5c772a6ee00f59301af4440bbfaf&t_id=037-2025083016153126B1C4BF8A6CFF1594B5-V3U5QO"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/301239ab24daed78fee8eabcc8e6ff88~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171527E4C6C580C72A6D308D6F&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137327&x-signature=E%2Fzs0KS44vJvWuI06WYDcJqUj9k%3D",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/third/stream-406109816970805734_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbfbaf&major_anchor_level=common&sign=54e09c716e8d407ff407557bd7320f60&t_id=037-20250830171527E4C6C580C72A6D308D6F-TTFPvb"
+    },
+    {
+      "name": "醋莓晚晚😴",
+      "id": "43439291703",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/9f993ef1f87947edac5ea6b74bf5d993~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171527295D3EE717EF83A19BF9&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137328&x-signature=Q9SvAbiEPXMbASoMBO9FiaLHgZ0%3D",
+      "mediaUrl": "http://pull-hls-l13.douyincdn.com/third/stream-406109955691643667_uhd.m3u8?arch_hrchy=c1&exp_hrchy=w1&expire=1757150128&major_anchor_level=common&sign=a6a16fe6b89612fc9b99dd65b3a0334d&t_id=037-20250830171527295D3EE717EF83A19BF9-bEkf9e"
     },
     {
       "name": "XXXX萧FX",
       "id": "122966181117",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7474993027439233833~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301615337607C20B19BAAFD0BD04&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133733&x-signature=evZvPT9IxxkuNR0cXEuES8T4DVs%3D",
-      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-117879213528711198_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-202508301615337607C20B19BAAFD0BD04-XX4YOy&wsSecret=c55eed551638ea816e8fa23030129afd&wsTime=68b2b325"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7474993027439233833~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171528A2BE609E8B1A71152596&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137328&x-signature=BCcuQx%2BkvUaT3sQHYj%2FsHP50ODg%3D",
+      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-117879213528711198_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830171528A2BE609E8B1A71152596-tbfzU5&wsSecret=896bbd831ad1da02987d88e6d7715471&wsTime=68b2c130"
+    },
+    {
+      "name": "凡凡💍（打不过萋萋版）",
+      "id": "71247591247",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/b2671dfe9dc748d97dd39f872bb39b80~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715281F2F35AB5026A6A871A2&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137328&x-signature=S7KvarSsUNdjp1DQTVP6XbsTWww%3D",
+      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-694340326731284510_or4/playlist.m3u8?arch_hrchy=c1&exp_hrchy=c1&keeptime=00093a80&major_anchor_level=common&t_id=037-202508301715281F2F35AB5026A6A871A2-Rj6qog&wsSecret=efd86fd56fe49b7119e8bd81679dc465&wsTime=68b2c130"
+    },
+    {
+      "name": "拿铁犯困",
+      "id": "335116211370",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7100916075927685921~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017152946C8088B565AADC23968&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137329&x-signature=HdUpDhkogXgEdPTEhTNGaTBdJRo%3D",
+      "mediaUrl": "http://pull-hls-l96.douyincdn.com/stage/stream-117879587046425193_or4.m3u8?arch_hrchy=c1&exp_hrchy=c1&expire=1757150129&major_anchor_level=common&sign=373224507535fc11d39a85e7a5cc2130&t_id=037-2025083017152946C8088B565AADC23968-LXc1bN"
+    },
+    {
+      "name": "涂涂zai",
+      "id": "979877042215",
+      "imgUrl": "https://p3-webcast.douyinpic.com/img/webcast/d19755cff9e00fe72f23831b930258ea~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017152943D8234CA4FB6C69AC92&s=enter_room&sc=webcast_cover",
+      "mediaUrl": "http://pull-hls-l96.douyincdn.com/stage/stream-406110098557502057_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150129&major_anchor_level=common&sign=390b10aa1382a8f3ecbec559cdebc415&t_id=037-2025083017152943D8234CA4FB6C69AC92-TdMAxL"
+    },
+    {
+      "name": "长腿艾斯💃",
+      "id": "693532871376",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/f158654fe33484b3504cd4ea8d2c9491~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715296B97A90036A86D498ED7&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137329&x-signature=gDVRDmcJbB6vICKk7JkRdEkttto%3D",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/third/stream-694340351429181926.m3u8?expire=68bbfbb1&major_anchor_level=common&sign=35d236f6ac7f3777b09c60b69d884735&t_id=037-202508301715296B97A90036A86D498ED7-dWOFhA"
     },
     {
       "name": "U米米",
       "id": "736272920188",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/633173531e29a3fcace8873557f83d09~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161535388AE68FB67809F170EE&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133735&x-signature=bsHmNLQ7gXQNefk4VteaOmERFP4%3D",
-      "mediaUrl": "http://pull-hls-l11.douyincdn.com/stage/stream-117879389207920785_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146535&major_anchor_level=common&sign=31625be5589db7334397d65bd1c12505&t_id=037-20250830161535388AE68FB67809F170EE-SdydQm"
-    },
-    {
-      "name": "皮皮🍳",
-      "id": "240025044557",
-      "imgUrl": "https://p11-webcast.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_6a1386b090497ca530fb6fae4c2383f5~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161535E13DB0AD2C85D16A51F0&s=enter_room&sc=webcast_cover",
-      "mediaUrl": "http://pull-hls-l13.douyincdn.com/stage/stream-694339570622005688_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146535&major_anchor_level=common&sign=437ec8e4ee280e68b1b8edf81a4d38c5&t_id=037-20250830161535E13DB0AD2C85D16A51F0-HyuReN"
-    },
-    {
-      "name": "星儿✨",
-      "id": "644171559598",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/94b935fc25b6dd4e7296bd06cae99c50~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161535AA3DF131F8C1B23E9C87&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133735&x-signature=sro8PjdgL3i70oDwH3xGdlC84vI%3D",
-      "mediaUrl": "http://pull-l3.douyincdn.com/stage/stream-694339514445856850_or4.m3u8?arch_hrchy=w1&auth_key=1757144735-0-0-68b29dc5a53d3ce298fd6defc6bbd06c&exp_hrchy=w1&major_anchor_level=common&t_id=037-20250830161535AA3DF131F8C1B23E9C87-2hwwiQ"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/633173531e29a3fcace8873557f83d09~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171530C1D2DB1BFCF7B3DFAF97&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137330&x-signature=CtCJthERd5%2FR089hkFqb%2F%2BPgZVQ%3D",
+      "mediaUrl": "http://pull-hls-l11.douyincdn.com/stage/stream-117879389207920785_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150130&major_anchor_level=common&sign=14c5b2c8ebbb34a6b17e6d95e0eae217&t_id=037-20250830171530C1D2DB1BFCF7B3DFAF97-K4BeFf"
     },
     {
       "name": "小仙女辛辛腻",
       "id": "372258197395",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/489501c7f7e337a6c78ced33895ed187~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161535217102ECA83357192DE3&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133735&x-signature=Z33ucfOdpbrBNpCmnSEXxEmxb6c%3D",
-      "mediaUrl": "http://pull-hls-l13.douyincdn.com/third/stream-694339519950357267_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757146535&major_anchor_level=common&sign=4859baf35bb2684cf556c45c198e8201&t_id=037-20250830161535217102ECA83357192DE3-9F8eUa"
-    },
-    {
-      "name": "无敌暴龙初恋",
-      "id": "797659963559",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/20732b6531eb5f50bdbeaca562f2f7ed~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301615355361D7726E5B6B0BDF1D&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133736&x-signature=%2BKxsClipUyeaPagCUCpZCTJp7tU%3D",
-      "mediaUrl": "http://pull-hls-l13.douyincdn.com/stage/stream-406109717718630840_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146536&major_anchor_level=common&sign=35354f56214ca130a5da949817f144ef&t_id=037-202508301615355361D7726E5B6B0BDF1D-LzRua3"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/489501c7f7e337a6c78ced33895ed187~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715304CB27291CB64952E6413&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137331&x-signature=uivQzVGcLl0TeliJfCgsBZwMtwU%3D",
+      "mediaUrl": "http://pull-hls-l13.douyincdn.com/third/stream-694339519950357267_uhd.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757150131&major_anchor_level=common&sign=318fb9f6e0e63e3002c82e6490eb0834&t_id=037-202508301715304CB27291CB64952E6413-uUab3r"
     },
     {
       "name": "长渐意",
       "id": "906026838835",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7448933603893267250~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016153529274484665A9E285E25&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133736&x-signature=VpBBWNx1FnzJ1uViKss7lhxxwYM%3D",
-      "mediaUrl": "http://pull-hls-l11.douyincdn.com/third/stream-117879483364540892_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146536&major_anchor_level=common&sign=8a0215e12804ea5e46cd925db0130f63&t_id=037-2025083016153529274484665A9E285E25-SEQhyM"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7448933603893267250~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171530C095D34DDF27037D0099&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137331&x-signature=jueYEXhWGZ7Td2%2B87JNNq6U6ILs%3D",
+      "mediaUrl": "http://pull-hls-l11.douyincdn.com/third/stream-117879483364540892_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150131&major_anchor_level=common&sign=c34d66ffd6c515cfe3477b844077fd01&t_id=037-20250830171530C095D34DDF27037D0099-EmuVuN"
+    },
+    {
+      "name": "是妍妍呀🍬（养分版）",
+      "id": "841208205800",
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7516599752420133642~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171531F7B2E52E428DD91D16F0&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137331&x-signature=MyksAcfYjYASLW%2BSdCa6e2%2Bbl2w%3D",
+      "mediaUrl": "http://pull-hls-l6.douyincdn.com/third/stream-117879579340963879_cvgor4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&k=82c6913190b7b394&major_anchor_level=common&t=1757150131&t_id=037-20250830171531F7B2E52E428DD91D16F0-m0b4nA"
+    },
+    {
+      "name": "无敌暴龙初恋",
+      "id": "797659963559",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/20732b6531eb5f50bdbeaca562f2f7ed~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171531B3638E1FBD7C2474E867&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137331&x-signature=lyTQI4AS5W58W%2FzOeWDsLhFOpwg%3D",
+      "mediaUrl": "http://pull-hls-l13.douyincdn.com/stage/stream-406109717718630840_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150131&major_anchor_level=common&sign=09ca31f04edb183687819c3782a59332&t_id=037-20250830171531B3638E1FBD7C2474E867-7K4ioQ"
     },
     {
       "name": "萝卜兔🐰",
       "id": "949782435750",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7438247215111408438~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016153807C4DF4ABE0BDA722D79&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133738&x-signature=z%2B5WfycO24p96A%2BCNLoIhzmimPo%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-406109096420311179_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbedaa&major_anchor_level=common&sign=08b94e3197cdf230e1756758ae9ffeeb&t_id=037-2025083016153807C4DF4ABE0BDA722D79-O8bLqJ"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7438247215111408438~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171533EDFA83FA6A67FE744288&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137333&x-signature=ey2hYeIRQXq6Fp1CpOoURiMM6nU%3D",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-406109096420311179_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbfbb5&major_anchor_level=common&sign=b6d1b73e26e9cc76e8a85d7ea8699592&t_id=037-20250830171533EDFA83FA6A67FE744288-P596VA"
     },
     {
       "name": "嗷呜🦁",
       "id": "350410184254",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/6972cb070b0643ce4e2a64be08477287~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161541BB270B2949B1CC310A8B&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133741&x-signature=hvDfiy6CCIOUG0YW8q%2B6Kz9JtFo%3D",
-      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/stage/stream-117879340767117994_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146541&major_anchor_level=common&sign=9ae9f7f3bf57f77aff226cb3de78f836&t_id=037-20250830161541BB270B2949B1CC310A8B-13wALb&volcSecret=9ae9f7f3bf57f77aff226cb3de78f836&volcTime=1757146541"
-    },
-    {
-      "name": "绵绵耶☁️",
-      "id": "37427230893",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7409650542508722985~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161541986AC9DCE26BD5365E2E&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133741&x-signature=fs13LCO7sdfWEEQIYCSvfJ0nndQ%3D",
-      "mediaUrl": "http://pull-hls-l13.douyincdn.com/third/stream-694339839253807891_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146541&major_anchor_level=common&sign=7f43b551856214e03b20ce493e4f6481&t_id=037-20250830161541986AC9DCE26BD5365E2E-ophFB8"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/6972cb070b0643ce4e2a64be08477287~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715356F3B76706C5ADCC819CB&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137335&x-signature=cYyQXgkJgLInW3Nur3MOhqXbxos%3D",
+      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/stage/stream-117879340767117994_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150135&major_anchor_level=common&sign=e9f33255598c743ef547b6e53de1d7a8&t_id=037-202508301715356F3B76706C5ADCC819CB-8SyBY6&volcSecret=e9f33255598c743ef547b6e53de1d7a8&volcTime=1757150135"
     },
     {
       "name": "久久籽",
       "id": "568105466651",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7329772587236018959~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161541669A5A4DEECD97359402&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133741&x-signature=3D5dR4A3KO03AeAr0qPLEzvrwm8%3D",
-      "mediaUrl": "http://pull-hls-t1.douyincdn.com/stage/stream-117879516183659319_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830161541669A5A4DEECD97359402-6Pi1OH&wsSecret=bd4a37955e0ec4ed63b821ad3929be8a&wsTime=68b2b32d"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7329772587236018959~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171535E40AD3CF757C7DA04B3C&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137336&x-signature=0%2BWaAuYg%2BQLnUd%2FlXZG9WaUB79w%3D",
+      "mediaUrl": "http://pull-hls-t1.douyincdn.com/stage/stream-117879516183659319_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830171535E40AD3CF757C7DA04B3C-GCkGwn&wsSecret=9745c73290166bf03413ca7bc19577c2&wsTime=68b2c138"
     },
     {
-      "name": "虫虫🐍",
-      "id": "593889889944",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7409800142477462308~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301615451CBBBB49ED88A8F28153&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133745&x-signature=VHAPtkA3vOfGolKlLEmafNhQ4nE%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/third/stream-117878823683097062_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbedb1&major_anchor_level=common&sign=a0fa2aa4982e26a6c9c0acfb4fdef8a0&t_id=037-202508301615451CBBBB49ED88A8F28153-q4NFJ7"
+      "name": "绵绵耶☁️",
+      "id": "37427230893",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7409650542508722985~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715365B8F4759197FABB5C64B&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137336&x-signature=O8jMyGt3t%2BHyVMwRmjiEup4TsCw%3D",
+      "mediaUrl": "http://pull-hls-l13.douyincdn.com/third/stream-694339839253807891_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150136&major_anchor_level=common&sign=573fec9fc8a579c98ff600264c225d3b&t_id=037-202508301715365B8F4759197FABB5C64B-O2gZV7"
     },
     {
-      "name": "好贝贝",
-      "id": "143252490330",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7378257485553109787~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301615476D625CF3FBC621FB221C&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133747&x-signature=noV9rLDrSw9H%2F0BQd4NULmzut0o%3D",
-      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-694340183526735902_or4/playlist.m3u8?arch_hrchy=c1&exp_hrchy=c1&keeptime=00093a80&major_anchor_level=common&t_id=037-202508301615476D625CF3FBC621FB221C-I2w0oS&wsSecret=4f0aae8337ee0d411ace21be3f04682e&wsTime=68b2b333"
+      "name": "糖不苦",
+      "id": "421876159055",
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/cf99f1d0af41e1bc18542ded1e946591~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715368E3B39C6B7ACCD0B1A56&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137336&x-signature=DWxRm9TkqRQGWYQYxXgllFNeMYg%3D",
+      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/third/stream-694340413573825195_uhd/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150136&major_anchor_level=common&sign=0f0bbf0ae15c2571e8da97aeddbb3b28&t_id=037-202508301715368E3B39C6B7ACCD0B1A56-IwKCdd&volcSecret=0f0bbf0ae15c2571e8da97aeddbb3b28&volcTime=1757150136"
+    },
+    {
+      "name": "李清菜",
+      "id": "342795560855",
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7487080719131495177~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017153860A075FB1A78C4FA905A&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137338&x-signature=numlTkZSfnlnKTzWCGCRzmYy%2FiQ%3D",
+      "mediaUrl": "http://pull-hls-l1.douyincdn.com/third/stream-117879534363607078_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-2025083017153860A075FB1A78C4FA905A-vfXeti&wsSecret=54afc42c66e1a0140a944642af7dc684&wsTime=68b2c13a"
+    },
+    {
+      "name": "奶乖",
+      "id": "938628581505",
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7429675504616966962~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017153890667E8441A1F29FC8B4&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137338&x-signature=abBEZ6%2Ba4nJ4g5972TnFtBUp1kw%3D",
+      "mediaUrl": "http://pull-hls-t13.douyincdn.com/stage/stream-117879532491899703_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757150138&major_anchor_level=common&sign=c2c4225cd91bf758207e2a0beb5749bf&t_id=037-2025083017153890667E8441A1F29FC8B4-VqsAlp"
     },
     {
       "name": "大话2不语",
       "id": "40034078623",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/f4856f12919dde0cb949a9367561bc47.jpg~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161547184C65B23A517C3DDC35&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133747&x-signature=tmzF4uDRqK%2B%2F9bz1eO1UhkWW6d8%3D",
-      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/thirdgame/stream-694340140105728778_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146547&major_anchor_level=common&sign=2ce213f65df77abe0e0253273a7d52e1&t_id=037-20250830161547184C65B23A517C3DDC35-r6g92B&volcSecret=2ce213f65df77abe0e0253273a7d52e1&volcTime=1757146547"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/8f6bf8a306a64ceb5a9686e0fe848e65.jpg~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715412529D73EC59EB532BB60&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137341&x-signature=k%2FOXvtpEQSamx9346p7h0x%2F%2FSy4%3D",
+      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/thirdgame/stream-694340140105728778_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150141&major_anchor_level=common&sign=48fc4fccfa3f5e9a32ff69b95f997e05&t_id=037-202508301715412529D73EC59EB532BB60-jVE8Rq&volcSecret=48fc4fccfa3f5e9a32ff69b95f997e05&volcTime=1757150141"
     },
     {
       "name": "co-可可☕️",
       "id": "495440599508",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/8196ac7a507b03f701a294a877602bee~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161548A0434616B5B8091A1AB8&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133748&x-signature=kxlh9ugkRkCYHc5JBOM083smf2w%3D",
-      "mediaUrl": "http://pull-l3.douyincdn.com/third/stream-117879114135503327_or4.m3u8?arch_hrchy=w1&auth_key=1757144748-0-0-df8480ab46b0557848d974c2fed19fff&exp_hrchy=w1&major_anchor_level=common&t_id=037-20250830161548A0434616B5B8091A1AB8-JBuEth"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/8196ac7a507b03f701a294a877602bee~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715416C524A5DF0337846CF07&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137341&x-signature=pbXuz8R0nm6IW6zzkuHovz7JnTk%3D",
+      "mediaUrl": "http://pull-l3.douyincdn.com/third/stream-117879114135503327_or4.m3u8?arch_hrchy=w1&auth_key=1757148341-0-0-ccb0ad747df9a8864c49600a50bf9309&exp_hrchy=w1&major_anchor_level=common&t_id=037-202508301715416C524A5DF0337846CF07-Q4cCeB"
     },
     {
-      "name": "芭比公主🩰",
-      "id": "199661962243",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7532510999593814810~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161548840CE80D5B1C36402E2E&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133748&x-signature=wih5CB0SHGnoMM1mdVp1mYi3AQY%3D",
-      "mediaUrl": "http://pull-hls-l1.douyincdn.com/radio/stream-694339298625847330_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830161548840CE80D5B1C36402E2E-XSunla&wsSecret=2821c8579b007138fe8473b34405a30c&wsTime=68b2b334"
+      "name": "梨梨",
+      "id": "53637415552",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/eb23b5272cb305a241557096c4d43333~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171542366462A1FD50674C9825&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137342&x-signature=XicPlulMnhhfzqDombFK%2FyT5Vx0%3D",
+      "mediaUrl": "http://pull-hls-t13.douyincdn.com/stage/stream-117879684964025143_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757150142&major_anchor_level=common&sign=6065e6d02f182f2bc55b8e61c7c977e6&t_id=037-20250830171542366462A1FD50674C9825-y27Eax"
     },
     {
       "name": "小福🐰 ⁰⁷²²",
       "id": "192084311237",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/451568e7d85289adc6119a47475fdaac~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161549F3AE52D6C02F183D5F4B&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133750&x-signature=CkfkbLRxWdOlHbsqK9l681Q3Yy8%3D",
-      "mediaUrl": "http://pull-f3.douyincdn.com/third/stream-117879217892098731_uhd.m3u8?arch_hrchy=w1&auth_key=1757144750-0-0-2666531df0b38e82b463f984d4d08f9e&exp_hrchy=w1&major_anchor_level=common&t_id=037-20250830161549F3AE52D6C02F183D5F4B-PTIeKr"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/451568e7d85289adc6119a47475fdaac~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171543E24EF8260AABFCD62544&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137343&x-signature=IhcbLGqRsmqjxQsfJ%2F4uKzO7IDg%3D",
+      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/third/stream-117879217892098731_uhd/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150143&major_anchor_level=common&sign=994499eb35e0bb508bb515e4ddf7628c&t_id=037-20250830171543E24EF8260AABFCD62544-qHvTuR&volcSecret=994499eb35e0bb508bb515e4ddf7628c&volcTime=1757150143"
     },
     {
-      "name": "于小鱼.🐟（拉丁舞）",
-      "id": "97820947817",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7543973226196847423~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161550A6AD64F304A8733A761D&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133751&x-signature=7Hhzs%2FBIllXbgXWIqxbQSY9zdWI%3D",
-      "mediaUrl": "http://pull-hls-l1.douyincdn.com/third/stream-117878712217108518_uhd/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830161550A6AD64F304A8733A761D-f9NM3h&wsSecret=0d9cc5a7d0bc0e685cd6f8c11eaa86a7&wsTime=68b2b337"
+      "name": "普通美女",
+      "id": "334791183432",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/9556241e3d8ce02e4eb6936f08386faf~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171544871F52466F7E27EE9D76&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137344&x-signature=Oe6yufy%2BEUL1j12ZZf%2Bi170yuPQ%3D",
+      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/stage/stream-117879591014236842_or4/index.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757150144&major_anchor_level=common&sign=2a29f9b6bdaaf07159bc08cee5cf7070&t_id=037-20250830171544871F52466F7E27EE9D76-DW3Mld&volcSecret=2a29f9b6bdaaf07159bc08cee5cf7070&volcTime=1757150144"
     },
     {
       "name": "瑾茶茶✨",
       "id": "610664265743",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/878af61ffb0ab344eee9ac11cde4d69c~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301615522B8156F3594B68974709&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133752&x-signature=4bOuvU%2B7eOwT4YHI9KOY3qHeXoU%3D",
-      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-117879263646711838_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-202508301615522B8156F3594B68974709-nl223e&wsSecret=2606bd7c89d098d3bf7216e8e3878693&wsTime=68b2b338"
-    },
-    {
-      "name": "荔秘书",
-      "id": "702983113333",
-      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_723d1e33c186e01bcd2f8606e35cd47f~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161553B1C40D653E0CE8ED7EDD&s=enter_room&sc=webcast_cover",
-      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/stage/stream-406109700870898346_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146553&major_anchor_level=common&sign=0f91a72b89a967bc685543586da44118&t_id=037-20250830161553B1C40D653E0CE8ED7EDD-alZ2Qc&volcSecret=0f91a72b89a967bc685543586da44118&volcTime=1757146553"
-    },
-    {
-      "name": "小米娜",
-      "id": "358163928561",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7492416246655503140~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016155351E1CC6F7B3A10961715&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133754&x-signature=HiZdsp%2FaZygWGJYs0LRKEfQoyqQ%3D",
-      "mediaUrl": "http://pull-hls-l96.douyincdn.com/stage/stream-406109595713143401_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146554&major_anchor_level=common&sign=77ec30bb4d35bdee58d4bf6832accc08&t_id=037-2025083016155351E1CC6F7B3A10961715-TXgLFJ"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/878af61ffb0ab344eee9ac11cde4d69c~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171545234C530E55BC2C8E350F&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137345&x-signature=4OtRoC%2FGPTcmJ2sdm7pnYkCy6A8%3D",
+      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-117879263646711838_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830171545234C530E55BC2C8E350F-eqLisT&wsSecret=283e8e8e90aa8e45462e242caab3f71d&wsTime=68b2c141"
     },
     {
       "name": "乔依依💃（拉丁舞）",
       "id": "952709572814",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/04c522edc42ba93a36fe0bacdf35063e~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161553C9B1060CE7C57F02D6BE&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133753&x-signature=pohZVE7D9tr1gVpRtT3IZu9CTMs%3D",
-      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/third/stream-406109716977025707_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146553&major_anchor_level=common&sign=9f3841594de580bfe5d57c4f80fb2818&t_id=037-20250830161553C9B1060CE7C57F02D6BE-KojvdS&volcSecret=9f3841594de580bfe5d57c4f80fb2818&volcTime=1757146553"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/04c522edc42ba93a36fe0bacdf35063e~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171545744793665E2823EB5FB8&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137346&x-signature=t0DioJ%2FLEdrBbIA29xGnGnwUc1A%3D",
+      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/third/stream-406109716977025707_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150146&major_anchor_level=common&sign=5bc28c03f178e027af3d083eb482640d&t_id=037-20250830171545744793665E2823EB5FB8-HxG9ik&volcSecret=5bc28c03f178e027af3d083eb482640d&volcTime=1757150146"
+    },
+    {
+      "name": "小米娜",
+      "id": "358163928561",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7492416246655503140~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171546AA3FAFC352F81FF65A02&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137346&x-signature=8WTSI9XhzPGElPbNMaHQL0m%2Fkyc%3D",
+      "mediaUrl": "http://pull-hls-l96.douyincdn.com/stage/stream-406109595713143401_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150146&major_anchor_level=common&sign=0229b372e0de2c32a78c14ba6e8c058b&t_id=037-20250830171546AA3FAFC352F81FF65A02-fEdQyb"
+    },
+    {
+      "name": "王咨喻",
+      "id": "914066155965",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/c8ef8622a54d8cb18eff8ef7f1c32a00~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171547146E3637C4B739D5BD08&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137347&x-signature=AFLR4nx8gNVxsqHdZbsmFuq5tjg%3D",
+      "mediaUrl": "http://pull-l3.douyincdn.com/stage/stream-117879678452629586_or4.m3u8?arch_hrchy=w1&auth_key=1757148347-0-0-74158d9bc62e778a45f672d4728ad8dd&exp_hrchy=w1&major_anchor_level=common&t_id=037-20250830171547146E3637C4B739D5BD08-hnrXqK"
     },
     {
       "name": "兜兜🐰",
       "id": "470011465465",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/bc1b0fb4fb8901808e9c4e9f03a00b4e~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161557354014C251D865EB4919&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133757&x-signature=oyk9JCpD815NEZzBOey6%2BQ8%2BgvU%3D",
-      "mediaUrl": "http://pull-hls-l6.douyincdn.com/stage/stream-117879335856373791_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&k=e271ef96af1b7a4d&major_anchor_level=common&t=1757146557&t_id=037-20250830161557354014C251D865EB4919-we5jSQ"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/bc1b0fb4fb8901808e9c4e9f03a00b4e~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171549F5D57DA4ABC35C44827F&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137349&x-signature=CbcX190mOiVyo%2BiSnyFyMT%2Bl0aI%3D",
+      "mediaUrl": "http://pull-hls-l6.douyincdn.com/stage/stream-117879335856373791_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&k=b01fffcce005af47&major_anchor_level=common&t=1757150149&t_id=037-20250830171549F5D57DA4ABC35C44827F-3iU8cT"
     },
     {
       "name": "小鱼丸",
       "id": "994060147360",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7522039229573253903~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301615576B9AD0A1F76F7F417DD4&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133757&x-signature=BnhHl43TFWpC7YXNg2CCTLYT2m0%3D",
-      "mediaUrl": "http://pull-hls-l11.douyincdn.com/third/stream-694340114535154140_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146557&major_anchor_level=common&sign=924b4e432d972f3e99f5917044167724&t_id=037-202508301615576B9AD0A1F76F7F417DD4-DLOrO9"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7522039229573253903~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017154973D5B31BBD4F8C610D21&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137349&x-signature=g8%2Fx%2FLYGjHcmh7d145vlTDUPP0E%3D",
+      "mediaUrl": "http://pull-hls-l11.douyincdn.com/third/stream-694340114535154140_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150149&major_anchor_level=common&sign=bb663cf9c46e8e5827b4a1c50fb86f83&t_id=037-2025083017154973D5B31BBD4F8C610D21-RxtCGP"
     },
     {
       "name": "XT赛事电竞酒店汉堡来咯",
       "id": "90211420892",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/da2bafae5d25c57cf6bf0094c4f454aa~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161558FB562AAB32E86A4EB26C&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133758&x-signature=mlXEZ5XKnWkhDpw936WFJ5GaOYw%3D",
-      "mediaUrl": "http://pull-hls-l13.douyincdn.com/stage/stream-406109869447053752_or4.m3u8?arch_hrchy=c1&exp_hrchy=c1&expire=1757146558&major_anchor_level=common&sign=0cf6c5ead30956ef4af5faa4e88f9686&t_id=037-20250830161558FB562AAB32E86A4EB26C-8c2cfv"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/da2bafae5d25c57cf6bf0094c4f454aa~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017154909E33739AFA39E4E47BE&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137349&x-signature=k6bVmS3UYt9Df2K1DzusWGpCFiA%3D",
+      "mediaUrl": "http://pull-hls-l13.douyincdn.com/stage/stream-406109869447053752_or4.m3u8?arch_hrchy=c1&exp_hrchy=c1&expire=1757150149&major_anchor_level=common&sign=c71328f1e823e4439c93ee1c76d06ac1&t_id=037-2025083017154909E33739AFA39E4E47BE-PSVJzg"
     },
     {
       "name": "NN",
       "id": "384128161756",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/275dc989148d4d3510a116de8294a13c~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016155848E23EDA76AD17670001&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133758&x-signature=yK%2FamM1GAGHKN6l%2BOWIadsB%2F1Sg%3D",
-      "mediaUrl": "http://pull-hls-l1.douyincdn.com/third/stream-406109480349335590_uhd/playlist.m3u8?arch_hrchy=c1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-2025083016155848E23EDA76AD17670001-5xiPPS&wsSecret=61713ecb5055ee93fe7cc1f4bdfd588b&wsTime=68b2b33e"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/275dc989148d4d3510a116de8294a13c~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715497FC7568523847B4225BF&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137350&x-signature=6VAQdkLoFGOfHuIFTlGyB%2BaACAU%3D",
+      "mediaUrl": "http://pull-hls-l1.douyincdn.com/third/stream-406109480349335590/playlist.m3u8?keeptime=00093a80&major_anchor_level=common&t_id=037-202508301715497FC7568523847B4225BF-EQ6vZq&wsSecret=cf95960fe56e7581a48fc1530e6e984d&wsTime=68b2c146"
     },
     {
-      "name": "夏米",
-      "id": "876056349007",
-      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_06fffbdc36029822c7c3f6f08824625f~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161600B75CA0A4B57FFFA4B9E9&s=enter_room&sc=webcast_cover",
-      "mediaUrl": "http://pull-l3.douyincdn.com/third/stream-117878877637837279_uhd.m3u8?arch_hrchy=w1&auth_key=1757144760-0-0-6f32080d6654c18674305eded9886fa0&exp_hrchy=w1&major_anchor_level=common&t_id=037-20250830161600B75CA0A4B57FFFA4B9E9-coubnl"
+      "name": "芙芙Nymph",
+      "id": "633383431311",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7500883474908416787~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171550B0CC8CC4700E970DEFFF&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137350&x-signature=VFLCf4weqcFYhUgGYqqPmVX6Uig%3D",
+      "mediaUrl": "http://pull-l3.douyincdn.com/stage/stream-117879751736295506_or4.m3u8?arch_hrchy=h1&auth_key=1757148350-0-0-1914974a8163959fc256898d31793f63&exp_hrchy=h1&major_anchor_level=common&t_id=037-20250830171550B0CC8CC4700E970DEFFF-WcRU4E"
     },
     {
       "name": "蛋挞挞er",
       "id": "67578944833",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/0f8ad03f57c7ebace3ca2f630282bb44~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016160012C490CAC02E251AC2DD&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133760&x-signature=oxx4NS%2FnIKFlWSkKSwCKVWnKYJE%3D",
-      "mediaUrl": "http://pull-hls-l96.douyincdn.com/stage/stream-406109191445414505_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146560&major_anchor_level=common&sign=4583af9f1fc57374d23e10dcd8bc19e5&t_id=037-2025083016160012C490CAC02E251AC2DD-pes1WU"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/0f8ad03f57c7ebace3ca2f630282bb44~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171551E8725834D8F36BEFACB5&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137351&x-signature=YjXHBTrqLNd0QxrkEHtJzKKEpVc%3D",
+      "mediaUrl": "http://pull-hls-l96.douyincdn.com/stage/stream-406109191445414505_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150151&major_anchor_level=common&sign=2e8aab71a5516594ef5c6aef9689f300&t_id=037-20250830171551E8725834D8F36BEFACB5-6VFjIA"
     },
     {
       "name": "左 左💃🏼",
       "id": "885066877575",
-      "imgUrl": "https://p3-webcast.douyinpic.com/img/webcast/578454198cbf7b7c13dd20a4b86e0bdb~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161602D881A4B2ED307F5E1A23&s=enter_room&sc=webcast_cover",
-      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/stage/stream-117878997226619562_or4/index.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757146562&major_anchor_level=common&sign=233926fda65504d65983dcf5a005adfe&t_id=037-20250830161602D881A4B2ED307F5E1A23-DZKLaq&volcSecret=233926fda65504d65983dcf5a005adfe&volcTime=1757146562"
+      "imgUrl": "https://p11-webcast.douyinpic.com/img/webcast/578454198cbf7b7c13dd20a4b86e0bdb~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171552C3DD5816950640A73921&s=enter_room&sc=webcast_cover",
+      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/stage/stream-117878997226619562_or4/index.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757150153&major_anchor_level=common&sign=18e2405a6ffb6253575f21878c054b9b&t_id=037-20250830171552C3DD5816950640A73921-dDnYMV&volcSecret=18e2405a6ffb6253575f21878c054b9b&volcTime=1757150153"
     },
     {
       "name": "想想😄",
       "id": "984655025949",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7494110470698388276~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016160235B181AB907C9984C063&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133762&x-signature=L8Y5KwcKQSaPfUsRjeE6Tp3m5SU%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/third/stream-694339978841293286_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbedc2&major_anchor_level=common&sign=4145149282a58d618b265aa4ffd98edb&t_id=037-2025083016160235B181AB907C9984C063-mC02bN"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7494110470698388276~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171553E475B3795603952728FC&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137353&x-signature=6iKdy%2BD5XLeT66VJmh8uShUGfw8%3D",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/third/stream-694339978841293286_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbfbc9&major_anchor_level=common&sign=0a192937260858dd4b8ead2af2fd4811&t_id=037-20250830171553E475B3795603952728FC-e5OOmf"
     },
     {
       "name": "心怡💕Cindy（拉丁舞）",
       "id": "727039683292",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7539080497264249610~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161602CC25C8E864149F2A88FC&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133762&x-signature=amI7sqDj2LD6MPoXncrWLm7vcjI%3D",
-      "mediaUrl": "http://pull-hls-t6.douyincdn.com/third/stream-117878955956503354_uhd/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&k=1e0419e617a3d3c9&major_anchor_level=common&t=1757146562&t_id=037-20250830161602CC25C8E864149F2A88FC-fjTDE3"
-    },
-    {
-      "name": "妮 妮",
-      "id": "679537099731",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/3b774e7362ecdd7747b513b9c1b15f9e~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161602701CA5C13B8AD91AEB58&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133762&x-signature=cPbpgbH%2FH7HGjZwcB2gE2LDwEt8%3D",
-      "mediaUrl": "http://pull-hls-l6.douyincdn.com/third/stream-406109331165544487_cvgor4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&k=dd59036859867326&major_anchor_level=common&t=1757146562&t_id=037-20250830161602701CA5C13B8AD91AEB58-GIjNB0"
-    },
-    {
-      "name": "豆宝",
-      "id": "735120834987",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7380563318123318027~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161602ADDF7601FBB980D5570E&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133762&x-signature=%2B6AwwpxaPRLq12OklL4PRWjWM2E%3D",
-      "mediaUrl": "http://pull-hls-l13.douyincdn.com/stage/stream-117878834755797432_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146563&major_anchor_level=common&sign=7c5b683b80cfffa9af4b28c7d78529b6&t_id=037-20250830161602ADDF7601FBB980D5570E-WkmI0h"
-    },
-    {
-      "name": "小乖酱",
-      "id": "158922641497",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/a94a6d14428dac053d7d338d1172f605~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016160497A9D6EB2E4DCD808924&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133764&x-signature=YSMFQRX6M4jwP7JNYFcC6yeEf9Q%3D",
-      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-117879371490131998_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-2025083016160497A9D6EB2E4DCD808924-RZcXZG&wsSecret=1b3613c99ac6e77d93d8fe8b097f9e86&wsTime=68b2b344"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7539080497264249610~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171553B37048C76D67801A2F41&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137353&x-signature=4FVPRXhJ1Hd1LpbqLOCtu17zmF0%3D",
+      "mediaUrl": "http://pull-hls-t6.douyincdn.com/third/stream-117878955956503354_uhd/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&k=b246a5218648ac27&major_anchor_level=common&t=1757150153&t_id=037-20250830171553B37048C76D67801A2F41-W7vp08"
     },
     {
       "name": "梨花詩",
       "id": "318195156065",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/cc8da08873eb22cce9c2d275ecf0053f~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161604B0430AACCD89C724CB68&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133764&x-signature=QUoV3gl8v7MS6GS1gQkqgUPuj%2Fo%3D",
-      "mediaUrl": "http://pull-hls-l11.douyincdn.com/stage/stream-694340234797908113_or4.m3u8?arch_hrchy=c1&exp_hrchy=c1&expire=1757146564&major_anchor_level=common&sign=ac668aa77fcf1a6101590b64c1503483&t_id=037-20250830161604B0430AACCD89C724CB68-y0tvCA"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/cc8da08873eb22cce9c2d275ecf0053f~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171555383C38607D4FFD12796A&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137355&x-signature=s%2FNvP8Z8XvJtRgqgkHZ6JqFiAik%3D",
+      "mediaUrl": "http://pull-hls-l11.douyincdn.com/stage/stream-694340234797908113_or4.m3u8?arch_hrchy=c1&exp_hrchy=c1&expire=1757150155&major_anchor_level=common&sign=0f1955f2f7d6f5e56c37d4a580d2bd07&t_id=037-20250830171555383C38607D4FFD12796A-wlVyYQ"
     },
     {
       "name": "🫧泡泡🫧",
       "id": "45556349712",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/75ab91f90c5254c4942b9d3651e4a9ef~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161605A6967F5D2B1ACF140947&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133765&x-signature=cy%2BHaeFRPMSkGywuSPjBF38vr1Y%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-694340156145533067_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbedc5&major_anchor_level=common&sign=33ba2664d3a22028d34d2bfa3af78a71&t_id=037-20250830161605A6967F5D2B1ACF140947-UI6XTY"
-    },
-    {
-      "name": "富贵萄萄🍇",
-      "id": "22473100383",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/a63da6f4c7f51f8d020f55cd7f1357f6~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301616057306F51C0857C2E003E7&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133765&x-signature=Hyq3v4xpg%2FJ5%2FsrVEJJEpeUilxo%3D",
-      "mediaUrl": "http://pull-hls-l11.douyincdn.com/stage/stream-117878787511419025_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757146565&major_anchor_level=common&sign=6d97eaa1a918322be3800d22816d647f&t_id=037-202508301616057306F51C0857C2E003E7-IKX65Y"
-    },
-    {
-      "name": "小小阿音",
-      "id": "475919488508",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7494456843511843625~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161606D9AC7BF1A51B31AD5B28&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133766&x-signature=ID4XpXGqrJVAD87Zw0aSQs4CY9k%3D",
-      "mediaUrl": "http://pull-hls-l6.douyincdn.com/stage/stream-406109676177981471_or4/index.m3u8?arch_hrchy=h1&exp_hrchy=h1&k=bd9d7093ea5187f9&major_anchor_level=common&t=1757146566&t_id=037-20250830161606D9AC7BF1A51B31AD5B28-kK1hsO"
-    },
-    {
-      "name": "菜菜不菜呀🥬",
-      "id": "566428142741",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/775b1d130eef750fe3513045a181940c~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161607D243342510532E9C3BE4&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133767&x-signature=uzcY4WnGOssqYos%2FK%2F%2BNf1leWOk%3D",
-      "mediaUrl": "http://pull-hls-t95.douyincdn.com/stage/stream-694340193389380407_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146568&major_anchor_level=common&sign=416bfe550f4cf8b468ab4726c8bb7f68&t_id=037-20250830161607D243342510532E9C3BE4-yjWGXz"
-    },
-    {
-      "name": "纯爱咩咩",
-      "id": "81810841595",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/221a42e4248b20433fb5b1c7e4db70d9~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161607A088EB73B33A6AC4DFE0&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133768&x-signature=XYptezqmyx29AOydbqm7w6vFst8%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-694340183190667403_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbedc8&major_anchor_level=common&sign=f9e3606d7f7da6c7ed56d6cdbcc8f0b1&t_id=037-20250830161607A088EB73B33A6AC4DFE0-npaaBx"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/75ab91f90c5254c4942b9d3651e4a9ef~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171555B78A4345638AF6192A81&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137355&x-signature=EPbDebTZWjtupOVGeTu%2FyMQYSS8%3D",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-694340156145533067_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbfbcb&major_anchor_level=common&sign=0592b202a38dc3a5d194a4b1fbfe8c3d&t_id=037-20250830171555B78A4345638AF6192A81-4sCcaT"
     },
     {
       "name": "小九九🐶",
       "id": "809827770764",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/29ed2d07d0a808144d373d9300d4e397~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301616079CC02F9EAC2FF212B51A&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133767&x-signature=NjE56Cv5AzQ3WPDNpZAfrIN7oBg%3D",
-      "mediaUrl": "http://pull-hls-l6.douyincdn.com/stage/stream-406109705631432735_or4/index.m3u8?arch_hrchy=h1&exp_hrchy=h1&k=6748d4a7d97e3e00&major_anchor_level=common&t=1757146567&t_id=037-202508301616079CC02F9EAC2FF212B51A-fUZKkH"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/29ed2d07d0a808144d373d9300d4e397~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017155705DF444EFCC4978CEF41&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137357&x-signature=aDWpnrQCNYb8s%2F%2BahM554sTaRMQ%3D",
+      "mediaUrl": "http://pull-hls-l6.douyincdn.com/stage/stream-406109705631432735_or4/index.m3u8?arch_hrchy=h1&exp_hrchy=h1&k=36da2dffbae0d0b7&major_anchor_level=common&t=1757150157&t_id=037-2025083017155705DF444EFCC4978CEF41-CMdMoD"
+    },
+    {
+      "name": "菜菜不菜呀🥬",
+      "id": "566428142741",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/775b1d130eef750fe3513045a181940c~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171557B6CD977B51D918BEA530&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137357&x-signature=Uz3FZ3p3jxzWBJHwdBIZpikHAiU%3D",
+      "mediaUrl": "http://pull-hls-t95.douyincdn.com/stage/stream-694340193389380407_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150157&major_anchor_level=common&sign=fcc09c8fb469d904eabc8d3aac48031c&t_id=037-20250830171557B6CD977B51D918BEA530-CbWbKP"
+    },
+    {
+      "name": "纯爱咩咩",
+      "id": "81810841595",
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/221a42e4248b20433fb5b1c7e4db70d9~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171557F0A5823DDF44A3B86916&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137357&x-signature=%2Bd9snPIyyS9euSkkBMCdHpNwvsM%3D",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-694340183190667403_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbfbcd&major_anchor_level=common&sign=b21922384fca18e7e5ca8b0e29aba7b0&t_id=037-20250830171557F0A5823DDF44A3B86916-ZbiVoN"
     },
     {
       "name": "楚怡",
       "id": "87514588397",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/bd9c26ebf0aa32d309a4de029934c9a7~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161608E9039E7F52949B8DF4B4&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133768&x-signature=mVaUlmr3AkqBy8eNKx5QA5t8O3M%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-117879477593702539_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=68bbedc8&major_anchor_level=common&sign=50b16fba04dd9ea7e944378534fe962a&t_id=037-20250830161608E9039E7F52949B8DF4B4-7MHyBI"
-    },
-    {
-      "name": "薯条",
-      "id": "391716222131",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/bb334c2f1e0dbbc9c5fc5dd6b3b6dd18~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016160892F159F77447F4315E68&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133768&x-signature=sHTGAeHZNnmdMegdXzoLo4gRD38%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/third/stream-694339608673780198_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbedc8&major_anchor_level=common&sign=7638d8324510e2de1ef111b41215a922&t_id=037-2025083016160892F159F77447F4315E68-CsVjZ2"
-    },
-    {
-      "name": "早早不早",
-      "id": "459562240992",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/883afff3330ab318e267238948534493~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016160983EE5CFF6103FC1BF67F&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133769&x-signature=hancuHBGTQzPBFOwcjCa2J%2F%2Fvp0%3D",
-      "mediaUrl": "http://pull-l3.douyincdn.com/stage/stream-694338932277248082_or4.m3u8?arch_hrchy=w1&auth_key=1757144769-0-0-d06ba46f927f507d30c9b7c094067a80&exp_hrchy=w1&major_anchor_level=common&t_id=037-2025083016160983EE5CFF6103FC1BF67F-EpjdlD"
-    },
-    {
-      "name": "巴黎在逃圣母🦢",
-      "id": "758667629521",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/53dd92c8382cb6fd441c09fdf6b91f81~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161609322C5332D26C6E338484&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133769&x-signature=cMBpiHZqN6pAQbFEHlTL5uvVF8s%3D",
-      "mediaUrl": "http://pull-hls-l95.douyincdn.com/stage/stream-406108450898051744_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146569&major_anchor_level=common&sign=3b316f6d0b67c51f53ade2690f4b2e6d&t_id=037-20250830161609322C5332D26C6E338484-oau83X"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/bd9c26ebf0aa32d309a4de029934c9a7~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017155883BAF9CBCD58835883FF&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137358&x-signature=jZ9EsKG8DWdY4%2FykCdNSZW5oMtk%3D",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-117879477593702539_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=68bbfbce&major_anchor_level=common&sign=c9b9d47912646bfdf1494d396a942681&t_id=037-2025083017155883BAF9CBCD58835883FF-ilQQuv"
     },
     {
       "name": "心儿呀",
       "id": "762620438748",
-      "imgUrl": "https://p11-webcast.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_aafdb2d24b61f7ec4747c8946d9b6065~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161610308F61240D312E10F21F&s=enter_room&sc=webcast_cover",
-      "mediaUrl": "http://pull-hls-l13.douyincdn.com/stage/stream-406109537463959992_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146570&major_anchor_level=common&sign=f768d1584e88b2edf724d70e7367ce49&t_id=037-20250830161610308F61240D312E10F21F-Vtmgis"
+      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_aafdb2d24b61f7ec4747c8946d9b6065~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301715590EDE2AD35992DB8AC5D6&s=enter_room&sc=webcast_cover",
+      "mediaUrl": "http://pull-hls-l13.douyincdn.com/stage/stream-406109537463959992_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150159&major_anchor_level=common&sign=a99a50af6467cf386e0602682b3e2673&t_id=037-202508301715590EDE2AD35992DB8AC5D6-oIVJVK"
+    },
+    {
+      "name": "欢乐宋",
+      "id": "812848209323",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/34d47c616ebb58ec17f99089b880e9b8~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301716000F8DB8E6379D09944B51&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137360&x-signature=spqOq33WF87jau%2FGwgVueaP9ov0%3D",
+      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-117879636776452126_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-202508301716000F8DB8E6379D09944B51-CecivJ&wsSecret=3f0ac0ca89e390901ffcc3785a245532&wsTime=68b2c150"
     },
     {
       "name": "玲距离",
       "id": "24193412004",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/2fd22da255f101e8ddf922560d613ed6~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161612DC8848815C1E36175810&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133772&x-signature=2RAayXwUbK0aF5B%2B2sK4SoPwjmc%3D",
-      "mediaUrl": "http://pull-hls-l6.douyincdn.com/stage/stream-117878894553464863_or4/index.m3u8?arch_hrchy=c1&exp_hrchy=c1&k=dc43a6e955028b4c&major_anchor_level=common&t=1757146572&t_id=037-20250830161612DC8848815C1E36175810-VPzV2z"
-    },
-    {
-      "name": "梦瑶",
-      "id": "653819612526",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7542827626801515302~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161614B8E12950F7F2E2BB8305&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133774&x-signature=A783lSS5fUNDuY%2FusqWRNZCoKso%3D",
-      "mediaUrl": "http://pull-hls-l11.douyincdn.com/stage/stream-117879482155532433_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146574&major_anchor_level=common&sign=35ca99c21877b9d86adf93697b4af7d4&t_id=037-20250830161614B8E12950F7F2E2BB8305-ocZEWC"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/2fd22da255f101e8ddf922560d613ed6~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171601D76D76BC2766B0789DD0&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137361&x-signature=WQyBpElHkUtbQLN0ZEav5ZboQxw%3D",
+      "mediaUrl": "http://pull-hls-l6.douyincdn.com/stage/stream-117878894553464863_or4/index.m3u8?arch_hrchy=c1&exp_hrchy=c1&k=9c737ffea637d1e5&major_anchor_level=common&t=1757150161&t_id=037-20250830171601D76D76BC2766B0789DD0-rQodXh"
     },
     {
       "name": "许小许",
       "id": "250273043796",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/d9080b554ab0be6188ba63aa4e0c6fe4~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301616143777ACA37DA8CCC9D8E5&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133774&x-signature=b8NOW5eL32kpf9cNF7%2FK%2Fz4lBwk%3D",
-      "mediaUrl": "http://pull-hls-l13.douyincdn.com/stage/stream-117878456260493752_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146574&major_anchor_level=common&sign=15a246144118b4b9e7477605dc10372c&t_id=037-202508301616143777ACA37DA8CCC9D8E5-fVS1S5"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7444205760399117097~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171603E633C95CA0FF5D0F29DF&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137363&x-signature=WB5gohlLdxxfk2kegQ2A8Qi8rWw%3D",
+      "mediaUrl": "http://pull-hls-l6.douyincdn.com/stage/stream-117879617512538143_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&k=2208a344ee173cde&major_anchor_level=common&t=1757150163&t_id=037-20250830171603E633C95CA0FF5D0F29DF-inZ9di"
     },
     {
-      "name": "呆呆",
-      "id": "155380011335",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/b45444db3970b552a6e70bd5d6e6922d~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161614CDF8AEFC48F362D1BB3E&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133775&x-signature=C7wizGAs88lkunieJNd%2BVTQ9TQo%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-694339702083027083_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbedcf&major_anchor_level=common&sign=55839f5aeab15a0f33ffd13ea235b58e&t_id=037-20250830161614CDF8AEFC48F362D1BB3E-mx9S67"
-    },
-    {
-      "name": "绵绵冰🍨",
-      "id": "421108809309",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7526202537561869119~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301616150A12F6CE130F820EA30B&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133775&x-signature=LJk%2Fb2VqLNB8%2B9hzKr6Iowma2FM%3D",
-      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-406109151580913694_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-202508301616150A12F6CE130F820EA30B-Z8zEPo&wsSecret=6c3d04520dc3b120df8ae2137f9a16b5&wsTime=68b2b34f"
+      "name": "小九日记📔",
+      "id": "34423378681",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/27880d0550f0b5f58ad8e6ebeb071351~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301716043BF4FDCD16DBEDAAFE76&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137364&x-signature=%2BoGEy51SQF5O6go6N3OrTwiFK9Q%3D",
+      "mediaUrl": "http://pull-hls-t96.douyincdn.com/stage/stream-694340005413258039_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150164&major_anchor_level=common&sign=b2fd7357731e4429730d74a740ca1d1f&t_id=037-202508301716043BF4FDCD16DBEDAAFE76-PKSFkd"
     },
     {
       "name": "糖炒狐狸🦊",
       "id": "682191023569",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7531920861071412006~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301616170E24942957F8DE146DB5&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133777&x-signature=Vd7Zh2Qol5tGLyOA7F8IoJfEusU%3D",
-      "mediaUrl": "http://pull-x2-f5-hls.douyincdn.com/stage/stream-406109586319737514_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146577&major_anchor_level=common&sign=b7997992427447b6ce2b9d074d7a92d0&t_id=037-202508301616170E24942957F8DE146DB5-piDXdo&volcSecret=b7997992427447b6ce2b9d074d7a92d0&volcTime=1757146577"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7531920861071412006~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171604CA63982CD740D8ABC844&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137364&x-signature=%2B8awNxYxvRYQhL98mSF1Sc8sPlE%3D",
+      "mediaUrl": "http://pull-x2-f5-hls.douyincdn.com/stage/stream-406109586319737514_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150165&major_anchor_level=common&sign=94611b799729c396236c677df460030a&t_id=037-20250830171604CA63982CD740D8ABC844-boymHW&volcSecret=94611b799729c396236c677df460030a&volcTime=1757150165"
+    },
+    {
+      "name": "晴儿⛅️",
+      "id": "829375218663",
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/2288d561a294e836b4c468eaf6c07306~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171608C56427B663DC79A6477B&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137368&x-signature=lUQaLGt6qJZ3UG6Lh8Ojrt6y%2BUg%3D",
+      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-406109910455549982_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830171608C56427B663DC79A6477B-XmOens&wsSecret=eea2a27b9084db37f9da7dee8c3ea8e3&wsTime=68b2c158"
+    },
+    {
+      "name": "小则又沐风",
+      "id": "996866527530",
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/54968563c6ea972d2cd352d22b7dd434~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301716096257F95CEA3EC804BDCB&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137369&x-signature=8VGZeV1pwVIfaM5moPS1q7cT780%3D",
+      "mediaUrl": "http://pull-hls-l6.douyincdn.com/stage/stream-694340383310872607_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&k=36b28a4cfc2bb70b&major_anchor_level=common&t=1757150169&t_id=037-202508301716096257F95CEA3EC804BDCB-PHNJ8M"
+    },
+    {
+      "name": "03的阳🐑",
+      "id": "128551315580",
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/dcacabcb080af59bccecf87f03876952~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017161188C055F3C17296166C83&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137371&x-signature=l7tgnLNGTMJJdb73J4LRAWcZmCk%3D",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-694340499070779531_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbfbdb&major_anchor_level=common&sign=138403f04191340ce2ba8fc41d0ef3d5&t_id=037-2025083017161188C055F3C17296166C83-NODiD3"
     },
     {
       "name": "萱萱",
       "id": "7313989015",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7515992225503906587~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301616247D8EBF12CF280372FECA&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133784&x-signature=2y%2BKpr3R%2BL6k7H8uscfX2FvMFZg%3D",
-      "mediaUrl": "http://pull-hls-l11.douyincdn.com/stage/stream-117878582827286673_or4.m3u8?arch_hrchy=c1&exp_hrchy=c1&expire=1757146584&major_anchor_level=common&sign=858017a18c66ef7a2c16c6395d76c97a&t_id=037-202508301616247D8EBF12CF280372FECA-4vfTEG"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7515992225503906587~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301716118240C439AFE4B76075EF&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137371&x-signature=lJ8Ib%2FulXy8ZpH2ufUcVG20p%2BYI%3D",
+      "mediaUrl": "http://pull-hls-l11.douyincdn.com/stage/stream-117878582827286673_or4.m3u8?arch_hrchy=c1&exp_hrchy=c1&expire=1757150171&major_anchor_level=common&sign=89443f11224f867af226991660b47ddf&t_id=037-202508301716118240C439AFE4B76075EF-fTwSTu"
     },
     {
       "name": "元气爆米花⁶²²🍿（8.20百天）",
       "id": "20478363388",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7510500687404141338~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161625D45C4AB904A015D41581&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133785&x-signature=V%2BYGwQCXhzeemVSG16nfb11t2RI%3D",
-      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/third/stream-117879478931686059_uhd/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146585&major_anchor_level=common&sign=c4f949631fa76e86365dea2859a74ad4&t_id=037-20250830161625D45C4AB904A015D41581-G5OAz8&volcSecret=c4f949631fa76e86365dea2859a74ad4&volcTime=1757146585"
-    },
-    {
-      "name": "熊宝儿💃",
-      "id": "65130738269",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7492076837017422646~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161626C8F3DAD5DBF6C319AC37&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133786&x-signature=nAqd8hjsWmDv931lOnjXM2Gv1jI%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-117879435050877067_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbedda&major_anchor_level=common&sign=ad045f37391f108327273b429da7e0fc&t_id=037-20250830161626C8F3DAD5DBF6C319AC37-rZQrrZ"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7510500687404141338~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301716125E25E335E1896DBDB5EC&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137372&x-signature=LvOPSmd9oK0N0F0nn4u6OJ6AX6E%3D",
+      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/third/stream-117879478931686059_uhd/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150172&major_anchor_level=common&sign=b9d3a1046e825009cf5434533b7e1fda&t_id=037-202508301716125E25E335E1896DBDB5EC-VyEASJ&volcSecret=b9d3a1046e825009cf5434533b7e1fda&volcTime=1757150172"
     },
     {
       "name": "楠楠楠波万🦊",
       "id": "572367606015",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/548637b4af18f0c18ff6b0a1db1b5d42~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161627D6C59CDCF0515C8FDC85&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133787&x-signature=V%2FBPqo0v9cWXxENYPsCaF0MqjbM%3D",
-      "mediaUrl": "http://pull-l3.douyincdn.com/third/stream-694339873680916959_uhd.m3u8?arch_hrchy=c1&auth_key=1757144787-0-0-ae13551361e3eb56ccdc9058c147d572&exp_hrchy=w1&major_anchor_level=common&t_id=037-20250830161627D6C59CDCF0515C8FDC85-XgEjMh"
-    },
-    {
-      "name": "小意思",
-      "id": "118447465556",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/3d19a4c91c4a8091f1047001fdf8335d~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161628954E55361BA401B7DB78&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133788&x-signature=0H2O%2FqyxZEtWclXwMwyBUPfPipg%3D",
-      "mediaUrl": "http://pull-hls-t6.douyincdn.com/third/stream-406109341566894906_uhd/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&k=d7713e1c9c4e27b7&major_anchor_level=common&t=1757146588&t_id=037-20250830161628954E55361BA401B7DB78-XfRLbG"
-    },
-    {
-      "name": "小青豆（养分）",
-      "id": "772430440170",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7479825314873658175~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016162961868499101488243EED&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133789&x-signature=zl%2F%2FtYcz01tlCKp74Q13iOOvoHI%3D",
-      "mediaUrl": "http://pull-hls-l1.douyincdn.com/third/stream-406109328151674918_or4/playlist.m3u8?arch_hrchy=c1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-2025083016162961868499101488243EED-j9wcRB&wsSecret=371568e926e0d491e0467cfbccdfb99c&wsTime=68b2b35d"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/548637b4af18f0c18ff6b0a1db1b5d42~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171613C9F451F1D273BCB5E8C5&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137373&x-signature=8lM6jod%2B5t%2FQ6ehOAefAVrMRb3M%3D",
+      "mediaUrl": "http://pull-l3.douyincdn.com/third/stream-694339873680916959_uhd.m3u8?arch_hrchy=c1&auth_key=1757148373-0-0-e181cfcb61c7a82ec75591341a959d03&exp_hrchy=w1&major_anchor_level=common&t_id=037-20250830171613C9F451F1D273BCB5E8C5-PkKyLE"
     },
     {
       "name": "兜兜",
       "id": "775222594264",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/e777c83356d4cf77f8dd5e53b758dad1~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161630AF61C9A490DC4D96E2BA&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133790&x-signature=7hMu90cH%2BAs0zcO37VCOij%2BGGrQ%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-406109433646284939_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbedde&major_anchor_level=common&sign=80a0559ea2528866cd17398212966d0a&t_id=037-20250830161630AF61C9A490DC4D96E2BA-TH0pGp"
-    },
-    {
-      "name": "宅",
-      "id": "687066675192",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/83036f2464c5343a3cf2373f02811090~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301616305D10464661FB42EDEB60&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133790&x-signature=FXCKXAqOQc%2Fz7o%2FZCaLaHP0X42s%3D",
-      "mediaUrl": "http://pull-l3.douyincdn.com/stage/stream-406109776366010450_or4.m3u8?arch_hrchy=w1&auth_key=1757144790-0-0-b596a0adff8ff86a68a24db007edb57f&exp_hrchy=w1&major_anchor_level=common&t_id=037-202508301616305D10464661FB42EDEB60-Na3LrT"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/e777c83356d4cf77f8dd5e53b758dad1~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171616E9C2A36D25C90A1D634D&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137376&x-signature=OByypPszn0Wexufvy6vFi3a21cQ%3D",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-406109433646284939_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbfbe0&major_anchor_level=common&sign=e1f9837a6b23c0e27d4ab7fa197bda14&t_id=037-20250830171616E9C2A36D25C90A1D634D-5taLe1"
     },
     {
       "name": "violin.潇子萱",
       "id": "281270977310",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7502806255724170010~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161631E6B21EB23B72E2B43EE1&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133791&x-signature=dcoQ4w7xUOhFCO3fi0Lp0x3Hf4k%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-694340234792403083_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbeddf&major_anchor_level=common&sign=ef062dcd48959281e87241318da9e460&t_id=037-20250830161631E6B21EB23B72E2B43EE1-QQ9uCr"
-    },
-    {
-      "name": "欧叶✌️",
-      "id": "488800799225",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7528737824510888731~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016163254C15CEA00DF4250879E&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133792&x-signature=mfMuWj5W3VrVuRHSbdTFvSIohMw%3D",
-      "mediaUrl": "http://pull-hls-t11.douyincdn.com/third/stream-117879189030568762_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146592&major_anchor_level=common&sign=dbe74d9693f3006416abf525d943aadf&t_id=037-2025083016163254C15CEA00DF4250879E-j1wqPP"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7502806255724170010~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171617527DEEB91EBE6EAE8EAC&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137377&x-signature=xNvMhwdFVttefie91ANS8CS7%2FZ8%3D",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-694340234792403083_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbfbe1&major_anchor_level=common&sign=b7573aa2c69b538813507da1e03315b1&t_id=037-20250830171617527DEEB91EBE6EAE8EAC-e4DL84"
     },
     {
       "name": "麻酱（抽象养分版）",
       "id": "183531703374",
-      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/douyin-user-image-file_3c9b803b9cedd081f12e9071e50d26ca~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016163234D291BB5BF811F7840F&s=enter_room&sc=webcast_cover",
-      "mediaUrl": "http://pull-l3.douyincdn.com/third/stream-117879225598345695_or4.m3u8?arch_hrchy=c1&auth_key=1757144792-0-0-8183aa7d5148e8914115af9fcb2ce8c5&exp_hrchy=w1&major_anchor_level=common&t_id=037-2025083016163234D291BB5BF811F7840F-fXS82h"
+      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/douyin-user-image-file_3c9b803b9cedd081f12e9071e50d26ca~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171618062F7DBEB21EBF095E73&s=enter_room&sc=webcast_cover",
+      "mediaUrl": "http://pull-l3.douyincdn.com/third/stream-117879225598345695_uhd.m3u8?arch_hrchy=c1&auth_key=1757148378-0-0-d83d7f036b374ca554f850e460c50a04&exp_hrchy=w1&major_anchor_level=common&t_id=037-20250830171618062F7DBEB21EBF095E73-aHGp2k"
     },
     {
       "name": "架子鼓🥁倩哥⁷⁷⁵",
       "id": "458090647366",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7523780359574784804~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301616330704A3FD5B7CD9A6F1C7&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133793&x-signature=%2FKEhp7mzGPH2PVjpSMybLDHzzhE%3D",
-      "mediaUrl": "http://pull-hls-t13.douyincdn.com/third/stream-406109642619355962_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146593&major_anchor_level=common&sign=14d1034ca02c71ddd1722bbc563fe158&t_id=037-202508301616330704A3FD5B7CD9A6F1C7-4QYCIf"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7523780359574784804~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017161823F5E26305FB9F1C2D8D&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137378&x-signature=YxZwD2Hpf%2BnSYP1t8nmQtLIgTBg%3D",
+      "mediaUrl": "http://pull-hls-t13.douyincdn.com/third/stream-406109642619355962_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150178&major_anchor_level=common&sign=10324dd70d16bc2d5abb0ee555e8beeb&t_id=037-2025083017161823F5E26305FB9F1C2D8D-JXXbwq"
     },
     {
-      "name": "包包菜🥦",
-      "id": "447131460670",
-      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/douyin-user-image-file_86289932f84429af84c5a983ba7d2693~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161633E10D18DEF1C7957FAC2D&s=enter_room&sc=webcast_cover",
-      "mediaUrl": "http://pull-hls-l13.douyincdn.com/stage/stream-7544261693908486958_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146594&major_anchor_level=common&sign=dc880e65add0ad3e0d7de03b2365cdd2&t_id=037-20250830161633E10D18DEF1C7957FAC2D-jS36WD"
+      "name": "可可可乐",
+      "id": "29091339511",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/e31e2e43c2a7c3c94a80a5129f3503b9~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171618FF4C2A8CFA305A5701C8&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137379&x-signature=UO1g4XSuAKoWk5R9ErASLG2E1do%3D",
+      "mediaUrl": "http://pull-hls-l96.douyincdn.com/stage/stream-117879259754136169_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150179&major_anchor_level=common&sign=8784df269173221d5e4499a1270d454d&t_id=037-20250830171618FF4C2A8CFA305A5701C8-6L6Szc"
     },
     {
       "name": "小羊羔羔ovo",
       "id": "801063976427",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/b6266c02ae30a7bb720105b743350184.jpg~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016163548B1BE73FD2036426D1A&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133795&x-signature=Yh1Z4vMkdSgmdtK%2BGc5rdNM6P7U%3D",
-      "mediaUrl": "http://pull-l3.douyincdn.com/third/stream-694339886437630431_uhd.m3u8?arch_hrchy=w1&auth_key=1757144795-0-0-027395a138e88cf948662215f43ba75d&exp_hrchy=w1&major_anchor_level=common&t_id=037-2025083016163548B1BE73FD2036426D1A-uQmxw2"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7a7a554efdcc4576f6d60d583885deda.jpg~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171620854F3A6CBFAB532F6BEF&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137380&x-signature=%2B1xIHWqOawXNO%2BR90YUt4YNqv94%3D",
+      "mediaUrl": "http://pull-l3.douyincdn.com/third/stream-694339886437630431_uhd.m3u8?arch_hrchy=w1&auth_key=1757148380-0-0-1ab46440331c7c0a333a3ee882fa9a37&exp_hrchy=w1&major_anchor_level=common&t_id=037-20250830171620854F3A6CBFAB532F6BEF-u0Jqts"
     },
     {
-      "name": "乖米",
-      "id": "80680418594",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7528635113666202383~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161635C62586DE8F8612257323&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133796&x-signature=auDPrcUBEQNBpIf6%2Fx3I%2B6zWGlo%3D",
-      "mediaUrl": "http://pull-hls-l96.douyincdn.com/stage/stream-694340233116254825_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757146596&major_anchor_level=common&sign=8b8f5d732694900cd0ba1bfb10ccd3dc&t_id=037-20250830161635C62586DE8F8612257323-f0KptZ"
+      "name": "安 妮🍅",
+      "id": "534191430896",
+      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_9e9e6a795a58658bdd6d96fef7cf0c19~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017162216142D69095B420A03B5&s=enter_room&sc=webcast_cover",
+      "mediaUrl": "http://pull-hls-l11.douyincdn.com/stage/stream-406110049704345745_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150182&major_anchor_level=common&sign=82b1453138dacb36513a84313055215f&t_id=037-2025083017162216142D69095B420A03B5-19isgL"
     },
     {
       "name": "开心小马",
       "id": "811385006885",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7537719997230222116~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301616378B52D33E05684C7A2877&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133798&x-signature=QKk7pj18D8pVuo84o%2BZ2vbFhYSQ%3D",
-      "mediaUrl": "http://pull-hls-l96.douyincdn.com/stage/stream-694340179698647657_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146598&major_anchor_level=common&sign=5b7384bf2d34cf07740bc7a72e479fc5&t_id=037-202508301616378B52D33E05684C7A2877-Dwyrho"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7537719997230222116~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017162234F89EF589DFCDB8447C&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137382&x-signature=tTnhAoyoA6zl2m%2BBCt4KYP4lcqM%3D",
+      "mediaUrl": "http://pull-hls-l96.douyincdn.com/stage/stream-694340179698647657_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150182&major_anchor_level=common&sign=3e8b9d4fd85fa3a0c3482c440e8d8c75&t_id=037-2025083017162234F89EF589DFCDB8447C-mR6yqc"
     },
     {
       "name": "小粽子",
       "id": "193282860011",
-      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_oIzLJPAZyCHAibCAQEQAaAKPjEAIIqjBiAJPs~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016163863AA6784DFE80B1793B5&s=enter_room&sc=webcast_cover",
-      "mediaUrl": "http://pull-l3.douyincdn.com/stage/stream-117879514103021650_or4.m3u8?arch_hrchy=w1&auth_key=1757144798-0-0-70b8872a503edbf40aedf45621b512fa&exp_hrchy=w1&major_anchor_level=common&t_id=037-2025083016163863AA6784DFE80B1793B5-c95djo"
+      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_oIzLJPAZyCHAibCAQEQAaAKPjEAIIqjBiAJPs~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017162262B75AB9DE75F6524132&s=enter_room&sc=webcast_cover",
+      "mediaUrl": "http://pull-l3.douyincdn.com/stage/stream-117879514103021650_or4.m3u8?arch_hrchy=w1&auth_key=1757148383-0-0-af25f834a05c911c611bd33f718d2c15&exp_hrchy=w1&major_anchor_level=common&t_id=037-2025083017162262B75AB9DE75F6524132-3oXLUS"
     },
     {
-      "name": "月月🌙",
-      "id": "522571163785",
-      "imgUrl": "https://p11-webcast.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_oc5rnAA1mDA2leYBClFEg5DyAwA9rLAIEMfSNa~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301616398045DA02D319C36BFED9&s=enter_room&sc=webcast_cover",
-      "mediaUrl": "http://pull-hls-t13.douyincdn.com/stage/stream-117879189499282231_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757146600&major_anchor_level=common&sign=80a7da69a4dcd0c46ef2bd16f85280f6&t_id=037-202508301616398045DA02D319C36BFED9-mfUvlX"
+      "name": "憨憨没人要",
+      "id": "206169598847",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/e6c36f5b21a6a0b16dab2b3c835c2d1f~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171623ADE92E6CB51AD47E43E2&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137383&x-signature=aHWm7EisVzkEcdyMhM9EolklT7I%3D",
+      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-694340314115604510_or4/playlist.m3u8?arch_hrchy=h1&exp_hrchy=h1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830171623ADE92E6CB51AD47E43E2-2OXJsR&wsSecret=e1b1da3faa10271a763b5ff5925cd67a&wsTime=68b2c167"
     },
     {
-      "name": "汁汁🍹",
-      "id": "401449049135",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/e993af6ed1d950cdeee7b53befb2c7f1~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161640676755A4495A3740F7C6&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133800&x-signature=NMiGasChpaDqmTAIrH2LcqGKqSY%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-694340047831302283_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbede8&major_anchor_level=common&sign=dde8c4b5447b5bcb6dc6aa5c08e19de2&t_id=037-20250830161640676755A4495A3740F7C6-IkhIfQ"
+      "name": "朵拉.",
+      "id": "72387794262",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/89a02e9fab473230cefa77a3ebc6746f~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301716236ECE0CC1D6062A657B74&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137384&x-signature=Z3TK4l1FNu2bYJlmpuaUQvp1fj0%3D",
+      "mediaUrl": "http://pull-hls-l11.douyincdn.com/stage/stream-694340458401235089_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150184&major_anchor_level=common&sign=37e391d87742416e9a03ac72228fad46&t_id=037-202508301716236ECE0CC1D6062A657B74-4Lsc0S"
     },
     {
       "name": "九九妹🦋",
       "id": "850887781695",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/77fc903fef1c849a2c038a8c167eb1c8~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016164052124B255A1D5466454B&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133800&x-signature=WGWyaOIU90DeG3Q6lhjto0jE0LI%3D",
-      "mediaUrl": "http://pull-l3.douyincdn.com/stage/stream-406109677916782674_or4.m3u8?arch_hrchy=w1&auth_key=1757144800-0-0-9b1f0fea561f4f0e1ca07e1f06210487&exp_hrchy=w1&major_anchor_level=common&t_id=037-2025083016164052124B255A1D5466454B-rVBcMx"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/77fc903fef1c849a2c038a8c167eb1c8~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171624FC95158E38B9D5592CDE&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137384&x-signature=tmK0b6Nn3c8hB%2FczxIp2IVVds00%3D",
+      "mediaUrl": "http://pull-l3.douyincdn.com/stage/stream-406109677916782674_or4.m3u8?arch_hrchy=w1&auth_key=1757148384-0-0-ae07f19fb0cd676696a1a54ee2daa3b1&exp_hrchy=w1&major_anchor_level=common&t_id=037-20250830171624FC95158E38B9D5592CDE-68FTx8"
     },
     {
       "name": "丫头",
       "id": "693425652076",
-      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/tos-cn-i-0813c001_o4iJB6SiA0HDnOaAEgvITLv9yAIBAgg49QPsA~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161640D9705D051F018EEC04E1&s=enter_room&sc=webcast_cover",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-694339937443774603_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=68bbede8&major_anchor_level=common&sign=29039d1933a7b013543455ece9e04f9f&t_id=037-20250830161640D9705D051F018EEC04E1-N2W0dK"
+      "imgUrl": "https://p11-webcast.douyinpic.com/img/aweme-avatar/tos-cn-i-0813c001_o4iJB6SiA0HDnOaAEgvITLv9yAIBAgg49QPsA~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171624B0346F9B54F03A8BA5D0&s=enter_room&sc=webcast_cover",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-694339937443774603_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=68bbfbe8&major_anchor_level=common&sign=c1bba415253b870b645f5a34a3430624&t_id=037-20250830171624B0346F9B54F03A8BA5D0-p3PBYf"
+    },
+    {
+      "name": "是雷雷",
+      "id": "194188305138",
+      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_61a2e4ea9d88d74ae5dcc8063614cff0~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171625B1E6F0C25D90D97F6CEF&s=enter_room&sc=webcast_cover",
+      "mediaUrl": "http://pull-x2-f5-hls.douyincdn.com/stage/stream-694340278883189418_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150185&major_anchor_level=common&sign=50b1f8abf77885c72b0c3c0978dfadab&t_id=037-20250830171625B1E6F0C25D90D97F6CEF-haEKxL&volcSecret=50b1f8abf77885c72b0c3c0978dfadab&volcTime=1757150185"
     },
     {
       "name": "红红小狼",
       "id": "667022729906",
-      "imgUrl": "https://p11-webcast.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_2cfce81ba56d04d7292ef9a957034d1c~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016164257269CF48B9AE6C517CD&s=enter_room&sc=webcast_cover",
-      "mediaUrl": "http://pull-hls-l6.douyincdn.com/stage/stream-406109529944358943_or4/index.m3u8?arch_hrchy=h1&exp_hrchy=h1&k=43cdc65ea28c47e0&major_anchor_level=common&t=1757146602&t_id=037-2025083016164257269CF48B9AE6C517CD-xoMoJj"
+      "imgUrl": "https://p11-webcast.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_2cfce81ba56d04d7292ef9a957034d1c~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301716258E3C7FCFBF8D9B04DE2C&s=enter_room&sc=webcast_cover",
+      "mediaUrl": "http://pull-hls-l6.douyincdn.com/stage/stream-406109529944358943_or4/index.m3u8?arch_hrchy=h1&exp_hrchy=h1&k=7aab1cef47fc2dc0&major_anchor_level=common&t=1757150186&t_id=037-202508301716258E3C7FCFBF8D9B04DE2C-jqoJeg"
     },
     {
       "name": "小梨🍐（养分版）",
       "id": "548572345477",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/5f542ebcad47d034ed07effffea32fd1~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016164208AE8DDBA633C989226F&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133802&x-signature=OJa%2FVuebIDh8RhVnc%2BekjN72AEw%3D",
-      "mediaUrl": "http://pull-hls-l11.douyincdn.com/third/stream-694339968724107740_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146602&major_anchor_level=common&sign=4d106077a2d9d2b36b982f59b5b55cfa&t_id=037-2025083016164208AE8DDBA633C989226F-d4EGQd"
-    },
-    {
-      "name": "你的懒懒🐾",
-      "id": "293014778760",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7526927229694331684~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161642D442700906B0049CC881&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133802&x-signature=Ihd2lKXulINfiJ4IynG59RCL8Wo%3D",
-      "mediaUrl": "http://pull-hls-l95.douyincdn.com/stage/stream-406109702346506912_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757146602&major_anchor_level=common&sign=a205a8bb36db7b587b851db0f34e4c29&t_id=037-20250830161642D442700906B0049CC881-KmFg0q"
-    },
-    {
-      "name": "沐月²🌙（8.28舞台赛）",
-      "id": "408912777570",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7537891471473085220~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161643FCC1D00D856B644A0EDA&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133803&x-signature=HkyXHZ4KMXUxRgR2nmu8ASzNC48%3D",
-      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/third/stream-406109165405602475_uhd/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146603&major_anchor_level=common&sign=ce261f1562b4aed865942f045659d3e6&t_id=037-20250830161643FCC1D00D856B644A0EDA-fWz1V5&volcSecret=ce261f1562b4aed865942f045659d3e6&volcTime=1757146603"
-    },
-    {
-      "name": "小栀.🌸",
-      "id": "853933385776",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/d09d4b6b379789911ce10e0d5bfe9b98.jpg~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161644EDFD0883E0CA17BF1171&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133804&x-signature=S4O7%2Bj%2BuIQ74wlSAM2rPkHECVDE%3D",
-      "mediaUrl": "http://pull-hls-l6.douyincdn.com/third/stream-117879019169906727_uhd/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&k=1e00aee644c8cb1b&major_anchor_level=common&t=1757146604&t_id=037-20250830161644EDFD0883E0CA17BF1171-2TFki8"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/5f542ebcad47d034ed07effffea32fd1~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171625717BE400D4924F580D44&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137385&x-signature=ROg5kR%2BfX%2F5G%2BMpwJf0acCKPt%2Bo%3D",
+      "mediaUrl": "http://pull-hls-l11.douyincdn.com/third/stream-694339968724107740_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150185&major_anchor_level=common&sign=dd6c9e0b1894a1d9f113fc04c0ddcf20&t_id=037-20250830171625717BE400D4924F580D44-0pykh6"
     },
     {
       "name": "别啰嗦（揍我）",
       "id": "124242907835",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/14798e9c9f416b6513844bfdf2288b29~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301616449F2142F10BBBEF0C4737&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133804&x-signature=%2BHrIZ9PibF3wEZCCB4YsU2D0hIE%3D",
-      "mediaUrl": "http://pull-hls-l96.douyincdn.com/stage/stream-117879123260736105_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757146604&major_anchor_level=common&sign=354067f67ba540d6aa956f9be3290e44&t_id=037-202508301616449F2142F10BBBEF0C4737-eQhpo5"
-    },
-    {
-      "name": "纯情小少妇",
-      "id": "486943188772",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/75970e80bfb7c87d14287d7c6c4f4686~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161644019FB4C03C613403AB23&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133805&x-signature=OzUZt3m9D6ojy5XKmWc1%2BNEi7ZQ%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-406109445451415691_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbeded&major_anchor_level=common&sign=e30cbd8d2195ffd82ce6cf052a837d94&t_id=037-20250830161644019FB4C03C613403AB23-TALipy"
-    },
-    {
-      "name": "呀咪兔bunny🐰（31号奥斯卡之夜",
-      "id": "79870207988",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/5be935d5e01409ff6da7ba1f66ca935d~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161646C47A178B4CDABBEE3CF1&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133806&x-signature=akPh4PsQ2u7WVD02isF07bF6PYI%3D",
-      "mediaUrl": "http://pull-hls-l11.douyincdn.com/third/stream-406109855018648028_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146606&major_anchor_level=common&sign=5d5751ff07cbbccaac3300ba44a57bc4&t_id=037-20250830161646C47A178B4CDABBEE3CF1-9IycHA"
-    },
-    {
-      "name": "丸子🦌",
-      "id": "366587113074",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/0145e452f1ae86e51633c79b95ff6756~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161646B12B0F308E858C7F49AA&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133806&x-signature=w8kt8JUubpzwgi%2FroN35bT%2FVx8c%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/third/stream-694339585582825958_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbedee&major_anchor_level=common&sign=98c160068d415fcadfcba1e23c99ad80&t_id=037-20250830161646B12B0F308E858C7F49AA-3pJCDw"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/14798e9c9f416b6513844bfdf2288b29~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301716272AB5AF4FE8C3B13C1E2C&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137387&x-signature=07rGEVrM%2B19nYkJzTlo6BObNQRc%3D",
+      "mediaUrl": "http://pull-hls-l96.douyincdn.com/stage/stream-117879123260736105_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757150187&major_anchor_level=common&sign=d34e53f0c7ae123deefd0a220d4514af&t_id=037-202508301716272AB5AF4FE8C3B13C1E2C-jl7Itw"
     },
     {
       "name": "小琪",
       "id": "666513779547",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/b587bfb0ee7d8dfef6bb065306168cfd~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301616484AE6BD2261A1A08C178E&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133808&x-signature=wUPEd9XbMmM6FcIiFC1YAhMmUrA%3D",
-      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-694339999513968670_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-202508301616484AE6BD2261A1A08C178E-Ua0dfR&wsSecret=583a2e276fac1ed2cc242d05dc40f47a&wsTime=68b2b370"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/b587bfb0ee7d8dfef6bb065306168cfd~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017163034497369FE0ADDDE43B9&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137390&x-signature=0DeHeJdYKs6frJQ3pY4WtoSvlrQ%3D",
+      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-694339999513968670_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-2025083017163034497369FE0ADDDE43B9-dd4Djk&wsSecret=a8aab8a1132e5f19f73d95cc034742df&wsTime=68b2c16e"
     },
     {
       "name": "蛋蛋🍳",
       "id": "220298305046",
-      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/tos-cn-i-0813c000-ce_oYAPAAzrIuPBMArYpvnauEB7tH8r7ii6AhHGk~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016164936F0F593ABD88E669365&s=enter_room&sc=webcast_cover",
-      "mediaUrl": "http://pull-hls-l13.douyincdn.com/third/stream-406109226615178003_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146609&major_anchor_level=common&sign=51b84d85e1401ded249095c96a377733&t_id=037-2025083016164936F0F593ABD88E669365-5mAYQ1"
+      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/tos-cn-i-0813c000-ce_oYAPAAzrIuPBMArYpvnauEB7tH8r7ii6AhHGk~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171631EDD4FFEB462D702B12FB&s=enter_room&sc=webcast_cover",
+      "mediaUrl": "http://pull-hls-l13.douyincdn.com/third/stream-406109226615178003_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150191&major_anchor_level=common&sign=733be24bc3f2e0e989e0e0fed7132c88&t_id=037-20250830171631EDD4FFEB462D702B12FB-VFQBiF"
     },
     {
       "name": "小圆",
       "id": "765397519559",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7526421185484557096~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301616497B9E5937D294AE3EF567&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133809&x-signature=PYSI9evdIPGD%2B5uc7NepZneDlBM%3D",
-      "mediaUrl": "http://pull-hls-l13.douyincdn.com/third/stream-117879283850150675_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146609&major_anchor_level=common&sign=c69bd04505d96eeb980e78b191f2b132&t_id=037-202508301616497B9E5937D294AE3EF567-HFh8QC"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7526421185484557096~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171631761AC33040894D91C1BC&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137391&x-signature=36dFUNnPzB2biZARcxIXGTyjycU%3D",
+      "mediaUrl": "http://pull-hls-l13.douyincdn.com/third/stream-117879283850150675_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150191&major_anchor_level=common&sign=f7b36ad3abc0632766f4114c0525a322&t_id=037-20250830171631761AC33040894D91C1BC-0pUn2G"
     },
     {
       "name": "爆炒空心菜🥬",
       "id": "574726647469",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7532652507727137582~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301616503B34C9D55E5E55C0972D&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133810&x-signature=PWkBNZC5MRkQ%2BH6%2F9D8rTVMaEN4%3D",
-      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-117879031387914270_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-202508301616503B34C9D55E5E55C0972D-ZdkhQ0&wsSecret=49b413c945e19af55c1731e43b5762b5&wsTime=68b2b372"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7532652507727137582~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171632290817905F26E2C5DDD2&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137392&x-signature=ex0rQSANxz4XT7nmXu%2BrNLZq8KI%3D",
+      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-117879031387914270_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830171632290817905F26E2C5DDD2-avnali&wsSecret=4d0c5d7e2d75913663edf14ced13531a&wsTime=68b2c170"
     },
     {
       "name": "艺点点🐣",
       "id": "924245197463",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7524022012893924122~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301616501179DECC4B5DA68B7F0B&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133810&x-signature=FfwPNlBtWojT%2Bl7MMOec1ltquR4%3D",
-      "mediaUrl": "http://pull-l3.douyincdn.com/stage/stream-406109632888569938_or4.m3u8?arch_hrchy=w1&auth_key=1757144810-0-0-0c8a0d9d9d6bd0a1bd5676349c0abce8&exp_hrchy=w1&major_anchor_level=common&t_id=037-202508301616501179DECC4B5DA68B7F0B-CcKDR6"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7524022012893924122~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171632880A06ABCE0270D8567A&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137392&x-signature=D5dZcjUF0g7JYn6GYbNoxbitvcg%3D",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-406110008971100299_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbfbf0&major_anchor_level=common&sign=b2945746b8bbc4ec4df0a344b702ad0b&t_id=037-20250830171632880A06ABCE0270D8567A-3c4ODh"
     },
     {
-      "name": "김지은（智恩）",
-      "id": "112279977250",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/webcast-cover/7527904668757003048~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301616503F253B8F3063FEBF8A73&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133810&x-signature=pn9Zuwfqdf%2FT7JC1KnuBe5N%2Bn0s%3D",
-      "mediaUrl": "http://pull-hls-t6.douyincdn.com/stage/stream-694340093328753463_or4/index.m3u8?arch_hrchy=h1&exp_hrchy=h1&k=95038e9df05100d9&major_anchor_level=common&t=1757146610&t_id=037-202508301616503F253B8F3063FEBF8A73-HCKyds"
+      "name": "就这",
+      "id": "649313503888",
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/8923827a17c9778f94f53f3cb3443a59~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017163486671CF814A1D1BA33AA&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137394&x-signature=J1hjzIYNhxoBEjfpNq%2F3hYoYUgE%3D",
+      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-694340473904693278_or4/playlist.m3u8?arch_hrchy=h1&exp_hrchy=h1&keeptime=00093a80&major_anchor_level=common&t_id=037-2025083017163486671CF814A1D1BA33AA-Hqwcpk&wsSecret=caa7b885088c37326a478d5ef73e2a8f&wsTime=68b2c172"
     },
     {
-      "name": "雅若",
-      "id": "923341257599",
-      "imgUrl": "https://p3-webcast.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_ed7d913d5fea4a66aa5a1d887e6fb6f2~tplv-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301616510CC913BD925AAC4566E7&s=enter_room&sc=webcast_cover",
-      "mediaUrl": "http://pull-hls-l13.douyincdn.com/stage/stream-406109697448083896_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146611&major_anchor_level=common&sign=fc4d95d971e5907d9caaa60042299812&t_id=037-202508301616510CC913BD925AAC4566E7-mFRTv6"
-    },
-    {
-      "name": "溜溜梅",
-      "id": "504613193889",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/a5310e69bc8519d607922bc6f217281b~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161651DC1D33BE97595B04286C&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133811&x-signature=X0P7gKdpzIdCAeSrC4OEDSjHkis%3D",
-      "mediaUrl": "http://pull-hls-l96.douyincdn.com/stage/stream-406109052195570281_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146611&major_anchor_level=common&sign=5e6c89e22b5355f51eab6f2cf8314f54&t_id=037-20250830161651DC1D33BE97595B04286C-o2HZ4J"
-    },
-    {
-      "name": "小姨、",
-      "id": "328287404054",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7502649510573656873~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161651D741CF48787D6231543A&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133811&x-signature=190YOXtCWgTu1E3%2Fu6SwUyw9Uv0%3D",
-      "mediaUrl": "http://pull-hls-l13.douyincdn.com/stage/stream-694339895764451768_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757146611&major_anchor_level=common&sign=9c72ebf52124378c25173f44fbda298a&t_id=037-20250830161651D741CF48787D6231543A-tsIiYu"
-    },
-    {
-      "name": "7不7饭🍚",
-      "id": "88311658593",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/e26d63b42464a46fd995656f807ca782~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016165240F7EFBFD5F42F9CF750&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133812&x-signature=2tiQgRVeJxx5Y97HV29joLVbusI%3D",
-      "mediaUrl": "http://pull-l3.douyincdn.com/stage/stream-694340009241346130_or4.m3u8?arch_hrchy=w1&auth_key=1757144812-0-0-34dbac69fabc5aa80e42a97fdea0c4ab&exp_hrchy=w1&major_anchor_level=common&t_id=037-2025083016165240F7EFBFD5F42F9CF750-vPy10W"
+      "name": "懒懒鱼",
+      "id": "987305764240",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/f1a0c33783acf3b8b91c6213e83eb0e1~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301716343F9CD4B954A3D1C8C1C4&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137395&x-signature=reEHaTc1Bu%2FkEN0Vx9YtTv%2BMLEk%3D",
+      "mediaUrl": "http://pull-hls-l96.douyincdn.com/stage/stream-694340316468871785_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150195&major_anchor_level=common&sign=06e0ec390ca5c86dd446a5f5bac6feb8&t_id=037-202508301716343F9CD4B954A3D1C8C1C4-aye63f"
     },
     {
       "name": "无知浣熊",
       "id": "358918576428",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/f1824b0c27dce50c23c838d316bf9e97~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161653D349CE4FE44848920547&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133813&x-signature=zxf8AtwJkKgig%2FEHfLZ6Op3VO3I%3D",
-      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-406109733884264478_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250830161653D349CE4FE44848920547-kCX9jB&wsSecret=38a564eb524b5b93a8d81c3d755ad4d4&wsTime=68b2b375"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/f1824b0c27dce50c23c838d316bf9e97~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083017163539F3872A9850D6A7D83D&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137395&x-signature=1wlfAnIM%2BROm0tZkAvw3R9j0bv8%3D",
+      "mediaUrl": "http://pull-hls-l1.douyincdn.com/stage/stream-406109733884264478_or4/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-2025083017163539F3872A9850D6A7D83D-3WbNOh&wsSecret=e283c914ebea181529a992e2b5e54d05&wsTime=68b2c173"
     },
     {
       "name": "小渔",
       "id": "32310084826",
-      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/f759e618136e27ca9ffe80ff3bfb8d14~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161653B1BFC426BA6D6DE99BE2&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133814&x-signature=0J7DnRlRE1xTNSuk3ecbjBVG1QM%3D",
-      "mediaUrl": "http://pull-hls-l13.douyincdn.com/third/stream-117879178222633747_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146614&major_anchor_level=common&sign=ff293a74d923588038927a2e2eb94878&t_id=037-20250830161653B1BFC426BA6D6DE99BE2-DIYwsC"
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/f759e618136e27ca9ffe80ff3bfb8d14~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301716357C020872EA9FA527C6B2&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137395&x-signature=R9uAKu%2BHfAeZ8qlIK4L9UlFkhdM%3D",
+      "mediaUrl": "http://pull-hls-l13.douyincdn.com/third/stream-117879178222633747_uhd.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150195&major_anchor_level=common&sign=aae69f04c5782014d649774b14f3172b&t_id=037-202508301716357C020872EA9FA527C6B2-hgwMe2"
     },
     {
-      "name": "荔枝ღ",
-      "id": "20797871123",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/4c3b8ae87cf935100d5e8167709fc6ad~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161654DD090ED9C0F1C6C1C027&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133814&x-signature=A3WxMaBovKZADBZJvzNkBpDBmmI%3D",
-      "mediaUrl": "http://pull-hls-h26.douyincdn.com/stage/stream-406109563025621849_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=68bbedf6&major_anchor_level=common&sign=83172c88fb51bc901a15724114110a31&t_id=037-20250830161654DD090ED9C0F1C6C1C027-uGwalU"
+      "name": "小九九peri",
+      "id": "999700619726",
+      "imgUrl": "https://p11-webcast-sign.douyinpic.com/image-cut-tos-priv/a845455abd53872d2e1f40e84a9463f4~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301716355BDC7911EE9658EE3D3C&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137395&x-signature=Mc%2BavbJ3p5qC4OON3bMB5SQsymk%3D",
+      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/stage/stream-117879621609063082_or4/index.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=1757150195&major_anchor_level=common&sign=553ebf1d595e74f6b6d66a09617ba723&t_id=037-202508301716355BDC7911EE9658EE3D3C-zekeHK&volcSecret=553ebf1d595e74f6b6d66a09617ba723&volcTime=1757150195"
     },
     {
-      "name": "uu🐰",
-      "id": "758658922459",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7531766087512509238~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161654B1BF930F483ADCCDE61A&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133814&x-signature=nRakqdN8rJWOKYDBIHxmHp7uoII%3D",
-      "mediaUrl": "http://pull-hs-f5.flive.douyincdn.com/third/stream-406109400291607211_uhd/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757146614&major_anchor_level=common&sign=5ace04946ec91b6c0099eab40c7de5dd&t_id=037-20250830161654B1BF930F483ADCCDE61A-wD8OMB&volcSecret=5ace04946ec91b6c0099eab40c7de5dd&volcTime=1757146614"
+      "name": "梦里多🍒",
+      "id": "871268368114",
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7505379449811536649~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=202508301716373B958CF384104186D539&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137397&x-signature=V3G3aVS3Kr5anghiFE8miE5PH%2FY%3D",
+      "mediaUrl": "http://pull-hls-t95.douyincdn.com/stage/stream-117879231243879223_or4.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1757150197&major_anchor_level=common&sign=ee513240caa197062f5b617eae671d8f&t_id=037-202508301716373B958CF384104186D539-RlIHlZ"
     },
     {
       "name": "大家的屁股都是两瓣吗",
       "id": "746513790741",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7468222497763183372~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830161656731433EF7218BCB77B5F&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133816&x-signature=UyEEQr7mmesc988BVDxaWrVq4Ec%3D",
-      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-694340159632572555_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=68bbedf8&major_anchor_level=common&sign=bbdd5e27ea6399f0d11ce992e24dc5b0&t_id=037-20250830161656731433EF7218BCB77B5F-2zI5aP"
-    },
-    {
-      "name": "小萱",
-      "id": "303496996143",
-      "imgUrl": "https://p3-webcast-sign.douyinpic.com/image-cut-tos-priv/63ed40e943351ad8a6f83f5d3dc6e31f~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=2025083016165630ABABCA79449D3D7442&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759133816&x-signature=nlI4EodDvqBb3cypseSNgMVk06o%3D",
-      "mediaUrl": "http://pull-hls-l6.douyincdn.com/stage/stream-117879303246184479_or4/index.m3u8?arch_hrchy=w1&exp_hrchy=w1&k=fcadb830748fae02&major_anchor_level=common&t=1757146616&t_id=037-2025083016165630ABABCA79449D3D7442-w4MBom"
+      "imgUrl": "https://p3-webcast-sign.douyinpic.com/webcast-cover/7468222497763183372~tplv-qz53dukwul-common-resize:0:0.image?biz_tag=app_6383_webcast&from=webcast.room.pack&l=20250830171637BDEDC8B07E340AECE624&lk3s=39e7556e&s=enter_room&sc=webcast_cover&x-expires=1759137397&x-signature=ugUP2GbogFBHRM593wflIC19J%2FY%3D",
+      "mediaUrl": "http://pull-hls-l26.douyincdn.com/stage/stream-694340159632572555_or4.m3u8?arch_hrchy=h1&exp_hrchy=h1&expire=68bbfbf5&major_anchor_level=common&sign=bec29be288ae89c6d44fba660c25034d&t_id=037-20250830171637BDEDC8B07E340AECE624-UqZ3jl"
     }
   ]
 }
