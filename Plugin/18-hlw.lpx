@@ -1,14 +1,14 @@
 #!name = 黑料网🔞
-#!desc = 精简去广告，监控hostname。定时脚本为作者本地更新插件使用，不必理会
+#!desc = 精简去广告，监控hostname。定时脚本为作者更新插件使用，不必理会
 #!openUrl = https://155.fun
 #!homepage=
 #!author= fishdown
 #!icon = https://raw.githubusercontent.com/fishdown/Icon/master/app/hlw.png
 #!tag = 18
-#!date = 2025-09-03 18:33
+#!date = 2025-09-03 20:00
 
 [Argument]
-open= switch,false,tag=脚本开关,desc=默认开启
+open= switch,false,tag=脚本开关,desc=默认关闭
 cronno = input,"0 */4 * * *",tag=Cron,desc=cron表达式
 
 [MitM]
