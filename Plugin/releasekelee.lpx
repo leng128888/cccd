@@ -1,0 +1,22 @@
+#!name= 解除kelee资源预览限制
+#!desc= 
+#!author= fishdown
+#!openUrl = 
+#!homepage= 
+#!icon= https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/KeLee.png
+#!tag = 
+#!date=2025-09-08
+
+[Argument]
+
+[rule]
+
+[rewrite]
+(?i)^https:\/\/([0-9a-z]+\.)?kelee\.one response-header-replace Content-Type text/plain;charset=utf-8
+(?i)^https:\/\/([0-9a-z]+\.)?kelee\.one header-replace User-Agent script-hub/1.0.0
+^https:\/\/shop-api\.retail\.mi\.com\/mtop\/mf\/home\/v1\/feed reject-dict
+
+[script]
+
+[mitm]
+hostname= *.kelee.one,kelee.one
