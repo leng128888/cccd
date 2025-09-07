@@ -1,5 +1,5 @@
 #!name= 解除kelee资源预览限制
-#!desc= 
+#!desc= 一般好用
 #!author= fishdown
 #!openUrl = 
 #!homepage= 
@@ -14,7 +14,6 @@
 [rewrite]
 (?i)^https:\/\/([0-9a-z]+\.)?kelee\.one response-header-replace Content-Type text/plain;charset=utf-8
 (?i)^https:\/\/([0-9a-z]+\.)?kelee\.one header-replace User-Agent script-hub/1.0.0
-^https:\/\/shop-api\.retail\.mi\.com\/mtop\/mf\/home\/v1\/feed reject-dict
 
 [script]
 
