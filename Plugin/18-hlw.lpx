@@ -5,11 +5,11 @@
 #!author= fishdown
 #!icon = https://raw.githubusercontent.com/fishdown/Icon/master/app/fishdown.png
 #!tag = 18
-#!date = 2025-09-13 16:00
+#!date = 2025-09-13 16:01
 
 [Argument]
 open= switch,false,tag=脚本开关,desc=默认关闭
-cronno = input,"0 */4 * * *",tag=Cron,desc=cron表达式
+cronno = input,"0 8,16 * * *",tag=Cron,desc=cron表达式
 
 [MitM]
 hostname = uv6h7.xupdbty.cc,vz2ti.vwknrbkr.xyz,dfk77.cc,d3ig9todjb66g6.cloudfront.net,heiliao.com
