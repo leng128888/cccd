@@ -1,18 +1,1 @@
-#!name= 测试
-#!desc= 测试
-#!author= 
-#!openUrl = 
-#!homepage= 
-#!icon= https://raw.githubusercontent.com/fishdown/Icon/master/app/loon.png
-#!tag = 
-#!date=2025-09-08
-
-[Argument]
-
-[rule]
-
-[rewrite]
-
-[script]
-
-[mitm]
+test
