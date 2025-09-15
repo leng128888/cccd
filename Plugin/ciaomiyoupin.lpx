@@ -1,0 +1,42 @@
+#!name = 小米去广告
+#!desc = 小米有品/小米商城，精简，去广告
+#!openUrl = 
+#!author= fishdown
+#!icon = https://raw.githubusercontent.com/fishdown/Icon/master/app/xmyp.png
+#!tag = 去广告
+#!date = 2025-08-22
+
+[Mitm]
+hostname = shopapi.io.mi.com,api.m.mi.com,shop-api.retail.mi.com
+
+[Rewrite]
+# 小米有品
+# tab栏中间AI、首页快捷icon下面广告
+# '(.data.homepage.floors) |= map(select(.floor_id != 305150))' 
+https://shopapi.io.mi.com/homepage/main/v1005 response-body-json-jq '(.data.homepage.floors) |= map(select(.floor_id != 327922))'
+# 商品详情页页面最底部你可能喜欢
+^https:\/\/shopapi\.io\.mi\.com\/mtop\/arch\/detail\/composeTwo reject-dict
+^https:\/\/shopapi\.io\.mi\.com\/api\/gateway\/detail response-body-json-jq 'del(.data.operation)'
+# 商品详情页中间店铺名称下面广告
+^https:\/\/shopapi\.io\.mi\.com\/mtop\/arch\/detail\/composeTwo reject-dict
+# 商品详情页中间店铺名称上面广告
+^https:\/\/shopapi\.io\.mi\.com\/mtop\/market\/search\/v2\/doSearch response-body-json-jq 'del(.data.data.midFloor)'
+# 分类页面最上面横幅推荐
+^https:\/\/shopapi\.io\.mi\.com\/mtop\/market\/cat\/detail response-body-json-jq 'del(.data.banner)' 'del(.data.bannerList)'
+# 购物车页面最下面推荐
+^https:\/\/shopapi\.io\.mi\.com\/mtop\/arch\/metis\/cart reject-dict
+# 我的页面最下面推荐
+^https:\/\/shopapi\.io\.mi\.com\/mtop\/arch\/metis\/personalRec reject-dict
+# 我的页面中间滚动横幅
+^https:\/\/shopapi\.io\.mi\.com\/mtop\/market\/usercenter\/detail\/v1002 response-body-json-jq 'del(.data.floors[] | select(.floorKey == "BANNER"))'
+
+# 小米商城
+# ^https:\/\/shop-api\.retail\.mi\.com\/mtop\/mf\/category\/categoryHome reject-dict
+# 购物车下面推荐
+^https:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/rec\/merge\/cart reject-dict
+# 我的页面下面推荐
+^https:\/\/api\.m\.mi\.com\/v1\/home\/page_feed reject-dict
+# 我的页面中间banner
+^https:\/\/shop-api\.retail\.mi\.com\/mtop\/mf\/usercenter\/personalHome response-body-json-jq 'del(.data.carouselAD)'
+# 开屏广告
+^https:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/skywheel\/mishop\/splash reject-dict
