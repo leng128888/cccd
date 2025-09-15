@@ -1,0 +1,18 @@
+#!name=文本/手动上传GitHub
+#!desc= 脚本使用说明，较为详细，谨慎阅读\n【基础设置】\n- 插件文件，输入上传的文本，可以换行\n- git用户名，顾名思义\n- git仓库名，顾名思义\n- git分支，顾名思义，不是master就是main\n- 文件路径，Plugin/test.lpx or test.js\n- gitoken，搜Google。最好时间限制永久，要有上传权限
+#!openUrl = 
+#!icon = https://raw.githubusercontent.com/fishdown/Icon/master/app/github.png
+#!author=fishdown
+#!date=2025-09-15
+
+[Argument]
+text = input,"",tag=插件文本,desc=输入要上传的完整文本，支持换行
+owner = input,"",tag=git用户名,desc=GitHub 用户名
+repo = input,"",tag=git仓库名,desc=GitHub 仓库名
+branch = input,"",tag=git分支,desc=GitHub 分支
+upload= switch,true,tag=启用上传/关闭删除,desc=
+path = input,"/*.lpx",tag=文件路径,desc=文件夹/文件名.lpx
+ghToken = input,"",tag=gitoken,desc=GitHub Token
+
+[Script]
+cron "35 * * * *" script-path=https://raw.githubusercontent.com/fishdown/Ggsddu/master/Js/data-github-upload.js, timeout=60, img-url=https://raw.githubusercontent.com/fishdown/Icon/master/app/github.png,enable=false,tag=Github上传文件, argument=[{text},{owner},{repo},{branch},{upload},{path},{ghToken}]
