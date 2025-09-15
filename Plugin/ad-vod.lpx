@@ -1,0 +1,12 @@
+#!#!name= vod源排序
+#!desc= 将国产剧拍第一位
+#!openUrl = 
+#!icon = https://raw.githubusercontent.com/fishdown/Icon/master/app/hawk.png
+#!tag = ad
+#!date = 
+
+[Rewrite] 
+https?:\/\/([^\/]+)(\/.*provide\/vod\/) response-body-json-jq '.class |= (map(select(.type_name | IN("国产剧", "国产动漫", "内地剧", "中国动漫", "大陆剧"))) + map(select(.type_name | IN("国产剧", "国产动漫", "内地剧", "中国动漫", "大陆剧") | not)))'
+
+[MITM]
+hostname = 360zy.com,91md.me,aiosikazy.com,api.1080zyku.com,api.apibdzy.com,api.ddapi.cc,api.guangsuapi.com,api.sexnguon.com,api.ukuapi.com,api.wwzy.tv,api.wujinapi.com,api.xinlangapi.com,api.yikanapi.com,apijutu.com,apilj.com,apilsbzy1.com,apittzy.com,bfzyapi.com,caiji.dbzy.tv,caiji.kczyapi.com,caiji.moduapi.cc,caiji.putaozyw.net,cj.ffzyapi.com,cj.lziapi.com,cj.rycjapi.com,cj.vodimg.top,cj.yayazy.net,collect.wolongzy.cc,collect.wolongzyw.com,fhapi9.com,hhzyapi.com,huawei8.live,ikunzyapi.com,iqyi.xiaohuangrentv.com,jinyingzy.com,json02.heimuer.xyz,json.heimuer.xyz,jszyapi.com,jkunzyapi.com,lbapi9.com,lbapiby.com,m3u8.apiyhzy.com,mozhuazy.com,naixxzy.com,okzyw9.com,p2100.net,pg.fenwe078.cf,sdzyapi.com,shayuapi.com,slapibf.com,subocaiji.com,suoniapi.com,www.caoliuzyw.com,www.hongniuzy2.com,www.huyaapi.com,www.jingpinx.com,www.xxibaozyw.com,zpsps.com,zuidazy.me,ghp.xptvhelper.link,www.mdzyapi.com
