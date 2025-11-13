@@ -1,20 +1,21 @@
-#!name=声荐自动任务（抓CK+签到+领红花）
-#!desc=一键整合：自动抓CK+每天9点签到+领小红花，开关独立控制\n1. 开启「抓CK开关」，打开声荐小程序自动抓取登录态（Token）\n2. 抓CK成功后可关闭该开关，避免重复执行\n3. 通知开关可控制是否推送结果，不打扰使用\n4. 脚本自动适配Loon/Surge/Quantumult X环境
+#!name=声荐自动任务（自定义cron+手动触发）
+#!desc=支持手动输入cron表达式+手动触发执行\n1. 可在插件参数中修改执行时间（cron格式）\n2. 插件页面点「运行」按钮，立即手动执行签到
 #!author=自定义
 #!icon=https://picsum.photos/200/200
-#!date=2025-11-14
+#!date=2025-11-15
 
 [Argument]
 arg1 = switch,true,tag=抓CK开关,desc=抓CK成功后建议关闭
-arg2 = switch,true,tag=自动任务开关,desc=控制签到+领红花功能
-arg3 = switch,true,tag=通知提醒开关,desc=关闭后不发送推送通知
+arg2 = switch,true,tag=自动任务开关,desc=控制定时执行
+arg3 = switch,true,tag=通知提醒开关,desc=关闭后不发送推送
+arg4 = input,0 9 * * *,tag=自定义cron,desc=格式：分 时 日 月 周（例：0 10 * * * 每天10点）
 
 [MITM]
 hostname = xcx.myinyun.com
 
 [Script]
-# 自动抓CK（使用你的脚本链接，绑定开关和通知参数）
-http-request ^https?:\/\/xcx\.myinyun\.com:4438\/napi\/wx\/getUserDetail script-path=https://raw.githubusercontent.com/leng128888/cccd/master/Js/yiyuck.js, tag=声荐抓CK, enable={arg1}, argument="notify={arg3}"
+# 抓CK脚本（不变）
+http-response ^https?:\/\/xcx\.myinyun\.com:4438\/napi\/wx\/.* script-path=https://raw.githubusercontent.com/leng128888/cccd/master/Js/yiyuck.js, tag=声荐抓CK, enable={arg1}, argument="notify={arg3}", requires-body=true
 
-# 自动任务（签到+领红花，使用你的脚本链接，定时触发）
-cron "0 9 * * *" script-path=https://raw.githubusercontent.com/leng128888/cccd/master/Js/yiyuqiandao.js, timeout=120, tag=声荐自动任务, enable={arg2}, argument="notify={arg3}"
+# 定时任务（使用自定义cron变量，支持手动修改）
+cron "{arg4}" script-path=https://raw.githubusercontent.com/leng128888/cccd/master/Js/yiyuqiandao.js, timeout=120, tag=声荐自动任务, enable={arg2}, argument="notify={arg3}"
