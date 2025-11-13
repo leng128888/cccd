@@ -1,0 +1,20 @@
+#!name=声荐自动任务（抓CK+签到+领红花）
+#!desc=一键整合：自动抓CK+每天9点签到+领小红花，开关独立控制\n1. 开启「抓CK开关」，打开声荐小程序自动抓取登录态（Token）\n2. 抓CK成功后可关闭该开关，避免重复执行\n3. 通知开关可控制是否推送结果，不打扰使用\n4. 脚本自动适配Loon/Surge/Quantumult X环境
+#!author=自定义
+#!icon=https://picsum.photos/200/200
+#!date=2025-11-14
+
+[Argument]
+arg1 = switch,true,tag=抓CK开关,desc=抓CK成功后建议关闭
+arg2 = switch,true,tag=自动任务开关,desc=控制签到+领红花功能
+arg3 = switch,true,tag=通知提醒开关,desc=关闭后不发送推送通知
+
+[MITM]
+hostname = xcx.myinyun.com
+
+[Script]
+# 自动抓CK（使用你的脚本链接，绑定开关和通知参数）
+http-request ^https?:\/\/xcx\.myinyun\.com:4438\/napi\/wx\/getUserDetail script-path=https://raw.githubusercontent.com/leng128888/cccd/master/Js/yiyuck.js, tag=声荐抓CK, enable={arg1}, argument="notify={arg3}"
+
+# 自动任务（签到+领红花，使用你的脚本链接，定时触发）
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/leng128888/cccd/master/Js/yiyuqiandao.js, timeout=120, tag=声荐自动任务, enable={arg2}, argument="notify={arg3}"
